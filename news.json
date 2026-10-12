@@ -1,0 +1,555 @@
+{
+ "updated": "2026-10-12T23:40:36.106239+00:00",
+ "stories": [
+  {
+   "country": "India",
+   "flag": "🇮🇳",
+   "c": [
+    "#8a3b0a",
+    "#e8913a"
+   ],
+   "emoji": "📰",
+   "title": "Magnitude 6 earthquake strikes off Panama",
+   "summary": "",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Magnitude%206%20earthquake%20strikes%20off%20Panama%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-13T05:04:07+05:30",
+   "breaking": true,
+   "url": "https://timesofindia.indiatimes.com/world/rest-of-world/magnitude-6-earthquake-strikes-off-panama/articleshow/134905072.cms",
+   "refs": [
+    [
+     "Times of India",
+     "https://timesofindia.indiatimes.com/world/rest-of-world/magnitude-6-earthquake-strikes-off-panama/articleshow/134905072.cms"
+    ]
+   ]
+  },
+  {
+   "country": "India",
+   "flag": "🇮🇳",
+   "c": [
+    "#8a3b0a",
+    "#e8913a"
+   ],
+   "emoji": "📰",
+   "title": "Rahul Gandhi venting electoral frustration through protests: BJP",
+   "summary": "",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Rahul%20Gandhi%20venting%20electoral%20frustration%20through%20protests%3A%20BJP%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-13T04:55:49+05:30",
+   "breaking": true,
+   "url": "https://timesofindia.indiatimes.com/india/rahul-gandhi-venting-electoral-frustration-through-protests-bjp/articleshow/134905049.cms",
+   "refs": [
+    [
+     "Times of India",
+     "https://timesofindia.indiatimes.com/india/rahul-gandhi-venting-electoral-frustration-through-protests-bjp/articleshow/134905049.cms"
+    ]
+   ]
+  },
+  {
+   "country": "India",
+   "flag": "🇮🇳",
+   "c": [
+    "#8a3b0a",
+    "#e8913a"
+   ],
+   "emoji": "📰",
+   "title": "SC to government: Cap prices of non-patented medicines",
+   "summary": "",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20SC%20to%20government%3A%20Cap%20prices%20of%20non-patented%20medicines%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-13T04:48:55+05:30",
+   "breaking": true,
+   "url": "https://timesofindia.indiatimes.com/india/sc-to-government-cap-prices-of-non-patented-medicines/articleshow/134905026.cms",
+   "refs": [
+    [
+     "Times of India",
+     "https://timesofindia.indiatimes.com/india/sc-to-government-cap-prices-of-non-patented-medicines/articleshow/134905026.cms"
+    ]
+   ]
+  },
+  {
+   "country": "India",
+   "flag": "🇮🇳",
+   "c": [
+    "#8a3b0a",
+    "#e8913a"
+   ],
+   "emoji": "📰",
+   "title": "Jantar Mantar out as protest hub; 3 new venues named",
+   "summary": "",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Jantar%20Mantar%20out%20as%20protest%20hub%3B%203%20new%20venues%20named%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-13T04:41:41+05:30",
+   "breaking": true,
+   "url": "https://timesofindia.indiatimes.com/india/jantar-mantar-out-as-protest-hub-3-new-venues-named/articleshow/134905008.cms",
+   "refs": [
+    [
+     "Times of India",
+     "https://timesofindia.indiatimes.com/india/jantar-mantar-out-as-protest-hub-3-new-venues-named/articleshow/134905008.cms"
+    ]
+   ]
+  },
+  {
+   "country": "India",
+   "flag": "🇮🇳",
+   "c": [
+    "#8a3b0a",
+    "#e8913a"
+   ],
+   "emoji": "📰",
+   "title": "CJI: Don't drag SC into political battlefields or bring politics to court",
+   "summary": "",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20CJI%3A%20Don%27t%20drag%20SC%20into%20political%20battlefields%20or%20bring%20politics%20to%20court%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-13T04:20:39+05:30",
+   "breaking": true,
+   "url": "https://timesofindia.indiatimes.com/india/cji-dont-drag-sc-into-political-battlefields-or-bring-politics-to-court/articleshow/134904968.cms",
+   "refs": [
+    [
+     "Times of India",
+     "https://timesofindia.indiatimes.com/india/cji-dont-drag-sc-into-political-battlefields-or-bring-politics-to-court/articleshow/134904968.cms"
+    ]
+   ]
+  },
+  {
+   "country": "United Kingdom",
+   "flag": "🇬🇧",
+   "c": [
+    "#1d2f6b",
+    "#a32c3d"
+   ],
+   "emoji": "📰",
+   "title": "Lockerbie bombing suspect seized from Libya in 'cloak and dagger' operation",
+   "summary": "Abu Agila Mohammad Mas'ud Kheir Al-Marimi claims he was unlawfully taken from Libya to stand trial over the bombing.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Lockerbie%20bombing%20suspect%20seized%20from%20Libya%20in%20%27cloak%20and%20dagger%27%20operation%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T21:56:45+00:00",
+   "breaking": true,
+   "url": "https://www.bbc.co.uk/news/articles/c3qjndjlk1e0o?at_medium=RSS&at_campaign=rss",
+   "refs": [
+    [
+     "BBC News",
+     "https://www.bbc.co.uk/news/articles/c3qjndjlk1e0o?at_medium=RSS&at_campaign=rss"
+    ]
+   ]
+  },
+  {
+   "country": "United Kingdom",
+   "flag": "🇬🇧",
+   "c": [
+    "#1d2f6b",
+    "#a32c3d"
+   ],
+   "emoji": "📰",
+   "title": "I've woken from operations to find the surgery hasn't been done - women's health is broken",
+   "summary": "Kelly O'Shea felt there was no alternative but to pay £20,000 for the treatment she needed out of desperation.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20I%27ve%20woken%20from%20operations%20to%20find%20the%20surgery%20hasn%27t%20been%20done%20-%20women%27s%20health%20is%20broken%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T21:44:46+00:00",
+   "breaking": true,
+   "url": "https://www.bbc.co.uk/news/articles/cq99znm9j7plo?at_medium=RSS&at_campaign=rss",
+   "refs": [
+    [
+     "BBC News",
+     "https://www.bbc.co.uk/news/articles/cq99znm9j7plo?at_medium=RSS&at_campaign=rss"
+    ]
+   ]
+  },
+  {
+   "country": "United Kingdom",
+   "flag": "🇬🇧",
+   "c": [
+    "#1d2f6b",
+    "#a32c3d"
+   ],
+   "emoji": "📰",
+   "title": "Votes of no confidence in Sinn Féin ministers fail",
+   "summary": "The attempt to oust them failed as it required cross-community support from a majority of both unionists and nationalists in the assembly.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Votes%20of%20no%20confidence%20in%20Sinn%20F%C3%A9in%20ministers%20fail%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T19:53:16+00:00",
+   "breaking": false,
+   "url": "https://www.bbc.co.uk/news/articles/c68jz0282re9o?at_medium=RSS&at_campaign=rss",
+   "refs": [
+    [
+     "BBC News",
+     "https://www.bbc.co.uk/news/articles/c68jz0282re9o?at_medium=RSS&at_campaign=rss"
+    ]
+   ]
+  },
+  {
+   "country": "United Kingdom",
+   "flag": "🇬🇧",
+   "c": [
+    "#1d2f6b",
+    "#a32c3d"
+   ],
+   "emoji": "📰",
+   "title": "Government expands police support to political figures who are not MPs",
+   "summary": "Shabana Mahmood says there is \"insufficient protection\" for those who play a role in public life.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Government%20expands%20police%20support%20to%20political%20figures%20who%20are%20not%20MPs%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T19:51:34+00:00",
+   "breaking": false,
+   "url": "https://www.bbc.co.uk/news/articles/c3gr82rk70l8o?at_medium=RSS&at_campaign=rss",
+   "refs": [
+    [
+     "BBC News",
+     "https://www.bbc.co.uk/news/articles/c3gr82rk70l8o?at_medium=RSS&at_campaign=rss"
+    ]
+   ]
+  },
+  {
+   "country": "United Kingdom",
+   "flag": "🇬🇧",
+   "c": [
+    "#1d2f6b",
+    "#a32c3d"
+   ],
+   "emoji": "📰",
+   "title": "Britain won't tolerate threats on our soil, Miliband says as he summons Iran ambassador",
+   "summary": "The prime minister says Iran's Islamic Revolutionary Guard \"almost certainly\" directed the RAF Fairford incident.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Britain%20won%27t%20tolerate%20threats%20on%20our%20soil%2C%20Miliband%20says%20as%20he%20summons%20Iran%20ambassador%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T19:39:15+00:00",
+   "breaking": false,
+   "url": "https://www.bbc.co.uk/news/articles/c6gr82ekqewyo?at_medium=RSS&at_campaign=rss",
+   "refs": [
+    [
+     "BBC News",
+     "https://www.bbc.co.uk/news/articles/c6gr82ekqewyo?at_medium=RSS&at_campaign=rss"
+    ]
+   ]
+  },
+  {
+   "country": "United States",
+   "flag": "🇺🇸",
+   "c": [
+    "#12433a",
+    "#5db08a"
+   ],
+   "emoji": "📰",
+   "title": "New White House press secretary a \"devoted fan\" of Trump and MAGA",
+   "summary": "Katie Zacharia worked for one of Trump's companies and raised her profile appearing on conservative-leaning talk shows. She also amplified right-wing conspiracy theories. Now she'll be the president's chief spokesperson.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20New%20White%20House%20press%20secretary%20a%20%22devoted%20fan%22%20of%20Trump%20and%20MAGA%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T18:17:43-04:00",
+   "breaking": true,
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5998948/new-white-house-press-secretary-a-devoted-fan-of-trump-and-maga",
+   "refs": [
+    [
+     "NPR",
+     "https://www.npr.org/2026/10/12/nx-s1-5998948/new-white-house-press-secretary-a-devoted-fan-of-trump-and-maga"
+    ]
+   ]
+  },
+  {
+   "country": "United States",
+   "flag": "🇺🇸",
+   "c": [
+    "#12433a",
+    "#5db08a"
+   ],
+   "emoji": "📰",
+   "title": "Government spent $10 million on pro-Trump ads after president said super PAC would fund",
+   "summary": "Nearly $22 million in taxpayers funds has been spent to air the ads, with nearly half spent after Trump promised to fund what the White House calls public service announcements through his super PAC.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Government%20spent%20%2410%20million%20on%20pro-Trump%20ads%20after%20president%20said%20super%20PAC%20would%20fund%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T18:16:47-04:00",
+   "breaking": true,
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5998976/pro-trump-ads-taxpayer-funds-federal-judge",
+   "refs": [
+    [
+     "NPR",
+     "https://www.npr.org/2026/10/12/nx-s1-5998976/pro-trump-ads-taxpayer-funds-federal-judge"
+    ]
+   ]
+  },
+  {
+   "country": "United States",
+   "flag": "🇺🇸",
+   "c": [
+    "#12433a",
+    "#5db08a"
+   ],
+   "emoji": "📰",
+   "title": "Federal agents search Rep. Ilhan Omar's DC home, DOJ says it approved the warrant",
+   "summary": "The Justice Department says the search is part of an \"ongoing federal investigation\", while Omar calls it \"an attempt to target political enemies\"",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Federal%20agents%20search%20Rep.%20Ilhan%20Omar%27s%20DC%20home%2C%20DOJ%20says%20it%20approved%20the%20warrant%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T13:17:17-04:00",
+   "breaking": false,
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5998856/federal-agents-search-congressperson-home-dc-doj",
+   "refs": [
+    [
+     "NPR",
+     "https://www.npr.org/2026/10/12/nx-s1-5998856/federal-agents-search-congressperson-home-dc-doj"
+    ]
+   ]
+  },
+  {
+   "country": "United States",
+   "flag": "🇺🇸",
+   "c": [
+    "#12433a",
+    "#5db08a"
+   ],
+   "emoji": "📰",
+   "title": "India's opposition parties march to top court as protests over voter lists escalate",
+   "summary": "Opposition parties say revisions to the list of eligible voters favor Prime Minister Narendra Modi's party. Authorities have removed more than 130 million names from the voter roll.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20India%27s%20opposition%20parties%20march%20to%20top%20court%20as%20protests%20over%20voter%20lists%20escalate%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T12:01:54-04:00",
+   "breaking": false,
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests",
+   "refs": [
+    [
+     "NPR",
+     "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests"
+    ]
+   ]
+  },
+  {
+   "country": "United States",
+   "flag": "🇺🇸",
+   "c": [
+    "#12433a",
+    "#5db08a"
+   ],
+   "emoji": "📰",
+   "title": "DOJ launches antitrust probe of TV networks. And, Trump says Ukraine needs new leader",
+   "summary": "The Justice Department is investigating several TV networks for possible antitrust violations. And, President Trump pressures Ukrainians to elect a new leader.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20DOJ%20launches%20antitrust%20probe%20of%20TV%20networks.%20And%2C%20Trump%20says%20Ukraine%20needs%20new%20leader%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T07:29:56-04:00",
+   "breaking": false,
+   "url": "https://www.npr.org/2026/10/12/g-s1-147772/up-first-newsletter-trump-ukraine-russia-antitrust-investigation-hurricane-isaias-saudi-airport",
+   "refs": [
+    [
+     "NPR",
+     "https://www.npr.org/2026/10/12/g-s1-147772/up-first-newsletter-trump-ukraine-russia-antitrust-investigation-hurricane-isaias-saudi-airport"
+    ]
+   ]
+  },
+  {
+   "country": "Japan",
+   "flag": "🇯🇵",
+   "c": [
+    "#3b2a6e",
+    "#c05f8a"
+   ],
+   "emoji": "📰",
+   "title": "Robert Hall and Michael Woodford win 2026 Nobel economics prize",
+   "summary": "The award, formally known as the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, was the final prize to be given this year.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Robert%20Hall%20and%20Michael%20Woodford%20win%202026%20Nobel%20economics%20prize%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T18:52:00+09:00",
+   "breaking": false,
+   "url": "https://www.japantimes.co.jp/news/2026/10/12/world/nobel-economics-prize/",
+   "refs": [
+    [
+     "Japan Times",
+     "https://www.japantimes.co.jp/news/2026/10/12/world/nobel-economics-prize/"
+    ]
+   ]
+  },
+  {
+   "country": "Japan",
+   "flag": "🇯🇵",
+   "c": [
+    "#3b2a6e",
+    "#c05f8a"
+   ],
+   "emoji": "📰",
+   "title": "Crackdown exposes limits of Modi’s playbook for maintaining power",
+   "summary": "The Indian leader faces the challenge of how to deal with mounting dissent, which analysts say is unlike anything he has faced so far.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Crackdown%20exposes%20limits%20of%20Modi%E2%80%99s%20playbook%20for%20maintaining%20power%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T18:30:00+09:00",
+   "breaking": false,
+   "url": "https://www.japantimes.co.jp/news/2026/10/12/asia-pacific/mdoi-power-playbook/",
+   "refs": [
+    [
+     "Japan Times",
+     "https://www.japantimes.co.jp/news/2026/10/12/asia-pacific/mdoi-power-playbook/"
+    ]
+   ]
+  },
+  {
+   "country": "Japan",
+   "flag": "🇯🇵",
+   "c": [
+    "#3b2a6e",
+    "#c05f8a"
+   ],
+   "emoji": "📰",
+   "title": "War is forcing the world to reckon with geography’s power",
+   "summary": "Everyday assumptions have been challenged by the economic havoc wrought by the blockage of a single vital shipping and energy route.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20War%20is%20forcing%20the%20world%20to%20reckon%20with%20geography%E2%80%99s%20power%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T18:14:00+09:00",
+   "breaking": false,
+   "url": "https://www.japantimes.co.jp/business/2026/10/12/war-geography-power/",
+   "refs": [
+    [
+     "Japan Times",
+     "https://www.japantimes.co.jp/business/2026/10/12/war-geography-power/"
+    ]
+   ]
+  },
+  {
+   "country": "Japan",
+   "flag": "🇯🇵",
+   "c": [
+    "#3b2a6e",
+    "#c05f8a"
+   ],
+   "emoji": "📰",
+   "title": "UNRWA warns Gaza is becoming an increasingly unlivable place",
+   "summary": "Gaza faces persistent shortages of medical supplies due to delivery restrictions. Hygiene conditions also remain dire.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20UNRWA%20warns%20Gaza%20is%20becoming%20an%20increasingly%20unlivable%20place%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T18:00:00+09:00",
+   "breaking": false,
+   "url": "https://www.japantimes.co.jp/news/2026/10/12/japan/unrwa-health-chief-gaza/",
+   "refs": [
+    [
+     "Japan Times",
+     "https://www.japantimes.co.jp/news/2026/10/12/japan/unrwa-health-chief-gaza/"
+    ]
+   ]
+  },
+  {
+   "country": "Japan",
+   "flag": "🇯🇵",
+   "c": [
+    "#3b2a6e",
+    "#c05f8a"
+   ],
+   "emoji": "📰",
+   "title": "Taiwan says it is closely monitoring a series of Chinese live-fire drills",
+   "summary": "The closest drill to Taiwan is off China's eastern province of Zhejiang. The drills are scheduled to last all week, according to notices.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Taiwan%20says%20it%20is%20closely%20monitoring%20a%20series%20of%20Chinese%20live-fire%20drills%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T17:09:00+09:00",
+   "breaking": false,
+   "url": "https://www.japantimes.co.jp/news/2026/10/12/asia-pacific/taiwan-monitoring-china-drills/",
+   "refs": [
+    [
+     "Japan Times",
+     "https://www.japantimes.co.jp/news/2026/10/12/asia-pacific/taiwan-monitoring-china-drills/"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "flag": "🇦🇺",
+   "c": [
+    "#0b5a78",
+    "#e0a43a"
+   ],
+   "emoji": "📰",
+   "title": "Calls to 911 reveal confusion after Christa Pike's botched execution",
+   "summary": "Recordings and transcripts reveal a disjointed back-and-forth between prison officials and emergency personnel after death row inmate Christa Pike's execution went badly wrong.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Calls%20to%20911%20reveal%20confusion%20after%20Christa%20Pike%27s%20botched%20execution%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T23:30:26+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-13/christa-pike-911-calls-released-botched-us-execution/107259212",
+   "refs": [
+    [
+     "ABC News",
+     "https://www.abc.net.au/news/2026-10-13/christa-pike-911-calls-released-botched-us-execution/107259212"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "flag": "🇦🇺",
+   "c": [
+    "#0b5a78",
+    "#e0a43a"
+   ],
+   "emoji": "📰",
+   "title": "What we know about Lady Violet Bridgerton ahead of Netflix spin-off",
+   "summary": "Scant details are available about the Bridgerton spin-off focusing on Lady Violet but here's what we know about the upcoming show's main character ahead of its rollout.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20What%20we%20know%20about%20Lady%20Violet%20Bridgerton%20ahead%20of%20Netflix%20spin-off%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T23:26:20+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-13/what-we-know-about-lady-violet-bridgerton-ahead-of-spin-off/107257128",
+   "refs": [
+    [
+     "ABC News",
+     "https://www.abc.net.au/news/2026-10-13/what-we-know-about-lady-violet-bridgerton-ahead-of-spin-off/107257128"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "flag": "🇦🇺",
+   "c": [
+    "#0b5a78",
+    "#e0a43a"
+   ],
+   "emoji": "📰",
+   "title": "'High degree of caution' advised for Middle East travel after Houthi strikes",
+   "summary": "With recent Houthi strikes shutting down Saudi airports, is travel through the Middle East safe?",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20%27High%20degree%20of%20caution%27%20advised%20for%20Middle%20East%20travel%20after%20Houthi%20strikes%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T23:21:54+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-13/is-flying-through-the-middle-east-still-safe/107255194",
+   "refs": [
+    [
+     "ABC News",
+     "https://www.abc.net.au/news/2026-10-13/is-flying-through-the-middle-east-still-safe/107255194"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "flag": "🇦🇺",
+   "c": [
+    "#0b5a78",
+    "#e0a43a"
+   ],
+   "emoji": "📰",
+   "title": "Welcome to Country booing at Australia Cup final condemned",
+   "summary": "South Melbourne's historic Australia Cup victory has been overshadowed by booing of the Welcome to Country at the game by a section of the AAMI Park crowd.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Welcome%20to%20Country%20booing%20at%20Australia%20Cup%20final%20condemned%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T23:19:30+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-13/vic-australia-cup-final-booing/107258950",
+   "refs": [
+    [
+     "ABC News",
+     "https://www.abc.net.au/news/2026-10-13/vic-australia-cup-final-booing/107258950"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "flag": "🇦🇺",
+   "c": [
+    "#0b5a78",
+    "#e0a43a"
+   ],
+   "emoji": "📰",
+   "title": "Michael Jordan Last Dance jersey sells for record $20m",
+   "summary": "Michael Jordan's jersey from the second game of the 1998 NBA Finals sells for the highest price ever paid for a piece of basketball memorabilia.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Michael%20Jordan%20Last%20Dance%20jersey%20sells%20for%20record%20%2420m%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T22:42:57+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-13/michael-jordan-last-dance-jersey-sold-record-price/107259074",
+   "refs": [
+    [
+     "ABC News",
+     "https://www.abc.net.au/news/2026-10-13/michael-jordan-last-dance-jersey-sold-record-price/107259074"
+    ]
+   ]
+  }
+ ]
+}
