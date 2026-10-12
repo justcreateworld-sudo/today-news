@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T23:40:36.106239+00:00",
+ "updated": "2026-10-12T23:47:38.476379+00:00",
  "stories": [
   {
    "country": "India",
@@ -449,6 +449,72 @@
     "#e0a43a"
    ],
    "emoji": "📰",
+   "title": "Invasive fire ant nest discovered in Sydney's inner west",
+   "summary": "Specialist fire ant detection dog teams have been deployed to the site in Sydney's Enfield and a nearby area with no other nests having been discovered.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Invasive%20fire%20ant%20nest%20discovered%20in%20Sydney%27s%20inner%20west%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T23:42:17+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-13/nsw-fire-ants-detected-at-logistics-centre-in-sydney-enfield/107259332",
+   "refs": [
+    [
+     "ABC News",
+     "https://www.abc.net.au/news/2026-10-13/nsw-fire-ants-detected-at-logistics-centre-in-sydney-enfield/107259332"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "flag": "🇦🇺",
+   "c": [
+    "#0b5a78",
+    "#e0a43a"
+   ],
+   "emoji": "📰",
+   "title": "Man accused of covertly filming sexual abuse of three women",
+   "summary": "A man is facing more than 200 domestic violence-related sex offences allegedly involving three women on the New South Wales Central Coast.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Man%20accused%20of%20covertly%20filming%20sexual%20abuse%20of%20three%20women%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T23:36:56+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-13/central-coast-man-charged-with-alleged-covert-recording-of-abuse/107259022",
+   "refs": [
+    [
+     "ABC News",
+     "https://www.abc.net.au/news/2026-10-13/central-coast-man-charged-with-alleged-covert-recording-of-abuse/107259022"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "flag": "🇦🇺",
+   "c": [
+    "#0b5a78",
+    "#e0a43a"
+   ],
+   "emoji": "📰",
+   "title": "NSW prison staff want drone guns to stop contraband drops",
+   "summary": "The NSW government confirms it is procuring counter-drone technology for prisons after two alleged drug smuggling attempts in a fortnight.",
+   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20NSW%20prison%20staff%20want%20drone%20guns%20to%20stop%20contraband%20drops%2C%20no%20text?width=800&height=450&nologo=true",
+   "topic": "News",
+   "published": "2026-10-12T23:36:48+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-13/nsw-prisons-seek-counter-drone-technology/107258840",
+   "refs": [
+    [
+     "ABC News",
+     "https://www.abc.net.au/news/2026-10-13/nsw-prisons-seek-counter-drone-technology/107258840"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "flag": "🇦🇺",
+   "c": [
+    "#0b5a78",
+    "#e0a43a"
+   ],
+   "emoji": "📰",
    "title": "Calls to 911 reveal confusion after Christa Pike's botched execution",
    "summary": "Recordings and transcripts reveal a disjointed back-and-forth between prison officials and emergency personnel after death row inmate Christa Pike's execution went badly wrong.",
    "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Calls%20to%20911%20reveal%20confusion%20after%20Christa%20Pike%27s%20botched%20execution%2C%20no%20text?width=800&height=450&nologo=true",
@@ -482,72 +548,6 @@
     [
      "ABC News",
      "https://www.abc.net.au/news/2026-10-13/what-we-know-about-lady-violet-bridgerton-ahead-of-spin-off/107257128"
-    ]
-   ]
-  },
-  {
-   "country": "Australia",
-   "flag": "🇦🇺",
-   "c": [
-    "#0b5a78",
-    "#e0a43a"
-   ],
-   "emoji": "📰",
-   "title": "'High degree of caution' advised for Middle East travel after Houthi strikes",
-   "summary": "With recent Houthi strikes shutting down Saudi airports, is travel through the Middle East safe?",
-   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20%27High%20degree%20of%20caution%27%20advised%20for%20Middle%20East%20travel%20after%20Houthi%20strikes%2C%20no%20text?width=800&height=450&nologo=true",
-   "topic": "News",
-   "published": "2026-10-12T23:21:54+00:00",
-   "breaking": true,
-   "url": "https://www.abc.net.au/news/2026-10-13/is-flying-through-the-middle-east-still-safe/107255194",
-   "refs": [
-    [
-     "ABC News",
-     "https://www.abc.net.au/news/2026-10-13/is-flying-through-the-middle-east-still-safe/107255194"
-    ]
-   ]
-  },
-  {
-   "country": "Australia",
-   "flag": "🇦🇺",
-   "c": [
-    "#0b5a78",
-    "#e0a43a"
-   ],
-   "emoji": "📰",
-   "title": "Welcome to Country booing at Australia Cup final condemned",
-   "summary": "South Melbourne's historic Australia Cup victory has been overshadowed by booing of the Welcome to Country at the game by a section of the AAMI Park crowd.",
-   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Welcome%20to%20Country%20booing%20at%20Australia%20Cup%20final%20condemned%2C%20no%20text?width=800&height=450&nologo=true",
-   "topic": "News",
-   "published": "2026-10-12T23:19:30+00:00",
-   "breaking": true,
-   "url": "https://www.abc.net.au/news/2026-10-13/vic-australia-cup-final-booing/107258950",
-   "refs": [
-    [
-     "ABC News",
-     "https://www.abc.net.au/news/2026-10-13/vic-australia-cup-final-booing/107258950"
-    ]
-   ]
-  },
-  {
-   "country": "Australia",
-   "flag": "🇦🇺",
-   "c": [
-    "#0b5a78",
-    "#e0a43a"
-   ],
-   "emoji": "📰",
-   "title": "Michael Jordan Last Dance jersey sells for record $20m",
-   "summary": "Michael Jordan's jersey from the second game of the 1998 NBA Finals sells for the highest price ever paid for a piece of basketball memorabilia.",
-   "image": "https://image.pollinations.ai/prompt/editorial%20illustration%2C%20Michael%20Jordan%20Last%20Dance%20jersey%20sells%20for%20record%20%2420m%2C%20no%20text?width=800&height=450&nologo=true",
-   "topic": "News",
-   "published": "2026-10-12T22:42:57+00:00",
-   "breaking": true,
-   "url": "https://www.abc.net.au/news/2026-10-13/michael-jordan-last-dance-jersey-sold-record-price/107259074",
-   "refs": [
-    [
-     "ABC News",
-     "https://www.abc.net.au/news/2026-10-13/michael-jordan-last-dance-jersey-sold-record-price/107259074"
     ]
    ]
   }
