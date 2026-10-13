@@ -3,7 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Today News — World news by country</title>
+<title>Today News: World news by country</title>
+<meta name="description" content="Search any country and read its latest news in one place. Photos and sources from news channels, updated every 30 minutes.">
+<link rel="canonical" href="https://justcreateworld-sudo.github.io/today-news/">
+<meta name="theme-color" content="#101a2b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📰%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Today News">
+<meta property="og:title" content="Today News: World news by country">
+<meta property="og:description" content="Search any country and read its latest news, with photos and sources. Updated every 30 minutes.">
+<meta property="og:url" content="https://justcreateworld-sudo.github.io/today-news/">
+<meta property="og:image" content="https://justcreateworld-sudo.github.io/today-news/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Today News: World news by country">
+<meta name="twitter:image" content="https://justcreateworld-sudo.github.io/today-news/preview.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Today News","url":"https://justcreateworld-sudo.github.io/today-news/","description":"World news sorted by country, with photos and sources."}</script>
+<!-- GOOGLE-VERIFICATION: paste the Search Console meta tag on the next line if you use that method -->
 <style>
 :root{--bg:#f4f6f9;--card:#fff;--ink:#101a2b;--mut:#5b6678;--line:#dfe4ec;--acc:#0a6e8a;--red:#d62839;--chip:#e6f1f5;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1420;--card:#152033;--ink:#e8edf5;--mut:#9aa7bb;--line:#243249;--acc:#4fc3de;--chip:#1b2c42;color-scheme:dark}}
@@ -60,16 +77,18 @@ footer{border-top:1px solid var(--line);padding:22px 0 30px;color:var(--mut);fon
 
 <main class="wrap">
  <section class="hero">
-  <h1>World news, sorted by country</h1>
-  <p>Type a country name and see only its news. Every story links to the news channels and social posts it came from.</p>
+  <h1 id="h1">World news, sorted by country</h1>
+  <p id="sub">Type a country name and see only its news. Every story links to the news channels and social posts it came from.</p>
   <div class="sw">
    <input id="q" type="search" placeholder="Search a country, e.g. Sri Lanka" autocomplete="off" aria-label="Search country" role="combobox" aria-expanded="false" aria-controls="sug">
    <div class="sug" id="sug" role="listbox" hidden></div>
   </div>
+  <div class="chips" id="langs" role="group" aria-label="Language"></div>
   <div class="chips" id="chips" role="group" aria-label="Countries"></div>
  </section>
 
  <div class="head"><h2 id="title">Breaking news</h2><span id="count"></span></div>
+ <noscript><p>Today News needs JavaScript to show stories. It lists the latest news for about 60 countries, with photos and sources.</p></noscript>
  <div class="grid" id="grid"></div>
  <div style="text-align:center;padding-bottom:40px"><button class="chip" id="more" hidden>Show more stories</button></div>
  <div class="note" id="note"></div>
@@ -81,42 +100,58 @@ let FEED=[];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 let countries=[];
-function buildCountries(){countries=[...new Map(FEED.map(s=>[s.country,s.flag])).entries()].map(([n,f])=>({n,f,k:FEED.filter(s=>s.country===n).length}));const PIN=["Sri Lanka","India","United Kingdom","United States","Australia","Japan"];const r=n=>PIN.includes(n)?PIN.indexOf(n):99;countries.sort((a,b)=>r(a.n)-r(b.n)||a.n.localeCompare(b.n))}
+function buildCountries(){countries=[...new Map(FEED.map(s=>[s.country,s.flag])).entries()].map(([n,f])=>({n,f,k:FEED.filter(s=>s.country===n&&(s.lang||"en")==="en").length}));const PIN=["Sri Lanka","India","United Kingdom","United States","Australia","Japan"];const r=n=>PIN.includes(n)?PIN.indexOf(n):99;countries.sort((a,b)=>r(a.n)-r(b.n)||a.n.localeCompare(b.n))}
 function ago(iso){const m=Math.max(1,Math.round((Date.now()-new Date(iso))/6e4));return m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"}
 let sel="All";
 $("date").textContent=new Date().toLocaleDateString("en",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 
-let shown=24,showAllChips=false;
+const I={
+en:{h1:"World news, sorted by country",sub:"Type a country name and see only its news. Every story links to the news channels it came from.",ph:"Search a country, e.g. Sri Lanka",latest:"Latest news",news:"news",stories:"stories",story:"story",more:"Show more stories",breaking:"BREAKING",source:"Source",photo:"Photo",ai:"AI image",all:"All",morec:n=>"+"+n+" more countries",fewer:"Show fewer",fallback:"No stories in this language yet. Showing English.",tr:"AI translation",empty:"No stories for this country yet. Try another country."},
+si:{h1:"රටවල් අනුව ලෝක පුවත්",sub:"රටක නම ටයිප් කර එහි පුවත් පමණක් බලන්න. සෑම පුවතක්ම ලබාගත් මූලාශ්‍රයට සම්බන්ධයි.",ph:"රටක් සොයන්න, උදා: Sri Lanka",latest:"නවතම පුවත්",news:"පුවත්",stories:"පුවත්",story:"පුවතක්",more:"තවත් පුවත් පෙන්වන්න",breaking:"හදිසි පුවත",source:"මූලාශ්‍රය",photo:"ඡායාරූපය",ai:"AI රූපය",all:"සියල්ල",morec:n=>"තවත් රටවල් "+n,fewer:"අඩුවෙන් පෙන්වන්න",fallback:"මෙම භාෂාවෙන් තවම පුවත් නැත. ඉංග්‍රීසි පුවත් පෙන්වයි.",tr:"AI පරිවර්තනය",empty:"මෙම රට සඳහා තවම පුවත් නැත."},
+ta:{h1:"நாடு வாரியாக உலகச் செய்திகள்",sub:"ஒரு நாட்டின் பெயரை உள்ளிட்டு அதன் செய்திகளை மட்டும் பாருங்கள். ஒவ்வொரு செய்தியும் அதன் மூலத்துடன் இணைக்கப்பட்டுள்ளது.",ph:"நாட்டைத் தேடுங்கள், எ.கா. Sri Lanka",latest:"சமீபத்திய செய்திகள்",news:"செய்திகள்",stories:"செய்திகள்",story:"செய்தி",more:"மேலும் செய்திகளைக் காட்டு",breaking:"முக்கிய செய்தி",source:"ஆதாரம்",photo:"படம்",ai:"AI படம்",all:"அனைத்தும்",morec:n=>"மேலும் "+n+" நாடுகள்",fewer:"குறைவாகக் காட்டு",fallback:"இந்த மொழியில் செய்திகள் இன்னும் இல்லை. ஆங்கிலச் செய்திகள் காட்டப்படுகின்றன.",tr:"AI மொழிபெயர்ப்பு",empty:"இந்த நாட்டுக்கு இன்னும் செய்திகள் இல்லை."}};
+const ALIAS={"Sri Lanka":["ශ්‍රී ලංකා","இலங்கை"],"India":["ඉන්දියාව","இந்தியா"]};
+const RTL=["ar","ur","fa","he","ps","dv"];
+let shown=24,showAllChips=false,lang="en",LANGS={};
+const T=()=>I[lang]||I.en;
+function langOptions(){return sel==="All"?[["en","English"],["si","සිංහල"],["ta","தமிழ்"]]:(LANGS[sel]||[["en","English"]])}
+function fixLang(){if(!langOptions().some(x=>x[0]===lang))lang="en"}
+function langBar(){const o=langOptions();$("langs").innerHTML=o.length>1?o.map(l=>`<button class="chip" aria-pressed="${lang===l[0]}" data-l="${l[0]}">${esc(l[1])}</button>`).join(""):""}
+function ui(){$("h1").textContent=T().h1;$("sub").textContent=T().sub;$("q").placeholder=T().ph;$("more").textContent=T().more;document.documentElement.lang=lang}
 function chips(){
  const all=[{n:"All",f:"🌍"},...countries];
  const vis=showAllChips?all:all.filter((c,i)=>i<9||c.n===sel);
- $("chips").innerHTML=vis.map(c=>`<button class="chip" aria-pressed="${sel===c.n}" data-c="${esc(c.n)}">${c.f} ${esc(c.n)}</button>`).join("")+(all.length>9?`<button class="chip" id="tog">${showAllChips?"Show fewer":"+"+(all.length-9)+" more countries"}</button>`:"");
+ $("chips").innerHTML=vis.map(c=>`<button class="chip" aria-pressed="${sel===c.n}" data-c="${esc(c.n)}">${c.f} ${esc(c.n==="All"?T().all:c.n)}</button>`).join("")+(all.length>9?`<button class="chip" id="tog">${showAllChips?T().fewer:T().morec(all.length-9)}</button>`:"");
 }
 function render(){
- let list=FEED.filter(s=>sel==="All"||s.country===sel).sort((a,b)=>new Date(b.published)-new Date(a.published));
+ const L=T();
+ const pool=l=>FEED.filter(s=>(sel==="All"||s.country===sel)&&(s.lang||"en")===l);
+ let list=pool(lang),note="";
+ if(!list.length&&lang!=="en"){list=pool("en");note=L.fallback}
+ list.sort((a,b)=>new Date(b.published)-new Date(a.published));
  if(sel==="All"){const n={};list=list.filter(s=>(n[s.country]=(n[s.country]||0)+1)<=2);const li=list.findIndex(s=>s.image);if(li>0)list.unshift(list.splice(li,1)[0])}
- $("title").textContent=sel==="All"?"Latest news":sel+" news";
- $("count").textContent=list.length+(list.length===1?" story":" stories");
+ $("title").textContent=sel==="All"?L.latest:sel+" "+L.news;
+ $("count").textContent=list.length+" "+(list.length===1?L.story:L.stories)+(note?" · "+note:"");
  const vis=list.slice(0,shown);
- $("grid").innerHTML=vis.length?vis.map((s,i)=>`<article class="card${i===0&&sel==="All"?" lead":""}">
-  <div class="img" style="background:linear-gradient(135deg,${s.c[0]},${s.c[1]})" role="img" aria-label="Picture for: ${esc(s.title)}"><span style="font:800 46px Georgia,serif;opacity:.85">${esc(s.code||s.emoji)}</span>${s.image?`<img src="${esc(s.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">`:""}<em>${s.imageType==="photo"?"Photo: "+esc(s.refs[0][0]):"AI image"}</em></div>
-  <div class="body"><div class="meta">${s.breaking?'<span class="badge">BREAKING</span>':''}<span class="cty">${s.flag} ${esc(s.country)}</span><span>· ${esc(ago(s.published))}</span></div>
+ $("grid").innerHTML=vis.length?vis.map((s,i)=>`<article class="card${i===0&&sel==="All"?" lead":""}" dir="${RTL.includes(s.lang)?"rtl":"ltr"}">
+  <div class="img" style="background:linear-gradient(135deg,${s.c[0]},${s.c[1]})" role="img" aria-label="${esc(s.title)}"><span style="font:800 46px Georgia,serif;opacity:.85">${esc(s.code||s.emoji)}</span>${s.image?`<img src="${esc(s.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">`:""}<em>${s.imageType==="photo"?L.photo+": "+esc(s.refs[0][0]):L.ai}</em></div>
+  <div class="body"><div class="meta">${s.breaking?`<span class="badge">${L.breaking}</span>`:''}<span class="cty">${s.flag} ${esc(s.country)}</span><span>· ${esc(ago(s.published))}${s.translated?" · "+L.tr:""}</span></div>
   <h3><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">${esc(s.title)}</a></h3><p>${esc(s.summary)}</p>
-  <div class="src"><b>Source:</b>${s.refs.map(r=>`<a href="${esc(r[1])}" target="_blank" rel="noopener noreferrer">${esc(r[0])}</a>`).join("")}</div></div></article>`).join("")
-  :`<div class="empty">No stories for this country yet. Try another country.</div>`;
+  <div class="src"><b>${L.source}:</b>${s.refs.map(r=>`<a href="${esc(r[1])}" target="_blank" rel="noopener noreferrer">${esc(r[0])}</a>`).join("")}</div></div></article>`).join("")
+  :`<div class="empty">${L.empty}</div>`;
  $("more").hidden=list.length<=shown;
  chips();
 }
-function pick(n){sel=n;shown=24;$("q").value=n==="All"?"":n;hide();render()}
+function pick(n){sel=n;shown=24;fixLang();$("q").value=n==="All"?"":n;hide();ui();langBar();render()}
 function hide(){$("sug").hidden=true;$("q").setAttribute("aria-expanded","false")}
+$("langs").addEventListener("click",e=>{const b=e.target.closest("[data-l]");if(b){lang=b.dataset.l;shown=24;ui();langBar();render()}});
 $("chips").addEventListener("click",e=>{if(e.target.id==="tog"){showAllChips=!showAllChips;chips();return}const b=e.target.closest("[data-c]");if(b)pick(b.dataset.c)});
 $("q").addEventListener("input",e=>{
  const v=e.target.value.trim().toLowerCase();
- if(!v){sel="All";hide();render();return}
- const m=countries.filter(c=>c.n.toLowerCase().includes(v)).sort((a,b)=>a.n.toLowerCase().indexOf(v)-b.n.toLowerCase().indexOf(v)).slice(0,8);
+ if(!v){sel="All";fixLang();ui();langBar();hide();render();return}
+ const m=countries.filter(c=>c.n.toLowerCase().includes(v)||(ALIAS[c.n]||[]).some(a=>a.includes(v))).sort((a,b)=>a.n.toLowerCase().indexOf(v)-b.n.toLowerCase().indexOf(v)).slice(0,8);
  $("sug").innerHTML=m.length?m.map(c=>`<button role="option" data-c="${esc(c.n)}">${c.f} ${esc(c.n)}<small>${c.k} stories</small></button>`).join(""):`<div style="padding:12px 16px;color:var(--mut)">No country matches “${esc(v)}”</div>`;
  $("sug").hidden=false;$("q").setAttribute("aria-expanded","true");
- if(m.length===1){sel=m[0].n;render()}
+ if(m.length===1){sel=m[0].n;fixLang();ui();langBar();render()}
 });
 $("q").addEventListener("keydown",e=>{
  if(e.key==="Enter"){const b=$("sug").querySelector("button");if(b)pick(b.dataset.c)}
@@ -125,8 +160,8 @@ $("q").addEventListener("keydown",e=>{
 $("sug").addEventListener("click",e=>{const b=e.target.closest("[data-c]");if(b)pick(b.dataset.c)});
 document.addEventListener("click",e=>{if(!e.target.closest(".sw"))hide()});
 fetch("news.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
- FEED=d.stories;buildCountries();$("more").addEventListener("click",()=>{shown+=24;render()});
- $("tick").textContent=FEED.filter(s=>s.breaking).slice(0,8).map(s=>"● "+s.country+": "+s.title).join("     ")||"Latest world news";
+ FEED=d.stories;LANGS=d.languages||{};buildCountries();ui();langBar();$("more").addEventListener("click",()=>{shown+=24;render()});
+ $("tick").textContent=FEED.filter(s=>s.breaking&&(s.lang||"en")==="en").slice(0,8).map(s=>"● "+s.country+": "+s.title).join("     ")||"Latest world news";
  $("note").textContent="Updated "+new Date(d.updated).toLocaleString()+". Images are AI-generated illustrations. Summaries link to the original sources.";
  render();
 }).catch(()=>{$("grid").innerHTML='<div class="empty">News is loading. Please check back in a few minutes.</div>'});

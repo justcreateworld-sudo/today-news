@@ -1,8 +1,118 @@
 {
- "Sri Lanka":[["Ada Derana","https://www.adaderana.lk/rss.php"],["The Island","https://island.lk/feed"],["Lanka News Web","https://lankanewsweb.net/feed"]],
- "India":[["The Hindu","https://www.thehindu.com/news/national/feeder/default.rss"]],
- "United Kingdom":[["BBC News","https://feeds.bbci.co.uk/news/uk/rss.xml"]],
- "United States":[["NPR","https://feeds.npr.org/1001/rss.xml"]],
- "Japan":[["Japan Times","https://www.japantimes.co.jp/feed/"]],
- "Australia":[["ABC News","https://www.abc.net.au/news/feed/51120/rss.xml"]]
+ "Sri Lanka": {
+  "en": [
+   [
+    "Ada Derana",
+    "https://www.adaderana.lk/rss.php"
+   ],
+   [
+    "The Island",
+    "https://island.lk/feed"
+   ],
+   [
+    "Lanka News Web",
+    "https://lankanewsweb.net/feed"
+   ]
+  ],
+  "si": [
+   [
+    "Ada Derana Sinhala",
+    "https://sinhala.adaderana.lk/rss.php"
+   ],
+   [
+    "Lanka Truth",
+    "https://lankatruth.com/si/?feed=rss2"
+   ],
+   [
+    "BBC Sinhala",
+    "https://feeds.bbci.co.uk/sinhala/rss.xml"
+   ]
+  ],
+  "ta": [
+   [
+    "Ada Derana Tamil",
+    "https://adaderanatamil.lk/rss.php"
+   ],
+   [
+    "BBC Tamil",
+    "https://feeds.bbci.co.uk/tamil/rss.xml"
+   ]
+  ]
+ },
+ "India": {
+  "en": [
+   [
+    "The Hindu",
+    "https://www.thehindu.com/news/national/feeder/default.rss"
+   ]
+  ],
+  "hi": [
+   [
+    "BBC Hindi",
+    "https://feeds.bbci.co.uk/hindi/rss.xml"
+   ]
+  ],
+  "ta": [
+   [
+    "BBC Tamil",
+    "https://feeds.bbci.co.uk/tamil/rss.xml"
+   ]
+  ]
+ },
+ "United Kingdom": {
+  "en": [
+   [
+    "BBC News",
+    "https://feeds.bbci.co.uk/news/uk/rss.xml"
+   ]
+  ]
+ },
+ "United States": {
+  "en": [
+   [
+    "NPR",
+    "https://feeds.npr.org/1001/rss.xml"
+   ]
+  ]
+ },
+ "Japan": {
+  "en": [
+   [
+    "Japan Times",
+    "https://www.japantimes.co.jp/feed/"
+   ]
+  ]
+ },
+ "Australia": {
+  "en": [
+   [
+    "ABC News",
+    "https://www.abc.net.au/news/feed/51120/rss.xml"
+   ]
+  ]
+ },
+ "Pakistan": {
+  "ur": [
+   [
+    "BBC Urdu",
+    "https://feeds.bbci.co.uk/urdu/rss.xml"
+   ]
+  ]
+ },
+ "Bangladesh": {
+  "bn": [
+   [
+    "BBC Bengali",
+    "https://feeds.bbci.co.uk/bengali/rss.xml"
+   ]
+  ]
+ },
+ "Nepal": {
+  "ne": [
+   [
+    "BBC Nepali",
+    "https://feeds.bbci.co.uk/nepali/rss.xml"
+   ]
+  ]
+ }
 }

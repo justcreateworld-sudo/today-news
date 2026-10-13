@@ -1,1 +1,298 @@
-{"Sri Lanka":"LK","India":"IN","Pakistan":"PK","Bangladesh":"BD","Nepal":"NP","Maldives":"MV","Afghanistan":"AF","Myanmar":"MM","China":"CN","Japan":"JP","South Korea":"KR","Singapore":"SG","Malaysia":"MY","Thailand":"TH","Indonesia":"ID","Philippines":"PH","Vietnam":"VN","Australia":"AU","New Zealand":"NZ","United Kingdom":"GB","Ireland":"IE","France":"FR","Germany":"DE","Italy":"IT","Spain":"ES","Netherlands":"NL","Switzerland":"CH","Sweden":"SE","Norway":"NO","Russia":"RU","Ukraine":"UA","Poland":"PL","Turkey":"TR","Israel":"IL","Palestine":"PS","Saudi Arabia":"SA","United Arab Emirates":"AE","Qatar":"QA","Kuwait":"KW","Iran":"IR","Iraq":"IQ","Egypt":"EG","South Africa":"ZA","Nigeria":"NG","Kenya":"KE","Ethiopia":"ET","Ghana":"GH","Morocco":"MA","United States":"US","Canada":"CA","Mexico":"MX","Brazil":"BR","Argentina":"AR","Colombia":"CO","Chile":"CL","Peru":"PE","Cuba":"CU","Panama":"PA"}
+{
+"Sri Lanka": [
+"LK",
+"en",
+"si",
+"ta"
+],
+"India": [
+"IN",
+"en",
+"hi",
+"ta"
+],
+"Pakistan": [
+"PK",
+"en",
+"ur",
+"pa"
+],
+"Bangladesh": [
+"BD",
+"en",
+"bn"
+],
+"Nepal": [
+"NP",
+"en",
+"ne"
+],
+"Maldives": [
+"MV",
+"en",
+"dv"
+],
+"Afghanistan": [
+"AF",
+"en",
+"ps",
+"fa"
+],
+"Myanmar": [
+"MM",
+"en",
+"my"
+],
+"China": [
+"CN",
+"en",
+"zh"
+],
+"Japan": [
+"JP",
+"en",
+"ja"
+],
+"South Korea": [
+"KR",
+"en",
+"ko"
+],
+"Singapore": [
+"SG",
+"en",
+"zh",
+"ms"
+],
+"Malaysia": [
+"MY",
+"en",
+"ms",
+"zh"
+],
+"Thailand": [
+"TH",
+"en",
+"th"
+],
+"Indonesia": [
+"ID",
+"en",
+"id"
+],
+"Philippines": [
+"PH",
+"en",
+"tl"
+],
+"Vietnam": [
+"VN",
+"en",
+"vi"
+],
+"Australia": [
+"AU",
+"en"
+],
+"New Zealand": [
+"NZ",
+"en"
+],
+"United Kingdom": [
+"GB",
+"en"
+],
+"Ireland": [
+"IE",
+"en"
+],
+"France": [
+"FR",
+"en",
+"fr"
+],
+"Germany": [
+"DE",
+"en",
+"de"
+],
+"Italy": [
+"IT",
+"en",
+"it"
+],
+"Spain": [
+"ES",
+"en",
+"es"
+],
+"Netherlands": [
+"NL",
+"en",
+"nl"
+],
+"Switzerland": [
+"CH",
+"en",
+"de",
+"fr"
+],
+"Sweden": [
+"SE",
+"en",
+"sv"
+],
+"Norway": [
+"NO",
+"en",
+"no"
+],
+"Russia": [
+"RU",
+"en",
+"ru"
+],
+"Ukraine": [
+"UA",
+"en",
+"uk"
+],
+"Poland": [
+"PL",
+"en",
+"pl"
+],
+"Turkey": [
+"TR",
+"en",
+"tr"
+],
+"Israel": [
+"IL",
+"en",
+"he",
+"ar"
+],
+"Palestine": [
+"PS",
+"en",
+"ar"
+],
+"Saudi Arabia": [
+"SA",
+"en",
+"ar"
+],
+"United Arab Emirates": [
+"AE",
+"en",
+"ar"
+],
+"Qatar": [
+"QA",
+"en",
+"ar"
+],
+"Kuwait": [
+"KW",
+"en",
+"ar"
+],
+"Iran": [
+"IR",
+"en",
+"fa"
+],
+"Iraq": [
+"IQ",
+"en",
+"ar"
+],
+"Egypt": [
+"EG",
+"en",
+"ar"
+],
+"South Africa": [
+"ZA",
+"en",
+"zu",
+"af"
+],
+"Nigeria": [
+"NG",
+"en",
+"ha",
+"yo"
+],
+"Kenya": [
+"KE",
+"en",
+"sw"
+],
+"Ethiopia": [
+"ET",
+"en",
+"am"
+],
+"Ghana": [
+"GH",
+"en"
+],
+"Morocco": [
+"MA",
+"en",
+"ar",
+"fr"
+],
+"United States": [
+"US",
+"en",
+"es"
+],
+"Canada": [
+"CA",
+"en",
+"fr"
+],
+"Mexico": [
+"MX",
+"en",
+"es"
+],
+"Brazil": [
+"BR",
+"en",
+"pt"
+],
+"Argentina": [
+"AR",
+"en",
+"es"
+],
+"Colombia": [
+"CO",
+"en",
+"es"
+],
+"Chile": [
+"CL",
+"en",
+"es"
+],
+"Peru": [
+"PE",
+"en",
+"es"
+],
+"Cuba": [
+"CU",
+"en",
+"es"
+],
+"Panama": [
+"PA",
+"en",
+"es"
+]
+}

@@ -14,7 +14,10 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"}
 IMG_EXT = re.compile(r"\.(jpe?g|png|webp|gif)(\?|$)", re.I)
 ATOM = "{http://www.w3.org/2005/Atom}"
-counters = {"ai": 0, "og": 0}
+counters = {"ai": 0, "og": 0, "tr": 0}
+MAX_TR_CALLS = int(os.environ.get("MAX_TR_CALLS", "15"))   # free Gemini translation calls per run
+HOME_LANGS = ["si", "ta"]                                  # languages shown on the first page
+LANGS = {"en":("English","English"),"si":("සිංහල","Sinhala"),"ta":("தமிழ்","Tamil"),"hi":("हिन्दी","Hindi"),"ur":("اردو","Urdu"),"pa":("ਪੰਜਾਬੀ","Punjabi"),"bn":("বাংলা","Bengali"),"ne":("नेपाली","Nepali"),"dv":("ދިވެހި","Dhivehi"),"ps":("پښتو","Pashto"),"fa":("فارسی","Persian"),"my":("မြန်မာ","Burmese"),"zh":("中文","Chinese"),"ja":("日本語","Japanese"),"ko":("한국어","Korean"),"ms":("Melayu","Malay"),"th":("ไทย","Thai"),"id":("Indonesia","Indonesian"),"tl":("Filipino","Filipino"),"vi":("Tiếng Việt","Vietnamese"),"fr":("Français","French"),"de":("Deutsch","German"),"it":("Italiano","Italian"),"es":("Español","Spanish"),"nl":("Nederlands","Dutch"),"sv":("Svenska","Swedish"),"no":("Norsk","Norwegian"),"ru":("Русский","Russian"),"uk":("Українська","Ukrainian"),"pl":("Polski","Polish"),"tr":("Türkçe","Turkish"),"he":("עברית","Hebrew"),"ar":("العربية","Arabic"),"zu":("isiZulu","Zulu"),"af":("Afrikaans","Afrikaans"),"ha":("Hausa","Hausa"),"yo":("Yorùbá","Yoruba"),"sw":("Kiswahili","Swahili"),"am":("አማርኛ","Amharic"),"pt":("Português","Portuguese")}
 
 def clean(t):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", t or ""))).strip()
@@ -119,7 +122,7 @@ def colors(code):
 
 def get_items(country, extra):
     items = []
-    sources = [(n, u) for n, u in extra.get(country, [])]
+    sources = [(n, u) for n, u in extra.get(country, {}).get("en", [])]
     q = urllib.parse.quote(country)
     sources.append(("Bing", f"https://www.bing.com/news/search?q={q}&format=rss&setlang=en"))
     for i, (name, url) in enumerate(sources):
@@ -135,18 +138,57 @@ def get_items(country, extra):
             print(f"  google backup failed ({country}): {e}")
     return items
 
+def translate(stories, lang):
+    """Translates headlines + summaries with free Gemini, many stories in one call."""
+    if not GEMINI_KEY or counters["tr"] >= MAX_TR_CALLS or lang not in LANGS or not stories:
+        return None
+    counters["tr"] += 1
+    payload = [{"i": i, "title": x["title"], "summary": x["summary"]} for i, x in enumerate(stories)]
+    prompt = (f"Translate these news headlines and summaries into {LANGS[lang][1]}. Keep names, numbers and facts exact. "
+              "Reply with ONLY a JSON array of objects with keys i, title, summary.\n" + json.dumps(payload, ensure_ascii=False))
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_KEY}"
+    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
+                       "generationConfig": {"responseMimeType": "application/json"}}).encode()
+    try:
+        req = urllib.request.Request(url, body, {"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            arr = json.loads(json.load(r)["candidates"][0]["content"]["parts"][0]["text"])
+        time.sleep(4)
+        return {int(x["i"]): x for x in arr}
+    except Exception as e:
+        print(f"  translation to {lang} skipped:", e)
+        return None
+
+def make_story(d, country, code, lang, now, cache):
+    old = cache.get(d["link"] + "|" + lang)
+    breaking = (now - d["date"]).total_seconds() < BREAKING_HOURS * 3600
+    if old:
+        old = dict(old); old["breaking"] = breaking
+        return old
+    res = ai(d["title"], d["desc"]) if lang == "en" else None
+    summary = res[0] if res else (d["desc"][:220] + ("…" if len(d["desc"]) > 220 else ""))
+    real = d["image"] or og_image(d["link"])
+    img, kind = (real, "photo") if real else (ai_image(res[1] if res else d["title"]), "ai")
+    return {"country": country, "code": code, "flag": flag(code), "c": colors(code), "emoji": "📰", "lang": lang,
+            "title": d["title"], "summary": summary or d["title"], "image": img, "imageType": kind,
+            "topic": "News", "published": d["date"].isoformat(), "breaking": breaking,
+            "url": d["link"], "refs": [[d["source"], d["link"]]]}
+
 def main():
     cache = {}
     if os.path.exists("news.json"):
         try:
-            cache = {s["url"]: s for s in json.load(open("news.json", encoding="utf-8"))["stories"]}
+            for x in json.load(open("news.json", encoding="utf-8"))["stories"]:
+                cache[x["url"] + "|" + x.get("lang", "en")] = x
         except Exception:
             pass
     countries = json.load(open("countries.json", encoding="utf-8"))
     extra = json.load(open("feeds.json", encoding="utf-8"))
     now = datetime.now(timezone.utc)
-    stories = []
-    for country, code in countries.items():
+    stories, languages = [], {}
+    for country, info in countries.items():
+        code, langs = info[0], (info[1:] or ["en"])
+        languages[country] = [[l, LANGS[l][0]] for l in langs if l in LANGS]
         print("Country:", country)
         seen, picked = set(), []
         for d in sorted(get_items(country, extra), key=lambda x: x["date"], reverse=True):
@@ -154,26 +196,41 @@ def main():
             if d["title"] and d["link"] and key not in seen and (now - d["date"]).days < 3:
                 seen.add(key); picked.append(d)
             if len(picked) == MAX_PER_COUNTRY: break
-        for d in picked:
-            old = cache.get(d["link"])
-            if old:
-                summary, img, kind = old["summary"], old["image"], old.get("imageType", "ai")
-            else:
-                res = ai(d["title"], d["desc"])
-                summary = res[0] if res else (d["desc"][:220] + ("…" if len(d["desc"]) > 220 else ""))
-                real = d["image"] or og_image(d["link"])
-                if real: img, kind = real, "photo"
-                else: img, kind = ai_image(res[1] if res else d["title"]), "ai"
-            stories.append({"country": country, "code": code, "flag": flag(code), "c": colors(code), "emoji": "📰",
-                            "title": d["title"], "summary": summary or d["title"], "image": img, "imageType": kind,
-                            "topic": "News", "published": d["date"].isoformat(),
-                            "breaking": (now - d["date"]).total_seconds() < BREAKING_HOURS * 3600,
-                            "url": d["link"], "refs": [[d["source"], d["link"]]]})
+        base = [make_story(d, country, code, "en", now, cache) for d in picked]
+        stories += base
+        todo_langs = [(l, base) for l in langs if l != "en"] + [(l, base[:1]) for l in HOME_LANGS if l not in langs]
+        for lang, src in todo_langs:
+            native = []
+            for name, url in extra.get(country, {}).get(lang, []):
+                try:
+                    native += parse(fetch(url))
+                except Exception as e:
+                    print(f"  feed failed ({country} / {name}): {e}")
+                time.sleep(0.4)
+            if native:
+                seen2, got = set(), []
+                for d in sorted(native, key=lambda x: x["date"], reverse=True):
+                    if d["title"] and d["link"] and d["title"] not in seen2 and (now - d["date"]).days < 3:
+                        seen2.add(d["title"]); got.append(d)
+                    if len(got) == MAX_PER_COUNTRY: break
+                stories += [make_story(d, country, code, lang, now, cache) for d in got]
+                continue
+            todo = []
+            for x in src:
+                old = cache.get(x["url"] + "|" + lang)
+                if old: stories.append(old)
+                else: todo.append(x)
+            res = translate(todo, lang)
+            if res:
+                for i, x in enumerate(todo):
+                    if i in res and res[i].get("title"):
+                        t = dict(x); t.update(lang=lang, title=res[i]["title"], summary=res[i].get("summary") or res[i]["title"], translated=True)
+                        stories.append(t)
     if not stories:
         print("No stories found; keeping the old news.json")
         return
     with open("news.json", "w", encoding="utf-8") as f:
-        json.dump({"updated": now.isoformat(), "stories": stories}, f, ensure_ascii=False, indent=1)
+        json.dump({"updated": now.isoformat(), "languages": languages, "stories": stories}, f, ensure_ascii=False, indent=1)
     print("Saved", len(stories), "stories")
 
 if __name__ == "__main__":
