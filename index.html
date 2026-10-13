@@ -71,6 +71,7 @@ footer{border-top:1px solid var(--line);padding:22px 0 30px;color:var(--mut);fon
 
  <div class="head"><h2 id="title">Breaking news</h2><span id="count"></span></div>
  <div class="grid" id="grid"></div>
+ <div style="text-align:center;padding-bottom:40px"><button class="chip" id="more" hidden>Show more stories</button></div>
  <div class="note" id="note"></div>
 </main>
 <footer><div class="wrap">Today News · Always check the original sources linked on each story.</div></footer>
@@ -80,33 +81,39 @@ let FEED=[];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 let countries=[];
-function buildCountries(){countries=[...new Map(FEED.map(s=>[s.country,s.flag])).entries()].map(([n,f])=>({n,f,k:FEED.filter(s=>s.country===n).length}))}
+function buildCountries(){countries=[...new Map(FEED.map(s=>[s.country,s.flag])).entries()].map(([n,f])=>({n,f,k:FEED.filter(s=>s.country===n).length}));const PIN=["Sri Lanka","India","United Kingdom","United States","Australia","Japan"];const r=n=>PIN.includes(n)?PIN.indexOf(n):99;countries.sort((a,b)=>r(a.n)-r(b.n)||a.n.localeCompare(b.n))}
 function ago(iso){const m=Math.max(1,Math.round((Date.now()-new Date(iso))/6e4));return m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"}
 let sel="All";
 $("date").textContent=new Date().toLocaleDateString("en",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 
+let shown=24,showAllChips=false;
 function chips(){
- $("chips").innerHTML=[{n:"All",f:"🌍"},...countries].map(c=>`<button class="chip" aria-pressed="${sel===c.n}" data-c="${esc(c.n)}">${c.f} ${esc(c.n)}</button>`).join("");
+ const all=[{n:"All",f:"🌍"},...countries];
+ const vis=showAllChips?all:all.filter((c,i)=>i<9||c.n===sel);
+ $("chips").innerHTML=vis.map(c=>`<button class="chip" aria-pressed="${sel===c.n}" data-c="${esc(c.n)}">${c.f} ${esc(c.n)}</button>`).join("")+(all.length>9?`<button class="chip" id="tog">${showAllChips?"Show fewer":"+"+(all.length-9)+" more countries"}</button>`:"");
 }
 function render(){
- const list=FEED.filter(s=>sel==="All"||s.country===sel).sort((a,b)=>b.breaking-a.breaking);
- $("title").textContent=sel==="All"?"Breaking news":sel+" news";
+ let list=FEED.filter(s=>sel==="All"||s.country===sel).sort((a,b)=>new Date(b.published)-new Date(a.published));
+ if(sel==="All"){const n={};list=list.filter(s=>(n[s.country]=(n[s.country]||0)+1)<=2);const li=list.findIndex(s=>s.image);if(li>0)list.unshift(list.splice(li,1)[0])}
+ $("title").textContent=sel==="All"?"Latest news":sel+" news";
  $("count").textContent=list.length+(list.length===1?" story":" stories");
- $("grid").innerHTML=list.length?list.map((s,i)=>`<article class="card${i===0&&sel==="All"?" lead":""}">
-  <div class="img" style="background:linear-gradient(135deg,${s.c[0]},${s.c[1]})" role="img" aria-label="AI image for: ${esc(s.title)}">${s.emoji}${s.image?`<img src="${esc(s.image)}" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">`:""}<em>AI image</em></div>
-  <div class="body"><div class="meta">${s.breaking?'<span class="badge">BREAKING</span>':''}<span class="cty">${s.flag} ${esc(s.country)}</span><span>· ${esc(s.topic)} · ${esc(ago(s.published))}</span></div>
-  <h3>${esc(s.title)}</h3><p>${esc(s.summary)}</p>
-  <div class="src"><b>Sources:</b>${s.refs.map(r=>`<a href="${esc(r[1])}" target="_blank" rel="noopener noreferrer">${esc(r[0])}</a>`).join("")}</div></div></article>`).join("")
+ const vis=list.slice(0,shown);
+ $("grid").innerHTML=vis.length?vis.map((s,i)=>`<article class="card${i===0&&sel==="All"?" lead":""}">
+  <div class="img" style="background:linear-gradient(135deg,${s.c[0]},${s.c[1]})" role="img" aria-label="Picture for: ${esc(s.title)}"><span style="font:800 46px Georgia,serif;opacity:.85">${esc(s.code||s.emoji)}</span>${s.image?`<img src="${esc(s.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">`:""}<em>${s.imageType==="photo"?"Photo: "+esc(s.refs[0][0]):"AI image"}</em></div>
+  <div class="body"><div class="meta">${s.breaking?'<span class="badge">BREAKING</span>':''}<span class="cty">${s.flag} ${esc(s.country)}</span><span>· ${esc(ago(s.published))}</span></div>
+  <h3><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">${esc(s.title)}</a></h3><p>${esc(s.summary)}</p>
+  <div class="src"><b>Source:</b>${s.refs.map(r=>`<a href="${esc(r[1])}" target="_blank" rel="noopener noreferrer">${esc(r[0])}</a>`).join("")}</div></div></article>`).join("")
   :`<div class="empty">No stories for this country yet. Try another country.</div>`;
+ $("more").hidden=list.length<=shown;
  chips();
 }
-function pick(n){sel=n;$("q").value=n==="All"?"":n;hide();render()}
+function pick(n){sel=n;shown=24;$("q").value=n==="All"?"":n;hide();render()}
 function hide(){$("sug").hidden=true;$("q").setAttribute("aria-expanded","false")}
-$("chips").addEventListener("click",e=>{const b=e.target.closest("[data-c]");if(b)pick(b.dataset.c)});
+$("chips").addEventListener("click",e=>{if(e.target.id==="tog"){showAllChips=!showAllChips;chips();return}const b=e.target.closest("[data-c]");if(b)pick(b.dataset.c)});
 $("q").addEventListener("input",e=>{
  const v=e.target.value.trim().toLowerCase();
  if(!v){sel="All";hide();render();return}
- const m=countries.filter(c=>c.n.toLowerCase().includes(v));
+ const m=countries.filter(c=>c.n.toLowerCase().includes(v)).sort((a,b)=>a.n.toLowerCase().indexOf(v)-b.n.toLowerCase().indexOf(v)).slice(0,8);
  $("sug").innerHTML=m.length?m.map(c=>`<button role="option" data-c="${esc(c.n)}">${c.f} ${esc(c.n)}<small>${c.k} stories</small></button>`).join(""):`<div style="padding:12px 16px;color:var(--mut)">No country matches “${esc(v)}”</div>`;
  $("sug").hidden=false;$("q").setAttribute("aria-expanded","true");
  if(m.length===1){sel=m[0].n;render()}
@@ -118,8 +125,8 @@ $("q").addEventListener("keydown",e=>{
 $("sug").addEventListener("click",e=>{const b=e.target.closest("[data-c]");if(b)pick(b.dataset.c)});
 document.addEventListener("click",e=>{if(!e.target.closest(".sw"))hide()});
 fetch("news.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
- FEED=d.stories;buildCountries();
- $("tick").textContent=FEED.filter(s=>s.breaking).map(s=>"● "+s.country+": "+s.title).join("     ")||"Latest world news";
+ FEED=d.stories;buildCountries();$("more").addEventListener("click",()=>{shown+=24;render()});
+ $("tick").textContent=FEED.filter(s=>s.breaking).slice(0,8).map(s=>"● "+s.country+": "+s.title).join("     ")||"Latest world news";
  $("note").textContent="Updated "+new Date(d.updated).toLocaleString()+". Images are AI-generated illustrations. Summaries link to the original sources.";
  render();
 }).catch(()=>{$("grid").innerHTML='<div class="empty">News is loading. Please check back in a few minutes.</div>'});

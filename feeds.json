@@ -1,8 +1,8 @@
-[
- {"name":"Sri Lanka","flag":"🇱🇰","colors":["#0a6e8a","#1fa37a"],"feeds":[["Ada Derana","https://www.adaderana.lk/rss.php"]]},
- {"name":"India","flag":"🇮🇳","colors":["#8a3b0a","#e8913a"],"feeds":[["The Hindu","https://www.thehindu.com/news/national/feeder/default.rss"],["Times of India","https://timesofindia.indiatimes.com/rssfeedstopstories.cms"]]},
- {"name":"United Kingdom","flag":"🇬🇧","colors":["#1d2f6b","#a32c3d"],"feeds":[["BBC News","https://feeds.bbci.co.uk/news/uk/rss.xml"]]},
- {"name":"United States","flag":"🇺🇸","colors":["#12433a","#5db08a"],"feeds":[["NPR","https://feeds.npr.org/1001/rss.xml"]]},
- {"name":"Japan","flag":"🇯🇵","colors":["#3b2a6e","#c05f8a"],"feeds":[["Japan Times","https://www.japantimes.co.jp/feed/"]]},
- {"name":"Australia","flag":"🇦🇺","colors":["#0b5a78","#e0a43a"],"feeds":[["ABC News","https://www.abc.net.au/news/feed/51120/rss.xml"]]}
-]
+{
+ "Sri Lanka":[["Ada Derana","https://www.adaderana.lk/rss.php"],["The Island","https://island.lk/feed"],["Lanka News Web","https://lankanewsweb.net/feed"]],
+ "India":[["The Hindu","https://www.thehindu.com/news/national/feeder/default.rss"]],
+ "United Kingdom":[["BBC News","https://feeds.bbci.co.uk/news/uk/rss.xml"]],
+ "United States":[["NPR","https://feeds.npr.org/1001/rss.xml"]],
+ "Japan":[["Japan Times","https://www.japantimes.co.jp/feed/"]],
+ "Australia":[["ABC News","https://www.abc.net.au/news/feed/51120/rss.xml"]]
+}
