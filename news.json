@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T21:58:28.180255+00:00",
+ "updated": "2026-10-15T22:31:22.751546+00:00",
  "languages": {
   "Sri Lanka": [
    [
@@ -617,6 +617,31 @@
    ],
    "emoji": "📰",
    "lang": "en",
+   "title": "Explained: Why Pakistan will wear pink jerseys against Sri Lanka in PAK vs SL vs ENG ODI tri-series opener",
+   "summary": "Why are Pakistan wearing pink jerseys against Sri Lanka in the ODI tri-series opener? Here is the reason behind PCB's Pink Ribbon campaign and #Pinktober drive.",
+   "image": "http://www.bing.com/th?id=ONUT.0csEJxLrdFZfF975k6j4bw&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T10:56:00+00:00",
+   "breaking": false,
+   "url": "https://sports.yahoo.com/articles/explained-why-pakistan-wear-pink-175630008.html",
+   "refs": [
+    [
+     "Yahoo Sports",
+     "https://sports.yahoo.com/articles/explained-why-pakistan-wear-pink-175630008.html"
+    ]
+   ]
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "flag": "🇱🇰",
+   "c": [
+    "hsl(187,55%,26%)",
+    "hsl(222,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
    "title": "Planned integrated resort development in Sri Lanka’s Colombo Port City said to have fallen through",
    "summary": "A proposed casino project is one of multiple developments previously planned for Sri Lankan financial, commercial and lifestyle hub Colombo ...",
    "image": "http://www.bing.com/th?id=ONUT.L1zC1c2TGJccLfBpYGYtCQ&pid=News",
@@ -704,31 +729,6 @@
     [
      "lankanewsweb.net",
      "https://lankanewsweb.net/archives/282374/us-300-million-dollar-bond-test-exposes-sri-lankas-debt-dilemma/"
-    ]
-   ]
-  },
-  {
-   "country": "Sri Lanka",
-   "code": "LK",
-   "flag": "🇱🇰",
-   "c": [
-    "hsl(187,55%,26%)",
-    "hsl(222,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Treasury Rejects Immediate Tax Cuts, Bets on Digital Reform",
-   "summary": "Treasury Rejects Immediate Tax Cuts, Bets on Digital Reform The post Treasury Rejects Immediate Tax Cuts, Bets on Digital Reform appeared first on LNW Lanka News Web .",
-   "image": "https://lankanewsweb.net/wp-content/uploads/2026/10/Treasury-Rejects-Immediate-Tax-Cuts-Bets-on-Digital-Reform.jpg",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T06:37:00+00:00",
-   "breaking": false,
-   "url": "https://lankanewsweb.net/archives/282369/treasury-rejects-immediate-tax-cuts-bets-on-digital-reform/",
-   "refs": [
-    [
-     "lankanewsweb.net",
-     "https://lankanewsweb.net/archives/282369/treasury-rejects-immediate-tax-cuts-bets-on-digital-reform/"
     ]
    ]
   },
@@ -1417,18 +1417,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Pakistan Faces Winter Gas Shortages if Hormuz LNG Remains Choked",
-   "summary": "Pakistan LNG chief Masood Nabi warns of winter gas shortages as Hormuz disruptions choke Qatari supply and push spot LNG costs past $1 billion.",
-   "image": "http://www.bing.com/th?id=ONUT.gNoRcRhPemJuEU9DzM9ahQ&pid=News",
+   "title": "Thirty-four children and a teacher killed in Pakistan school roof collapse",
+   "summary": "ISLAMABAD, Oct 15 (Reuters) - At least 34 schoolchildren and a female teacher were killed on Thursday when the roof of a school collapsed during morning classes in the northwestern Pakistani city of ...",
+   "image": "http://www.bing.com/th?id=ONUT.Vs3V9L1CF4YkAPSXwl8UWw&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T08:30:00+00:00",
+   "published": "2026-10-15T07:57:46+00:00",
    "breaking": false,
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Faces-Winter-Gas-Shortages-if-Hormuz-LNG-Remains-Choked.html",
+   "url": "https://www.msn.com/en-us/news/other/thirty-four-children-and-a-teacher-killed-in-pakistan-school-roof-collapse/ar-AA2ejCDz",
    "refs": [
     [
-     "OilPrice.com",
-     "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Faces-Winter-Gas-Shortages-if-Hormuz-LNG-Remains-Choked.html"
+     "Reuters on MSN",
+     "https://www.msn.com/en-us/news/other/thirty-four-children-and-a-teacher-killed-in-pakistan-school-roof-collapse/ar-AA2ejCDz"
     ]
    ]
   },
@@ -1442,18 +1442,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Thirty-four children and a teacher killed in Pakistan school roof collapse",
-   "summary": "ISLAMABAD, Oct 15 (Reuters) - At least 34 schoolchildren and a female teacher were killed on Thursday when the roof of a school collapsed during morning classes in the northwestern Pakistani city of ...",
-   "image": "http://www.bing.com/th?id=ONUT.Vs3V9L1CF4YkAPSXwl8UWw&pid=News",
+   "title": "Pakistan: Dozens of children killed in the collapse of school roof",
+   "summary": "At least 35 people were killed in the Pakistani city of Peshawar on Thursday when the roof of a private school collapsed. More than 50 others were ...",
+   "image": "http://www.bing.com/th?id=ONUT.LCuxEbYYvBNvE3nag40OiQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T07:57:46+00:00",
+   "published": "2026-10-15T07:18:00+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/thirty-four-children-and-a-teacher-killed-in-pakistan-school-roof-collapse/ar-AA2ejCDz",
+   "url": "https://www.vaticannews.va/en/world/news/2026-10/pakistan-peshawar-school-tragedy-children-dead-injured.html",
    "refs": [
     [
-     "Reuters on MSN",
-     "https://www.msn.com/en-us/news/other/thirty-four-children-and-a-teacher-killed-in-pakistan-school-roof-collapse/ar-AA2ejCDz"
+     "Vatican News",
+     "https://www.vaticannews.va/en/world/news/2026-10/pakistan-peshawar-school-tragedy-children-dead-injured.html"
     ]
    ]
   },
@@ -1966,31 +1966,6 @@
     "hsl(121,60%,45%)"
    ],
    "emoji": "📰",
-   "lang": "en",
-   "title": "Advancing formalization and decent work for domestic and waste management workers in Nepal’s informal economy",
-   "summary": "ILO-led work advances formalization, social protection, workers’ rights and representation, while linking decent work with a greener and more inclusive future.",
-   "image": "http://www.bing.com/th?id=ONUT.5ASvXSh_aHG6_nfG5rLKMg&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-13T00:32:00+00:00",
-   "breaking": false,
-   "url": "https://www.ilo.org/resource/news/advancing-formalization-and-decent-work-domestic-and-waste-management",
-   "refs": [
-    [
-     "International Labour Organization",
-     "https://www.ilo.org/resource/news/advancing-formalization-and-decent-work-domestic-and-waste-management"
-    ]
-   ]
-  },
-  {
-   "country": "Nepal",
-   "code": "NP",
-   "flag": "🇳🇵",
-   "c": [
-    "hsl(86,55%,26%)",
-    "hsl(121,60%,45%)"
-   ],
-   "emoji": "📰",
    "lang": "ne",
    "title": "डढेलोका कारण इन्डोनेशियाको कालिमान्टान पहेँलपुर",
    "summary": "इन्डोनेशियाको कालिमान्टान सहरलाई सुन्तला रङ्गको बाक्लो धुवाँले ढाकेको छ। त्यहाँका मानिसहरू आफूवरिपरिका तस्बिर तथा भिडिओ खिचेर सामाजिक सञ्जालमा पोस्ट गरिरहेका छन्।",
@@ -2242,18 +2217,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Inside ODA 595: A Green Beret remembers Afghanistan",
-   "summary": "A Green Beret reflects on ODA 595 and the Horse Soldiers of Afghanistan, sharing a firsthand account of service, leadership, and memory.",
-   "image": "http://www.bing.com/th?id=ONUT.ibWOwyV54mXK1FPHWFU2OA&pid=News",
+   "title": "Afghanistan faces record hunger levels amid rampant rights violations",
+   "summary": "Acute malnutrition and hunger in Afghanistan have reached the highest levels ever recorded, with 15.9 million people facing acute food insecurity and conditions set to worsen in the coming months, ...",
+   "image": "http://www.bing.com/th?id=ONUT.Mu5IjMHOKUloblamHTnu9w&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:00:00+00:00",
+   "published": "2026-10-15T09:39:00+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/inside-oda-595-a-green-beret-remembers-afghanistan/vi-AA2ejRFw",
+   "url": "https://news.un.org/en/story/2026/10/1168605",
    "refs": [
     [
-     "Facebook on MSN",
-     "https://www.msn.com/en-us/news/other/inside-oda-595-a-green-beret-remembers-afghanistan/vi-AA2ejRFw"
+     "UN News",
+     "https://news.un.org/en/story/2026/10/1168605"
     ]
    ]
   },
@@ -2279,6 +2254,31 @@
     [
      "Associated Press News",
      "https://apnews.com/article/afghanistan-malnutrition-hunger-taliban-wfp-poverty-49645d8ab1209844854d8aa7eb0b5acb"
+    ]
+   ]
+  },
+  {
+   "country": "Afghanistan",
+   "code": "AF",
+   "flag": "🇦🇫",
+   "c": [
+    "hsl(315,55%,26%)",
+    "hsl(350,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Bellinger River RSL re-engages veterans from Afghanistan and Iraq",
+   "summary": "Life was radically different for many Afghanistan and Iraq war veterans when they returned home, but a Mid North Coast RSL branch is offering them a new way to reconnect.",
+   "image": "http://www.bing.com/th?id=ONUT.hjijcr4sHhKsj_ubO9XvIQ&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-14T18:04:54+00:00",
+   "breaking": false,
+   "url": "https://www.msn.com/en-au/news/australia/bellinger-river-rsl-re-engages-veterans-from-afghanistan-and-iraq/ar-AA2efpOP",
+   "refs": [
+    [
+     "ABC (Australian Broadcasting Corporation) on MSN",
+     "https://www.msn.com/en-au/news/australia/bellinger-river-rsl-re-engages-veterans-from-afghanistan-and-iraq/ar-AA2efpOP"
     ]
    ]
   },
@@ -2333,31 +2333,6 @@
    ]
   },
   {
-   "country": "Afghanistan",
-   "code": "AF",
-   "flag": "🇦🇫",
-   "c": [
-    "hsl(315,55%,26%)",
-    "hsl(350,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "TALIBAN SHUTS DOWN BBC RADIO: Afghanistan Suspends Broadcaster’s FM Services Nationwide",
-   "summary": "Afghanistan’s Taliban authorities suspended the BBC’s FM radio broadcasts across the country, cutting off a major source of international news for listeners throughout Afghanistan. The BBC confirmed ...",
-   "image": "https://www.theyeshivaworld.com/wp-content/uploads/2026/10/shutterstock_1308295744.jpg",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-13T15:00:00+00:00",
-   "breaking": false,
-   "url": "https://www.theyeshivaworld.com/news/general/2609420/taliban-shuts-down-bbc-radio-afghanistan-suspends-broadcasters-fm-services-nationwide.html",
-   "refs": [
-    [
-     "The Yeshiva World",
-     "https://www.theyeshivaworld.com/news/general/2609420/taliban-shuts-down-bbc-radio-afghanistan-suspends-broadcasters-fm-services-nationwide.html"
-    ]
-   ]
-  },
-  {
    "country": "Myanmar",
    "code": "MM",
    "flag": "🇲🇲",
@@ -2379,31 +2354,6 @@
     [
      "The Times of India on MSN",
      "https://www.msn.com/en-in/news/other/lawngtlai-tightens-vigil-on-vehicle-smuggling-unregulated-myanmar-trade/ar-AA2ejduk"
-    ]
-   ]
-  },
-  {
-   "country": "Myanmar",
-   "code": "MM",
-   "flag": "🇲🇲",
-   "c": [
-    "hsl(298,55%,26%)",
-    "hsl(333,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Myanmar’s dictator tries diplomacy",
-   "summary": "One is taking back those who have fled Myanmar’s war and economic collapse. This won Mr Min Aung Hlaing a visit on October 7th-8th to Malaysia, formerly his biggest critic in the region. Anwar Ibrahim ...",
-   "image": "http://www.bing.com/th?id=ONUT.jyYINGwmtZYlTQ3VkHrqvQ&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T05:50:00+00:00",
-   "breaking": false,
-   "url": "https://www.economist.com/asia/2026/10/15/myanmars-dictator-tries-diplomacy",
-   "refs": [
-    [
-     "The Economist",
-     "https://www.economist.com/asia/2026/10/15/myanmars-dictator-tries-diplomacy"
     ]
    ]
   },
@@ -2483,27 +2433,27 @@
    ]
   },
   {
-   "country": "China",
-   "code": "CN",
-   "flag": "🇨🇳",
+   "country": "Myanmar",
+   "code": "MM",
+   "flag": "🇲🇲",
    "c": [
-    "hsl(325,55%,26%)",
-    "hsl(0,60%,45%)"
+    "hsl(298,55%,26%)",
+    "hsl(333,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Former DHS Chief Janet Napolitano Says the Biggest AI Risk Isn’t Losing to China",
-   "summary": "Speaking at the Inc. 5000 Conference & Gala, Napolitano said that the issue of winning or losing to China on AI is a false binary.",
-   "image": "http://www.bing.com/th?id=ONUT.GNiUtyGkoNNnxQu6EvIt5Q&pid=News",
+   "title": "China sentences 3 more Myanmar crime bosses to death in scam centre crackdown",
+   "summary": "Trio among 61 members sentenced from family-run Wei syndicate - one of the notorious 'four families' of northern Myanmar Courts in China have sentenced three key figures of a notorious Myanmar crime ...",
+   "image": "http://www.bing.com/th?id=ONUT.C4QUgojzeV6uWJYEED7cKg&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:17:00+00:00",
+   "published": "2026-10-13T06:26:07+00:00",
    "breaking": false,
-   "url": "https://www.inc.com/melissa-angell/former-dhs-chief-janet-napolitano-says-the-biggest-ai-risk-isnt-losing-to-china/91416476",
+   "url": "https://www.msn.com/en-xl/news/other/china-sentences-3-more-myanmar-crime-bosses-to-death-in-scam-centre-crackdown/ar-AA2e99dK",
    "refs": [
     [
-     "Inc.com",
-     "https://www.inc.com/melissa-angell/former-dhs-chief-janet-napolitano-says-the-biggest-ai-risk-isnt-losing-to-china/91416476"
+     "South China Morning Post on MSN",
+     "https://www.msn.com/en-xl/news/other/china-sentences-3-more-myanmar-crime-bosses-to-death-in-scam-centre-crackdown/ar-AA2e99dK"
     ]
    ]
   },
@@ -2517,18 +2467,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "‘Our choice, not yours’: Palau President stares down China over Taiwan threats",
-   "summary": "Palau President Surangel Whipps Jr. visited Australia this week to visit the country’s newly-opened embassy in Canberra, a side-effect of the Albanese government’s attempts to deepen ties in the ...",
-   "image": "http://www.bing.com/th?id=ONUT.y5eMx8OXoZz2xZ2L8H2oqA&pid=News",
+   "title": "China may be secretly stashing US debt holdings in Canada, Wall Street analysts suspect",
+   "summary": "US Treasury data shows Canada’s reported holdings of American government debt and federally backed mortgage bonds have soared to nearly $600 billion.",
+   "image": "http://www.bing.com/th?id=ONUT.ssPrWCX5DyW9IKWeETDFLw&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T11:00:00+00:00",
+   "published": "2026-10-15T10:28:00+00:00",
    "breaking": false,
-   "url": "https://www.politico.com/news/2026/10/15/our-choice-not-yours-palau-president-stares-down-china-over-taiwan-threats-01119822",
+   "url": "https://nypost.com/2026/10/15/business/china-may-be-secretly-stashing-us-debt-holdings-in-canada-wall-street-analysts-suspect/",
    "refs": [
     [
-     "Politico",
-     "https://www.politico.com/news/2026/10/15/our-choice-not-yours-palau-president-stares-down-china-over-taiwan-threats-01119822"
+     "New York Post",
+     "https://nypost.com/2026/10/15/business/china-may-be-secretly-stashing-us-debt-holdings-in-canada-wall-street-analysts-suspect/"
     ]
    ]
   },
@@ -2604,6 +2554,31 @@
     [
      "CNBC",
      "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html"
+    ]
+   ]
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "flag": "🇨🇳",
+   "c": [
+    "hsl(325,55%,26%)",
+    "hsl(0,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "North Korea and China Open Their Biggest Border Bridge",
+   "summary": "The long-delayed opening of the New Yalu River Bridge comes as the two countries expand trade despite international sanctions imposed on North Korea.",
+   "image": "http://www.bing.com/th?id=ONUT.CrSbRoY4eg47mqooenMZxg&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T02:49:00+00:00",
+   "breaking": false,
+   "url": "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
+   "refs": [
+    [
+     "The New York Times",
+     "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html"
     ]
    ]
   },
@@ -2742,6 +2717,31 @@
    ],
    "emoji": "📰",
    "lang": "en",
+   "title": "South Korean Running Influencer Yoo Ji-won Dies After Collapsing Near Seoul Half Marathon Finish",
+   "summary": "South Korean running influencer and KAIST graduate student Yoo Ji-won, who shared her running journey with her vast online following, has passed away after collapsing about 500 meters (550 yards)… The ...",
+   "image": "http://www.bing.com/th?id=ONUT.v5xq-ukWb73GqxQaxVY4cg&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T15:06:00+00:00",
+   "breaking": false,
+   "url": "https://sports.yahoo.com/articles/south-korean-running-influencer-yoo-220622874.html",
+   "refs": [
+    [
+     "Yahoo Sports",
+     "https://sports.yahoo.com/articles/south-korean-running-influencer-yoo-220622874.html"
+    ]
+   ]
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "flag": "🇰🇷",
+   "c": [
+    "hsl(49,55%,26%)",
+    "hsl(84,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
    "title": "South Korea names two crypto firms in breach wave that also hit major banks",
    "summary": "South Korea's FSC named Streami and Pravang among 16 firms hit by data breaches and proposed stronger financial-sector security.",
    "image": "http://www.bing.com/th?id=ONUT.UCJ0_GF_z_Oq1p2HIGBrXA&pid=News",
@@ -2767,18 +2767,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Compass' Coldwell Banker Unit Expands Into South Korea With Master Franchise Launch",
-   "summary": "Coldwell Banker Real Estate unit said Thursday that it has expanded into South Korea with the launch of master franchises Coldwell Banker Korea and Coldwell Banker Commercial Korea. The company said ...",
-   "image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
+   "title": "South Korea Flies Its First Homegrown Hypersonic Glide Vehicle",
+   "summary": "South Korea has flown its homegrown hypersonic glide vehicle for the first time, pushing the country a step closer to its goal of reinforcing defense capabilities.",
+   "image": "http://www.bing.com/th?id=ONUT.oFi0T-5b1muxXlyiCw6wAQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T06:38:00+00:00",
+   "published": "2026-10-15T04:45:00+00:00",
    "breaking": false,
-   "url": "https://finance.yahoo.com/real-estate/articles/compass-apos-coldwell-banker-unit-133824009.html",
+   "url": "https://thedefensepost.com/2026/10/15/south-korea-hypersonic-glide-vehicle/",
    "refs": [
     [
-     "Yahoo Finance",
-     "https://finance.yahoo.com/real-estate/articles/compass-apos-coldwell-banker-unit-133824009.html"
+     "The Defense Post",
+     "https://thedefensepost.com/2026/10/15/south-korea-hypersonic-glide-vehicle/"
     ]
    ]
   },
@@ -2833,31 +2833,6 @@
    ]
   },
   {
-   "country": "South Korea",
-   "code": "KR",
-   "flag": "🇰🇷",
-   "c": [
-    "hsl(49,55%,26%)",
-    "hsl(84,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "South Korea's Hyundai plans $15.5 billion investment in India",
-   "summary": "South Korea's Hyundai Motor plans to invest $15.5 billion in India over seven years, expanding production, research and future mobility operations.",
-   "image": "http://www.bing.com/th?id=ONUT.qnW5CqMBqnBiNASB4iiJRw&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-14T12:33:00+00:00",
-   "breaking": false,
-   "url": "https://www.upi.com/Top_News/World-News/2026/10/14/hyundai-motor-india-narendra-modi-chung-euisun/7531792020434/",
-   "refs": [
-    [
-     "UPI",
-     "https://www.upi.com/Top_News/World-News/2026/10/14/hyundai-motor-india-narendra-modi-chung-euisun/7531792020434/"
-    ]
-   ]
-  },
-  {
    "country": "Singapore",
    "code": "SG",
    "flag": "🇸🇬",
@@ -2867,18 +2842,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "At Singapore launch, Anthropic defends its oversight of how customers use its model, citing AI’s ‘dual use’ risks",
+   "title": "At Singapore launch, Anthropic defends its oversight of how customers use its model, citing AI’s dual use risks",
    "summary": "Anthropic wants to “figure out how we safely deploy this technology while being able to find and capture misuse,\" said co-founder Benjamin Mann.",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20At%20Singapore%20launch%2C%20Anthropic%20defends%20its%20oversight%20of%20how%20customers%20use%20its%20model%2C%20citing%20AI%E2%80%99s%20%E2%80%98dual%20use%E2%80%99%20risks%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
+   "image": "http://www.bing.com/th?id=ONUT.hKRaUqdI0ibUvnOM5QiBjw&pid=News",
+   "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T05:30:00+00:00",
+   "published": "2026-10-15T03:04:30+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-us/technology/artificial-intelligence/at-singapore-launch-anthropic-defends-its-oversight-of-how-customers-use-its-model-citing-ai-s-dual-use-risks/ar-AA2eig9i",
+   "url": "https://www.msn.com/en-au/technology/artificial-intelligence/at-singapore-launch-anthropic-defends-its-oversight-of-how-customers-use-its-model-citing-ai-s-dual-use-risks/ar-AA2eig9i",
    "refs": [
     [
      "Fortune on MSN",
-     "https://www.msn.com/en-us/technology/artificial-intelligence/at-singapore-launch-anthropic-defends-its-oversight-of-how-customers-use-its-model-citing-ai-s-dual-use-risks/ar-AA2eig9i"
+     "https://www.msn.com/en-au/technology/artificial-intelligence/at-singapore-launch-anthropic-defends-its-oversight-of-how-customers-use-its-model-citing-ai-s-dual-use-risks/ar-AA2eig9i"
     ]
    ]
   },
@@ -2942,18 +2917,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Leclerc’s Black Singapore Suit Changes Nothing on the SF-26. That’s Why Ferrari Did It",
-   "summary": "Ferrari has dressed Charles Leclerc in black for the Singapore sprint weekend. The car stays red; the suit still has to pass the FIA's fire test. The post Leclerc’s Black Singapore Suit Changes ...",
-   "image": "http://www.bing.com/th?id=ONUT.pXUIdgBn-A6EFN4hrpIvUw&pid=News",
+   "title": "Singapore’s economy grows more than 5 percent amid AI boom",
+   "summary": "City-state’s GDP expands 5.4 percent in July-September quarter, according to advance government estimates.",
+   "image": "http://www.bing.com/th?id=ORMS.a42350183bedf19778a06512999aaa4c&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-14T10:00:00+00:00",
+   "published": "2026-10-13T22:04:00+00:00",
    "breaking": false,
-   "url": "https://sports.yahoo.com/articles/leclerc-black-singapore-suit-changes-170000346.html",
+   "url": "https://www.msn.com/en-us/news/world/singapore-s-economy-grows-more-than-5-percent-amid-ai-boom/ar-AA2ec2mF",
    "refs": [
     [
-     "Yahoo Sports",
-     "https://sports.yahoo.com/articles/leclerc-black-singapore-suit-changes-170000346.html"
+     "Al Jazeera on MSN",
+     "https://www.msn.com/en-us/news/world/singapore-s-economy-grows-more-than-5-percent-amid-ai-boom/ar-AA2ec2mF"
     ]
    ]
   },
@@ -2967,18 +2942,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Singapore pollution spikes, East Timor shuts schools as Indonesia wildfire haze intensifies",
-   "summary": "SINGAPORE/DILI/JAKARTA, Oct 14 (Reuters) - Pollution readings in Singapore reached their highest level this year on Wednesday while East Timor shut its schools for three days in response to ...",
-   "image": "http://www.bing.com/th?id=ORMS.3070c6a34e7d94208a3121b1638986d6&pid=News",
+   "title": "Explainer-How Singapore's unique monetary policy works",
+   "summary": "Singapore's central bank kept its monetary settings unchanged on Wednesday, surprising analysts who expected a tightening, with the economy projected to expand at a firm pace and inflation tipped to ...",
+   "image": "http://www.bing.com/th?id=ONUT.MmfVXwOGiLXQDO5Q-a8Jhg&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-14T00:29:36+00:00",
+   "published": "2026-10-13T10:32:00+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/singapore-pollution-spikes-east-timor-shuts-schools-as-indonesia-wildfire-haze-intensifies/ar-AA2ebQZB",
+   "url": "https://www.sacbee.com/news/nation-world/national/article317612460.html",
    "refs": [
     [
-     "Reuters on MSN",
-     "https://www.msn.com/en-us/news/other/singapore-pollution-spikes-east-timor-shuts-schools-as-indonesia-wildfire-haze-intensifies/ar-AA2ebQZB"
+     "The Sacramento Bee",
+     "https://www.sacbee.com/news/nation-world/national/article317612460.html"
     ]
    ]
   },
@@ -3117,31 +3092,6 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "IMF flags Thailand’s debt burden amid concerns over borrowing costs and spending",
-   "summary": "Thailand faces continuing economic pressure from high household debt and rising financing challenges, with the International Monetary Fund (IMF) warning that global borrowing costs could remain ...",
-   "image": "http://www.bing.com/th?id=ONUT._C1kqxiSPXDFwio7aqQimA&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T13:45:00+00:00",
-   "breaking": false,
-   "url": "https://www.pattayamail.com/latestnews/news/imf-flags-thailands-debt-burden-amid-concerns-over-borrowing-costs-and-spending-568640",
-   "refs": [
-    [
-     "Pattaya Mail",
-     "https://www.pattayamail.com/latestnews/news/imf-flags-thailands-debt-burden-amid-concerns-over-borrowing-costs-and-spending-568640"
-    ]
-   ]
-  },
-  {
-   "country": "Thailand",
-   "code": "TH",
-   "flag": "🇹🇭",
-   "c": [
-    "hsl(12,55%,26%)",
-    "hsl(47,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
    "title": "Thailand lists 4 categories of foreigners who qualify for 10-year residency visa",
    "summary": "Thailand offers a 10-year Long-Term Resident visa to four groups of foreigners, including wealthy individuals, retirees and skilled professionals.",
    "image": "http://www.bing.com/th?id=ORMS.e7f8ffba0d081be5e60f038bd4cec79a&pid=News",
@@ -3167,18 +3117,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Thailand's bet on business events to boost tourism",
-   "summary": "Thailand is turning to MICE tourism - meetings, incentives, conferences and exhibitions - to revive its tourism industry amid declining visitor arrivals, safety concerns and a stronger currency. With ...",
-   "image": "http://www.bing.com/th?id=ONUT.O_fbHB53syx8NngCvVWOBA&pid=News",
+   "title": "Thailand launches three innovation programs to advance medical technology",
+   "summary": "BANGKOK, Thailand – Deputy Prime Minister and Higher Education, Science, Research and Innovation Minister Prof. Dr. Yodchanan Wongsawat opened the 2026 International Conference on Medical Device ...",
+   "image": "http://www.bing.com/th?id=ONUT.QvWHJCi1hBHkZKk2H_b3tw&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-14T17:00:00+00:00",
+   "published": "2026-10-15T11:19:00+00:00",
    "breaking": false,
-   "url": "https://www.cnbc.com/video/2026/10/15/thailands-bet-on-business-events-to-boost-tourism.html",
+   "url": "https://www.pattayamail.com/thailandnews/thailand-launches-three-innovation-programs-to-advance-medical-technology-568562",
    "refs": [
     [
-     "CNBC",
-     "https://www.cnbc.com/video/2026/10/15/thailands-bet-on-business-events-to-boost-tourism.html"
+     "Pattaya Mail",
+     "https://www.pattayamail.com/thailandnews/thailand-launches-three-innovation-programs-to-advance-medical-technology-568562"
     ]
    ]
   },
@@ -3233,27 +3183,27 @@
    ]
   },
   {
-   "country": "Indonesia",
-   "code": "ID",
-   "flag": "🇮🇩",
+   "country": "Thailand",
+   "code": "TH",
+   "flag": "🇹🇭",
    "c": [
-    "hsl(177,55%,26%)",
-    "hsl(212,60%,45%)"
+    "hsl(12,55%,26%)",
+    "hsl(47,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "MSCI weighs downgrading Indonesia to standalone-market status",
-   "summary": "MSCI said on Friday it was considering downgrading ​Indonesia to standalone- from emerging-market status, ‌citing persistent concerns about the investability and governance of the country's equity ...",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20MSCI%20weighs%20downgrading%20Indonesia%20to%20standalone-market%20status%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
+   "title": "Grab announces new Thailand initiative with OpenAI",
+   "summary": "Southeast Asia’s multi-purpose app Grab will work with OpenAI to boost the AI skills of its drivers, sellers and other providers in Thailand, the Singapore-based company announced on Wednesday.",
+   "image": "http://www.bing.com/th?id=ONUT.FJqQQorId1ZMlkNRD2rQBQ&pid=News",
+   "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:18:00+00:00",
+   "published": "2026-10-13T21:45:30+00:00",
    "breaking": false,
-   "url": "https://www.reuters.com/world/asia-pacific/msci-weighs-downgrading-indonesia-standalone-market-status-2026-10-15/",
+   "url": "https://www.msn.com/en-us/money/general/grab-announces-new-thailand-initiative-with-openai/ar-AA2ec4MK",
    "refs": [
     [
-     "Reuters",
-     "https://www.reuters.com/world/asia-pacific/msci-weighs-downgrading-indonesia-standalone-market-status-2026-10-15/"
+     "CNN on MSN",
+     "https://www.msn.com/en-us/money/general/grab-announces-new-thailand-initiative-with-openai/ar-AA2ec4MK"
     ]
    ]
   },
@@ -3342,6 +3292,31 @@
    ],
    "emoji": "📰",
    "lang": "en",
+   "title": "As a rising global food destination, Indonesia invites travelers to taste its culture",
+   "summary": "Indonesia’s gastronomy is an opportunity to go beyond its iconic landscapes and discover the country through its food, culture, and people.",
+   "image": "http://www.bing.com/th?id=ONUT.E7OD2SjbECoU9kv2PoPKJw&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-14T05:37:00+00:00",
+   "breaking": false,
+   "url": "https://www.cnn.com/brandstories/ministry-of-tourism-indonesia/global-food-destination",
+   "refs": [
+    [
+     "CNN",
+     "https://www.cnn.com/brandstories/ministry-of-tourism-indonesia/global-food-destination"
+    ]
+   ]
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "flag": "🇮🇩",
+   "c": [
+    "hsl(177,55%,26%)",
+    "hsl(212,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
    "title": "Singapore pollution spikes, East Timor shuts schools as Indonesia wildfire haze intensifies",
    "summary": "SINGAPORE/DILI/JAKARTA, Oct 14 (Reuters) - Pollution readings in Singapore reached their highest level this year on Wednesday while East Timor shut its schools for three days in response to ...",
    "image": "http://www.bing.com/th?id=ONUT.hbcSwfiOib07PNi6DO6_HQ&pid=News",
@@ -3374,11 +3349,11 @@
    "topic": "News",
    "published": "2026-10-15T10:23:34+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-ph/news/national/dfa-calls-out-chinese-envoy-over-veiled-threat-against-philippines/ar-AA2ejuhz",
+   "url": "https://www.msn.com/en-ph/news/other/dfa-calls-out-chinese-envoy-over-veiled-threat-against-philippines/ar-AA2ejuhz",
    "refs": [
     [
      "The Manila Times on MSN",
-     "https://www.msn.com/en-ph/news/national/dfa-calls-out-chinese-envoy-over-veiled-threat-against-philippines/ar-AA2ejuhz"
+     "https://www.msn.com/en-ph/news/other/dfa-calls-out-chinese-envoy-over-veiled-threat-against-philippines/ar-AA2ejuhz"
     ]
    ]
   },
@@ -3392,18 +3367,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "DOJ: Philippines has yet to criminalize foreign interference",
-   "summary": "The Department of Justice (DOJ) on Thursday said the Philippines has yet to enact a law specifically defining and criminalizing foreign interference, pointing to gaps in existing espionage laws.",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20DOJ%3A%20Philippines%20has%20yet%20to%20criminalize%20foreign%20interference%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
+   "title": "Questions emerge over how Pax Silica initiative can benefit the Philippines",
+   "summary": "The Philippines has joined the US-led Pax Silica initiative - a non-binding pact to secure global supply chains in artificial intelligence, semiconductors and critical minerals. It also seeks to ...",
+   "image": "http://www.bing.com/th?id=ONUT.3nS4F8s0CMdfj5JEGoosSQ&pid=News",
+   "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T06:01:41+00:00",
+   "published": "2026-10-15T06:09:00+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-ph/news/other/doj-philippines-has-yet-to-criminalize-foreign-interference/ar-AA2ej8y9",
+   "url": "https://www.channelnewsasia.com/watch/questions-emerge-over-how-pax-silica-initiative-can-benefit-philippines-6460941",
    "refs": [
     [
-     "GMA Network on MSN",
-     "https://www.msn.com/en-ph/news/other/doj-philippines-has-yet-to-criminalize-foreign-interference/ar-AA2ej8y9"
+     "CNA",
+     "https://www.channelnewsasia.com/watch/questions-emerge-over-how-pax-silica-initiative-can-benefit-philippines-6460941"
     ]
    ]
   },
@@ -3442,18 +3417,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Philippines feels slowing money from abroad",
-   "summary": "The Philippines and Vietnam are most exposed to slowing remittances as Middle East tensions weigh on inflows and household spending, Oxford Economics said.",
-   "image": "http://www.bing.com/th?id=ONUT.aE60s07-kQJ01r4yn7J31g&pid=News",
+   "title": "Korean firms target Philippines' $50T AI infrastructure market",
+   "summary": "As 40 South Korean companies and institutions flocked to Manila following the Philippines’ announcement of plans to build new AI data centers and power and communication networks, the Ministry of ...",
+   "image": "http://www.bing.com/th?id=ONUT.2p-R3hjmOiIPWt1yV-kdPg&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-14T05:19:00+00:00",
+   "published": "2026-10-14T20:39:57+00:00",
    "breaking": false,
-   "url": "https://manilastandard.net/business/314805522/philippines-feels-slowing-money-from-abroad.html",
+   "url": "https://www.msn.com/en-xl/money/economy/korean-firms-target-philippines-50t-ai-infrastructure-market/ar-AA2eeQFi",
    "refs": [
     [
-     "Manila Standard",
-     "https://manilastandard.net/business/314805522/philippines-feels-slowing-money-from-abroad.html"
+     "The Chosun Ilbo on MSN",
+     "https://www.msn.com/en-xl/money/economy/korean-firms-target-philippines-50t-ai-infrastructure-market/ar-AA2eeQFi"
     ]
    ]
   },
@@ -3517,6 +3492,31 @@
    ],
    "emoji": "📰",
    "lang": "en",
+   "title": "Vietnam Set to Sign Free Trade Pact With European Bloc This Week",
+   "summary": "Hanoi also says that a reciprocal trade deal with the United States is nearing completion and should be signed soon.",
+   "image": "http://www.bing.com/th?id=ONUT.HyqZ3BtWSIXD1tsM5OfGeA&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T05:25:00+00:00",
+   "breaking": false,
+   "url": "https://thediplomat.com/2026/10/vietnam-set-to-sign-free-trade-pact-with-european-bloc-this-week/",
+   "refs": [
+    [
+     "The Diplomat",
+     "https://thediplomat.com/2026/10/vietnam-set-to-sign-free-trade-pact-with-european-bloc-this-week/"
+    ]
+   ]
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "flag": "🇻🇳",
+   "c": [
+    "hsl(308,55%,26%)",
+    "hsl(343,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
    "title": "AI, young readers reshape Vietnam's literary landscape",
    "summary": "Vietnam's publishing industry is undergoing a transformation as young readers embrace digital technology and aspiring authors find audiences online.",
    "image": "http://www.bing.com/th?id=ONUT.7fg5Rcm8VLXxCnA9ECmsLg&pid=News",
@@ -3567,31 +3567,6 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "EU seeks closer Vietnam ties on critical minerals in China hedge, documents show",
-   "summary": "The European Union is seeking to secure more critical minerals from Vietnam to reduce its reliance on China amid ​concerns that existing supplies may be at risk, according to internal EU documents ...",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20EU%20seeks%20closer%20Vietnam%20ties%20on%20critical%20minerals%20in%20China%20hedge%2C%20documents%20show%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-13T23:21:00+00:00",
-   "breaking": false,
-   "url": "https://www.reuters.com/world/china/eu-seeks-closer-vietnam-ties-critical-minerals-china-hedge-documents-show-2026-10-14/",
-   "refs": [
-    [
-     "Reuters",
-     "https://www.reuters.com/world/china/eu-seeks-closer-vietnam-ties-critical-minerals-china-hedge-documents-show-2026-10-14/"
-    ]
-   ]
-  },
-  {
-   "country": "Vietnam",
-   "code": "VN",
-   "flag": "🇻🇳",
-   "c": [
-    "hsl(308,55%,26%)",
-    "hsl(343,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
    "title": "Vietnam buries remains of 731 war dead nearly 6 decades after the Tet Offensive",
    "summary": "Thousands carrying white flowers lined the roads in Vietnam’s Ho Chi Minh City Wednesday as the remains of 731 people believed to have been killed during the 1968 Tet Offensive were taken for burial ...",
    "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Vietnam%20buries%20remains%20of%20731%20war%20dead%20nearly%206%20decades%20after%20the%20Tet%20Offensive%2C%20no%20text?width=800&height=450&nologo=true",
@@ -3604,6 +3579,81 @@
     [
      "Associated Press News on MSN",
      "https://www.msn.com/en-us/news/other/vietnam-buries-remains-of-731-war-dead-nearly-6-decades-after-the-tet-offensive/ar-AA2eccLO"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "flag": "🇦🇺",
+   "c": [
+    "hsl(150,55%,26%)",
+    "hsl(185,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Melbourne's Royal Children's Hospital handed $66m funding boost",
+   "summary": "Premier Ben Carroll's funding announcement comes after hospital staff claimed new hospital beds would be empty because there were not enough workers to support them.",
+   "image": "https://live-production.wcms.abc-cdn.net.au/118acbf2f28580d5e35ad9ac0f617a77?impolicy=wcms_watermark_news&cropH=2811&cropW=4997&xPos=1&yPos=0&width=862&height=485&imformat=generic",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T22:30:40+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-16/vic-royal-childrens-hospital-funding/107273706",
+   "refs": [
+    [
+     "abc.net.au",
+     "https://www.abc.net.au/news/2026-10-16/vic-royal-childrens-hospital-funding/107273706"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "flag": "🇦🇺",
+   "c": [
+    "hsl(150,55%,26%)",
+    "hsl(185,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Complex surgery successfully separates Fijian conjoined twins",
+   "summary": "In what was described as an \"exceptionally rare\" case, doctors in Saudi Arabia say a complex operation to separate 13-month-old Fijian conjoined twins has been successful.",
+   "image": "https://live-production.wcms.abc-cdn.net.au/da091aef1aa8adcf8c35a77b18a9795d?impolicy=wcms_watermark_news&cropH=590&cropW=1048&xPos=0&yPos=380&width=862&height=485&imformat=generic",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T22:28:16+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-16/surgery-separates-fijian-conjoined-twins-in-saudi-arabia/107271702",
+   "refs": [
+    [
+     "abc.net.au",
+     "https://www.abc.net.au/news/2026-10-16/surgery-separates-fijian-conjoined-twins-in-saudi-arabia/107271702"
+    ]
+   ]
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "flag": "🇦🇺",
+   "c": [
+    "hsl(150,55%,26%)",
+    "hsl(185,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Town's only unleaded service station cuts fuel supply over rising costs",
+   "summary": "The owner of the only unleaded fuel pumps in a regional Victorian town has left the town dry for almost a month, saying its fuel business is no longer lucrative.",
+   "image": "https://live-production.wcms.abc-cdn.net.au/817d3ab13f2b3387dd98e4a37a08ad66?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T22:11:19+00:00",
+   "breaking": true,
+   "url": "https://www.abc.net.au/news/2026-10-16/fuel-supply-stopped-birchip-unleaded-diesel-shortage/107268688",
+   "refs": [
+    [
+     "abc.net.au",
+     "https://www.abc.net.au/news/2026-10-16/fuel-supply-stopped-birchip-unleaded-diesel-shortage/107268688"
     ]
    ]
   },
@@ -3654,81 +3704,6 @@
     [
      "abc.net.au",
      "https://www.abc.net.au/news/2026-10-16/tasmania-s-jewels-mark-wnbl-debut-with-win-over-geelong/107273604"
-    ]
-   ]
-  },
-  {
-   "country": "Australia",
-   "code": "AU",
-   "flag": "🇦🇺",
-   "c": [
-    "hsl(150,55%,26%)",
-    "hsl(185,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Reassembling John Travolta's jet down to nuts and 5,400 bolts stage",
-   "summary": "The old luxury jet movie star John Travolta donated to a NSW aviation museum is being painstakingly reassembled on site.",
-   "image": "https://live-production.wcms.abc-cdn.net.au/7347feb4bf694b4d32b0fa8840a1d296?impolicy=wcms_watermark_news&cropH=675&cropW=1200&xPos=0&yPos=125&width=862&height=485&imformat=generic",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T21:43:23+00:00",
-   "breaking": true,
-   "url": "https://www.abc.net.au/news/2026-10-16/specialist-team-to-reassemble-travolta-plane/107265340",
-   "refs": [
-    [
-     "abc.net.au",
-     "https://www.abc.net.au/news/2026-10-16/specialist-team-to-reassemble-travolta-plane/107265340"
-    ]
-   ]
-  },
-  {
-   "country": "Australia",
-   "code": "AU",
-   "flag": "🇦🇺",
-   "c": [
-    "hsl(150,55%,26%)",
-    "hsl(185,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Five killed in Houthi strike on presidential palace in Aden",
-   "summary": "Yemen's Houthis fire missiles at the presidential palace complex in the southern city of Aden killing five people, the government says.",
-   "image": "https://live-production.wcms.abc-cdn.net.au/58d783b9e7ad6ea061968a3a593ed0f6?impolicy=wcms_watermark_news&cropH=655&cropW=1164&xPos=0&yPos=378&width=862&height=485&imformat=generic",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T21:24:37+00:00",
-   "breaking": true,
-   "url": "https://www.abc.net.au/news/2026-10-16/houthis-attack-aden-killing-five-and-wounding-16/107268204",
-   "refs": [
-    [
-     "abc.net.au",
-     "https://www.abc.net.au/news/2026-10-16/houthis-attack-aden-killing-five-and-wounding-16/107268204"
-    ]
-   ]
-  },
-  {
-   "country": "Australia",
-   "code": "AU",
-   "flag": "🇦🇺",
-   "c": [
-    "hsl(150,55%,26%)",
-    "hsl(185,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Police investigating death of 5-year-old boy at home in Grafton",
-   "summary": "A post-mortem will be conducted on a five-year-old boy to try to establish how he died inside his Grafton home on Monday.",
-   "image": "https://live-production.wcms.abc-cdn.net.au/99694aece6c9164d841ac880d707d25f?impolicy=wcms_watermark_news&cropH=2592&cropW=4608&xPos=0&yPos=269&width=862&height=485&imformat=generic",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T21:03:45+00:00",
-   "breaking": true,
-   "url": "https://www.abc.net.au/news/2026-10-16/grafton-child-death-investigation/107273586",
-   "refs": [
-    [
-     "abc.net.au",
-     "https://www.abc.net.au/news/2026-10-16/grafton-child-death-investigation/107273586"
     ]
    ]
   },
@@ -3792,43 +3767,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "New Zealand Data Center Networking Market Size and Share - Growth Analysis and Forecast, 2026-2035 | Cloud and Data Sovereignty Drive 8.1% CAGR to USD 265 Million",
-   "summary": "Cloud adoption, Auckland hyperscaler expansion, high-speed infrastructure and data sovereignty drive investment, while innovation, efficiency and partnerships unlock ROI.Dublin, Oct. (GLOBE NEWSWIRE) ...",
-   "image": "https://s.yimg.com/lo/mysterio/api/6ccf2a799eb1d99d0000afc621159db1d5ebad31c9c282d29fdde3757f8458fd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F93d5b27580f67db722dd7c112e43e8bc.jpg",
+   "title": "Australia edges New Zealand 24-22 in Rugby League World Cup opener as Bostock scores 3 tries",
+   "summary": "Jack Bostock has scored three tries on debut as defending champion Australia edged New Zealand 24-22 to open the Rugby League World Cup with a momentum-swinging encounter befitting of a final.",
+   "image": "http://www.bing.com/th?id=ONUT.1qRTMGJ4jYEnf0yUtpiOCg&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T08:10:00+00:00",
+   "published": "2026-10-15T05:00:00+00:00",
    "breaking": false,
-   "url": "https://finance.yahoo.com/technology/articles/zealand-data-center-networking-market-150900571.html",
+   "url": "https://apnews.com/article/rugby-league-world-cup-kangaroos-kiwis-f0d3bc4c274abc5970113b4127883761",
    "refs": [
     [
-     "Yahoo Finance",
-     "https://finance.yahoo.com/technology/articles/zealand-data-center-networking-market-150900571.html"
-    ]
-   ]
-  },
-  {
-   "country": "New Zealand",
-   "code": "NZ",
-   "flag": "🇳🇿",
-   "c": [
-    "hsl(96,55%,26%)",
-    "hsl(131,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Australia edge New Zealand in epic World Cup opener",
-   "summary": "Jack Bostock scores a hat-trick of tries as Australia fight back to win the opening game of the Rugby League World Cup against New Zealand.",
-   "image": "http://www.bing.com/th?id=ONUT.m12EM2bJWjQ35qKtWdI-OQ&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T05:32:00+00:00",
-   "breaking": false,
-   "url": "https://www.bbc.com/sport/rugby-league/articles/crn8w411gj1yo",
-   "refs": [
-    [
-     "BBC",
-     "https://www.bbc.com/sport/rugby-league/articles/crn8w411gj1yo"
+     "Associated Press News",
+     "https://apnews.com/article/rugby-league-world-cup-kangaroos-kiwis-f0d3bc4c274abc5970113b4127883761"
     ]
    ]
   },
@@ -3858,6 +3808,56 @@
    ]
   },
   {
+   "country": "New Zealand",
+   "code": "NZ",
+   "flag": "🇳🇿",
+   "c": [
+    "hsl(96,55%,26%)",
+    "hsl(131,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Men's Rugby League World Cup: Australia score late to beat New Zealand in thriller",
+   "summary": "Follow live radio and text commentary, score updates and match stats as Australia take on New Zealand in the Rugby League World Cup in Sydney.",
+   "image": "http://www.bing.com/th?id=ONUT.9A0KjpXPPKQ8j4LOh2ClMA&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T01:26:00+00:00",
+   "breaking": false,
+   "url": "https://www.bbc.com/sport/rugby-league/live/cked7jq2py3yt",
+   "refs": [
+    [
+     "BBC",
+     "https://www.bbc.com/sport/rugby-league/live/cked7jq2py3yt"
+    ]
+   ]
+  },
+  {
+   "country": "United Kingdom",
+   "code": "GB",
+   "flag": "🇬🇧",
+   "c": [
+    "hsl(29,55%,26%)",
+    "hsl(64,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Farmer says hosting 4G mast is a 'nightmare' as fees cost him thousands",
+   "summary": "Alan Watson says farmers are being \"bullied\" into terms between telecoms operators and landowners.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73ea/live/02d9f840-c244-11f1-b2a8-994b2a5598cb.jpg",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T22:00:12+00:00",
+   "breaking": true,
+   "url": "https://www.bbc.co.uk/news/articles/c9dr8d83p8eeo?at_medium=RSS&at_campaign=rss",
+   "refs": [
+    [
+     "bbc.co.uk",
+     "https://www.bbc.co.uk/news/articles/c9dr8d83p8eeo?at_medium=RSS&at_campaign=rss"
+    ]
+   ]
+  },
+  {
    "country": "United Kingdom",
    "code": "GB",
    "flag": "🇬🇧",
@@ -3879,6 +3879,31 @@
     [
      "bbc.co.uk",
      "https://www.bbc.co.uk/news/articles/cq8jzgl7zz9po?at_medium=RSS&at_campaign=rss"
+    ]
+   ]
+  },
+  {
+   "country": "United Kingdom",
+   "code": "GB",
+   "flag": "🇬🇧",
+   "c": [
+    "hsl(29,55%,26%)",
+    "hsl(64,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Lockerbie accused's alleged confession can be used in trial, US judge rules",
+   "summary": "Defence lawyers claim Abu Agila Mas'ud Kheir Al-Marimi was forced by three masked men to make the confession while in custody in Libya.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c09/live/8b4bafc0-93f1-11f0-8750-ed240c52ff67.jpg",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T20:35:21+00:00",
+   "breaking": true,
+   "url": "https://www.bbc.co.uk/news/articles/cx1l3d128vrjo?at_medium=RSS&at_campaign=rss",
+   "refs": [
+    [
+     "bbc.co.uk",
+     "https://www.bbc.co.uk/news/articles/cx1l3d128vrjo?at_medium=RSS&at_campaign=rss"
     ]
    ]
   },
@@ -3933,52 +3958,102 @@
    ]
   },
   {
-   "country": "United Kingdom",
-   "code": "GB",
-   "flag": "🇬🇧",
+   "country": "Ireland",
+   "code": "IE",
+   "flag": "🇮🇪",
    "c": [
-    "hsl(29,55%,26%)",
-    "hsl(64,60%,45%)"
+    "hsl(214,55%,26%)",
+    "hsl(249,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Bullets hit microwave and wall in shooting targeting young child, court hears",
-   "summary": "A woman and her son were asleep when two bullets were fired into their home in Pyle.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79f2/live/d29515c0-c8ce-11f1-95b2-9f12d414946d.png",
+   "title": "Anti-Semitism in Ireland is ‘disaster waiting to happen’",
+   "summary": "Anti-Semitism in Ireland is a “disaster waiting to happen”, the head of the Anti-Defamation League (ADL) has warned.",
+   "image": "http://www.bing.com/th?id=ONUT.U9Ziq5x0CAyl_RO2gyHKGQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T19:44:41+00:00",
-   "breaking": true,
-   "url": "https://www.bbc.co.uk/news/articles/cqwy7jkxn293o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-10-14T11:24:00+00:00",
+   "breaking": false,
+   "url": "https://www.yahoo.com/news/world/articles/anti-semitism-ireland-disaster-waiting-182405264.html",
    "refs": [
     [
-     "bbc.co.uk",
-     "https://www.bbc.co.uk/news/articles/cqwy7jkxn293o?at_medium=RSS&at_campaign=rss"
+     "Yahoo",
+     "https://www.yahoo.com/news/world/articles/anti-semitism-ireland-disaster-waiting-182405264.html"
     ]
    ]
   },
   {
-   "country": "United Kingdom",
-   "code": "GB",
-   "flag": "🇬🇧",
+   "country": "Ireland",
+   "code": "IE",
+   "flag": "🇮🇪",
    "c": [
-    "hsl(29,55%,26%)",
-    "hsl(64,60%,45%)"
+    "hsl(214,55%,26%)",
+    "hsl(249,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Mother of Henry Nowak killer could be deported",
-   "summary": "Kiran Kaur was found guilty of assisting an offender and was jailed for three years in July.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f63d/live/8fe0dc80-5aa8-11f1-b277-cd187c78657d.jpg",
+   "title": "Compliance shredding laws in the U.S. vs. Ireland: A comprehensive analysis",
+   "summary": "In an era where data breaches make headlines with alarming regularity and regulatory fines reach unprecedented heights, the secure destruction of sensitive documents has evolved from a routine ...",
+   "image": "http://www.bing.com/th?id=ONUT._frMNyq-9W5xC2vRmz67hg&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T19:43:07+00:00",
-   "breaking": true,
-   "url": "https://www.bbc.co.uk/news/articles/cqze4l9l2eywo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-10-14T10:42:00+00:00",
+   "breaking": false,
+   "url": "https://augustafreepress.com/commercial/compliance-shredding-laws-in-the-u-s-vs-ireland-a-comprehensive-analysis/",
    "refs": [
     [
-     "bbc.co.uk",
-     "https://www.bbc.co.uk/news/articles/cqze4l9l2eywo?at_medium=RSS&at_campaign=rss"
+     "Augusta Free Press",
+     "https://augustafreepress.com/commercial/compliance-shredding-laws-in-the-u-s-vs-ireland-a-comprehensive-analysis/"
+    ]
+   ]
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "flag": "🇮🇪",
+   "c": [
+    "hsl(214,55%,26%)",
+    "hsl(249,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Alstom awarded €95 million signalling contracts to equip Ireland's national rail fleet with ETCS",
+   "summary": "Agreement builds on Alstom's successful delivery of Ireland's first ETCS-fitted train and initial trackside deployment Major milestone in the digital transformation of Ireland's railway network ...",
+   "image": "http://www.bing.com/th?id=ONUT.v52Gm6May1LKyXnziCIvsQ&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-14T00:45:00+00:00",
+   "breaking": false,
+   "url": "https://www.alstom.com/press-releases-news/2026/10/alstom-awarded-eur95-million-signalling-contracts-equip-irelands-national-rail-fleet-etcs",
+   "refs": [
+    [
+     "Alstom",
+     "https://www.alstom.com/press-releases-news/2026/10/alstom-awarded-eur95-million-signalling-contracts-equip-irelands-national-rail-fleet-etcs"
+    ]
+   ]
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "flag": "🇫🇷",
+   "c": [
+    "hsl(224,55%,26%)",
+    "hsl(259,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "France, Germany near deal on car emissions, Britain 'Made in EU' status",
+   "summary": "BRUSSELS, Oct 15 (Reuters) - France and Germany are nearing a deal on cars that would water down EU-wide CO2 emission targets for 2035 and open the door for Britain to be treated as a trusted partner ...",
+   "image": "http://www.bing.com/th?id=ONUT.qjZuD_3a-K4iRnvKbIcuEA&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T13:50:50+00:00",
+   "breaking": false,
+   "url": "https://www.msn.com/en-us/money/general/france-germany-near-deal-on-car-emissions-britain-made-in-eu-status/ar-AA2ek1zD",
+   "refs": [
+    [
+     "Reuters on MSN",
+     "https://www.msn.com/en-us/money/general/france-germany-near-deal-on-car-emissions-britain-made-in-eu-status/ar-AA2ek1zD"
     ]
    ]
   },
@@ -4083,27 +4158,27 @@
    ]
   },
   {
-   "country": "France",
-   "code": "FR",
-   "flag": "🇫🇷",
+   "country": "Germany",
+   "code": "DE",
+   "flag": "🇩🇪",
    "c": [
-    "hsl(224,55%,26%)",
-    "hsl(259,60%,45%)"
+    "hsl(29,55%,26%)",
+    "hsl(64,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Watch: Chaos erupts in France as student protesters clash with police",
-   "summary": "A new wave of student protests erupted across France on Tuesday over what activists describe as poor school conditions, including overcrowded classrooms and teacher shortages. See the footage from the ...",
-   "image": "http://www.bing.com/th?id=ONUT.wn0jvm8nc5xavMW6NmgElg&pid=News",
+   "title": "Germany Funds 35 Togo Communes With US$8.8M",
+   "summary": "Germany backs 35 Togo communes with about US$8.8 million for schools, clinics and markets, under agreements signed in Lomé on 13 October.",
+   "image": "http://www.bing.com/th?id=ONUT.nz5CVYwKAXL2LKOG2RJ0UQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-14T18:48:33+00:00",
+   "published": "2026-10-15T14:15:00+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/watch-chaos-erupts-in-france-as-student-protesters-clash-with-police/vi-AA2eg0uM",
+   "url": "https://www.riotimesonline.com/germany-funds-35-togo-communes-us-8-8-million-2026/",
    "refs": [
     [
-     "CBS News on MSN",
-     "https://www.msn.com/en-us/news/other/watch-chaos-erupts-in-france-as-student-protesters-clash-with-police/vi-AA2eg0uM"
+     "The Rio Times",
+     "https://www.riotimesonline.com/germany-funds-35-togo-communes-us-8-8-million-2026/"
     ]
    ]
   },
@@ -4117,143 +4192,93 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Germany's LEAV Aviation wet leases additional A320-200",
-   "summary": "Germany's LEAV Aviation wet leases additional A320-200 ch-aviation",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Germany%27s%20LEAV%20Aviation%20wet%20leases%20additional%20A320-200%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-15T21:46:09+00:00",
-   "breaking": true,
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTDFKRW5BaU04SEdMRUtDbmVqa0daSndWWHdkWGRnc3lmVC04ejVyS29DTDcwUVhSWWEyZU1TazBIZ3ltaFVicjNnRE0zc2c5MDk3MWFIVlgwMWVWOWRTdzNPRXNnQ1A2bDdtU1lXU3RZUVM1NklNdjRTNlNZTC1GcGpiX3ZqSkcxbXFMeEdYYnVlYkRCTWYxWQ?oc=5",
-   "refs": [
-    [
-     "ch-aviation",
-     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTDFKRW5BaU04SEdMRUtDbmVqa0daSndWWHdkWGRnc3lmVC04ejVyS29DTDcwUVhSWWEyZU1TazBIZ3ltaFVicjNnRE0zc2c5MDk3MWFIVlgwMWVWOWRTdzNPRXNnQ1A2bDdtU1lXU3RZUVM1NklNdjRTNlNZTC1GcGpiX3ZqSkcxbXFMeEdYYnVlYkRCTWYxWQ?oc=5"
-    ]
-   ]
-  },
-  {
-   "country": "Germany",
-   "code": "DE",
-   "flag": "🇩🇪",
-   "c": [
-    "hsl(29,55%,26%)",
-    "hsl(64,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "France and Germany fail to agree package on cars and Made in Europe — Politico Europe",
-   "summary": "France and Germany fail to agree package on cars and Made in Europe — Politico Europe UA.NEWS",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20France%20and%20Germany%20fail%20to%20agree%20package%20on%20cars%20and%20Made%20in%20Europe%20%E2%80%94%20Politico%20Europe%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-15T21:45:58+00:00",
-   "breaking": true,
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWdITkdrMTJ3RllCRGJ5bEI3RU5iSVh1RjdTWTFNLXdPRlpoZ1EtV0ltb1N5VFZjTDY4QkVYUW5YT2lLZTJwRHV2cDlkOV9ubmZtUmdKZzJZU3NXWmNVRVVUaThUdnB0MW9jMGtVR29tSjFFdDIta053MlpXaEg1Vy1qM0gwNjJRWkFqbHR2bW9wakJqRklFUjdGZ29DVFBuZW9aSGx5b0VnOVJ1NWxXcmd3?oc=5",
-   "refs": [
-    [
-     "UA.NEWS",
-     "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWdITkdrMTJ3RllCRGJ5bEI3RU5iSVh1RjdTWTFNLXdPRlpoZ1EtV0ltb1N5VFZjTDY4QkVYUW5YT2lLZTJwRHV2cDlkOV9ubmZtUmdKZzJZU3NXWmNVRVVUaThUdnB0MW9jMGtVR29tSjFFdDIta053MlpXaEg1Vy1qM0gwNjJRWkFqbHR2bW9wakJqRklFUjdGZ29DVFBuZW9aSGx5b0VnOVJ1NWxXcmd3?oc=5"
-    ]
-   ]
-  },
-  {
-   "country": "Germany",
-   "code": "DE",
-   "flag": "🇩🇪",
-   "c": [
-    "hsl(29,55%,26%)",
-    "hsl(64,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Germany to Spend €650 Million on Two Patriot Batteries to Replace Those Donated to Ukraine, With Possible Twist in Their Origin",
-   "summary": "Germany to Spend €650 Million on Two Patriot Batteries to Replace Those Donated to Ukraine, With Possible Twist in Their Origin Defense Express",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Germany%20to%20Spend%20%E2%82%AC650%20Million%20on%20Two%20Patriot%20Batteries%20to%20Replace%20Those%20Donated%20to%20Ukraine%2C%20With%20Possible%20Twist%20in%20Their%20Origin%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-15T21:44:17+00:00",
-   "breaking": true,
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV1g0bjl0Y2gtUzdUSzl2SGhnZ1pTcHdzYi1lWTl0V2lTSzVJcWlRN0s1WXVMWUJ4a1FlWTlJcDlmN2dnY0NxVHdJU3RTazdzVTRlRnYtZTRGUEdpNDhGb1ZMMW5hV3hIdVN5WUhFYmY5V2VpTW1OWUw4ZG9MVGZEeHlIalo3Sm1LdVNGNVFfZURVTUNOMG5HeTlGTFhISUJmMjZ1Y1ByVWp3YWFHdHMyUm1BT0tTTnNYNWRYcFQwQTFaNERrVDJNei14TklISjdCUi14dTdYYWRKZ1FZSkRQbEV4N01qeWVORnhwd2JTc1ZQSnJpWnRGY2I1TQ?oc=5",
-   "refs": [
-    [
-     "Defense Express",
-     "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV1g0bjl0Y2gtUzdUSzl2SGhnZ1pTcHdzYi1lWTl0V2lTSzVJcWlRN0s1WXVMWUJ4a1FlWTlJcDlmN2dnY0NxVHdJU3RTazdzVTRlRnYtZTRGUEdpNDhGb1ZMMW5hV3hIdVN5WUhFYmY5V2VpTW1OWUw4ZG9MVGZEeHlIalo3Sm1LdVNGNVFfZURVTUNOMG5HeTlGTFhISUJmMjZ1Y1ByVWp3YWFHdHMyUm1BT0tTTnNYNWRYcFQwQTFaNERrVDJNei14TklISjdCUi14dTdYYWRKZ1FZSkRQbEV4N01qeWVORnhwd2JTc1ZQSnJpWnRGY2I1TQ?oc=5"
-    ]
-   ]
-  },
-  {
-   "country": "Germany",
-   "code": "DE",
-   "flag": "🇩🇪",
-   "c": [
-    "hsl(29,55%,26%)",
-    "hsl(64,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Late discord delays Franco-German deal on Made in Europe, car emissions",
-   "summary": "Late discord delays Franco-German deal on Made in Europe, car emissions POLITICO.eu",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Late%20discord%20delays%20Franco-German%20deal%20on%20Made%20in%20Europe%2C%20car%20emissions%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-15T21:43:40+00:00",
-   "breaking": true,
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU0hYUjNQQVNuY1pyc2JJSmtFZGU3MWpoUlk1TnRheUNJdmU3a2h6OEpSemRCeDZYaVg1bFZJUGNCVFZLc0hURWtyNHVhSTZDcWJ2alhuME81NExubk1NeWJQTjF0eWdLVzNGaTlfZmJRZGVsU0ZPV0E4UUU1ejJyS1djcTB3aENXVzdsY1YyN3o?oc=5",
-   "refs": [
-    [
-     "POLITICO.eu",
-     "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU0hYUjNQQVNuY1pyc2JJSmtFZGU3MWpoUlk1TnRheUNJdmU3a2h6OEpSemRCeDZYaVg1bFZJUGNCVFZLc0hURWtyNHVhSTZDcWJ2alhuME81NExubk1NeWJQTjF0eWdLVzNGaTlfZmJRZGVsU0ZPV0E4UUU1ejJyS1djcTB3aENXVzdsY1YyN3o?oc=5"
-    ]
-   ]
-  },
-  {
-   "country": "Germany",
-   "code": "DE",
-   "flag": "🇩🇪",
-   "c": [
-    "hsl(29,55%,26%)",
-    "hsl(64,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "France, Germany plan to ease EU’s 2035 CO2 target, include UK in ‘Made in Europe’ rules",
-   "summary": "France, Germany plan to ease EU’s 2035 CO2 target, include UK in ‘Made in Europe’ rules Automotive News",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20France%2C%20Germany%20plan%20to%20ease%20EU%E2%80%99s%202035%20CO2%20target%2C%20include%20UK%20in%20%E2%80%98Made%20in%20Europe%E2%80%99%20rules%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-15T21:11:00+00:00",
-   "breaking": true,
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR2hfUUxIQVY4SHZnMXdJNkozczhxa2t3eHVGdHZTc0x0aEd1RFlaeFRfWUZuWXhvYXpWTVdfYmRkVWRrMnZlQWg1TEJQMEstbmlvU1dFekt3WHBjWmJpOVpEbF9VTW1tdEdKWlh0MXc4dTNuR1J0MTNCMWY2WG0yTnhkM2lOaGt1UExTV3cxTVFxM0l4OTdUal95aw?oc=5",
-   "refs": [
-    [
-     "Automotive News",
-     "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR2hfUUxIQVY4SHZnMXdJNkozczhxa2t3eHVGdHZTc0x0aEd1RFlaeFRfWUZuWXhvYXpWTVdfYmRkVWRrMnZlQWg1TEJQMEstbmlvU1dFekt3WHBjWmJpOVpEbF9VTW1tdEdKWlh0MXc4dTNuR1J0MTNCMWY2WG0yTnhkM2lOaGt1UExTV3cxTVFxM0l4OTdUal95aw?oc=5"
-    ]
-   ]
-  },
-  {
-   "country": "Italy",
-   "code": "IT",
-   "flag": "🇮🇹",
-   "c": [
-    "hsl(49,55%,26%)",
-    "hsl(84,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "After holding 'The Italian Job,' reporter welcomes Italy's pull",
-   "summary": "NPR's Mary Louise Kelly talks with Jason Horowitz about his memoir, The Italian Job, and his years spent learning the ropes in Rome and reporting on Italy's biggest stories.",
-   "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+   "title": "Germany Wants to Expand Europe’s Trade War With China",
+   "summary": "Berlin wants Brussels to curb Chinese imports across chemicals, machinery and pharmaceuticals, marking a sharp reversal for a country long wary of antagonizing Beijing.",
+   "image": "https://s.yimg.com/lo/mysterio/api/21beada674e01fbcec688123f3c9d289c5f3742366f852849e117dd751766642/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoby_896%2Ffd5d654fd5d05627372014070508d2f1.jpg",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:56:00+00:00",
+   "published": "2026-10-15T11:37:00+00:00",
    "breaking": false,
-   "url": "https://www.npr.org/2026/10/15/nx-s1-5845077/after-holding-the-italian-job-reporter-welcomes-italys-pull",
+   "url": "https://finance.yahoo.com/economy/policy/articles/germany-wants-expand-europe-trade-183707456.html",
    "refs": [
     [
-     "NPR",
-     "https://www.npr.org/2026/10/15/nx-s1-5845077/after-holding-the-italian-job-reporter-welcomes-italys-pull"
+     "Yahoo Finance",
+     "https://finance.yahoo.com/economy/policy/articles/germany-wants-expand-europe-trade-183707456.html"
+    ]
+   ]
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "flag": "🇩🇪",
+   "c": [
+    "hsl(29,55%,26%)",
+    "hsl(64,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Germany plans AI cooperation deal with Nvidia, Handelsblatt says",
+   "summary": "BERLIN, Oct 15 (Reuters) - Germany plans a wide-ranging cooperation agreement with US chip maker Nvidia to boost the take-up of artificial intelligence in German industry, business daily Handelsblatt ...",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Germany%20plans%20AI%20cooperation%20deal%20with%20Nvidia%2C%20Handelsblatt%20says%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
+   "topic": "News",
+   "published": "2026-10-15T09:29:05+00:00",
+   "breaking": false,
+   "url": "https://www.msn.com/en-us/news/other/germany-plans-ai-cooperation-deal-with-nvidia-handelsblatt-says/ar-AA2ejDoh",
+   "refs": [
+    [
+     "Reuters on MSN",
+     "https://www.msn.com/en-us/news/other/germany-plans-ai-cooperation-deal-with-nvidia-handelsblatt-says/ar-AA2ejDoh"
+    ]
+   ]
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "flag": "🇩🇪",
+   "c": [
+    "hsl(29,55%,26%)",
+    "hsl(64,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Germany Automotive Semiconductor Memory Market Size, Share, Trends, and Forecast to 2032 | ADAS and Digital Cockpit Growth Fuels High-Performance Memory Demand",
+   "summary": "Identify Germany's automotive memory demand, key trends, growth drivers, risks, opportunities, competitive positioning, and market entry strategies across applications and vehicle types.Dublin, Oct.",
+   "image": "https://s.yimg.com/lo/mysterio/api/6ccf2a799eb1d99d0000afc621159db1d5ebad31c9c282d29fdde3757f8458fd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F93d5b27580f67db722dd7c112e43e8bc.jpg",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T05:30:00+00:00",
+   "breaking": false,
+   "url": "https://finance.yahoo.com/technology/articles/germany-automotive-semiconductor-memory-market-152600796.html",
+   "refs": [
+    [
+     "Yahoo Finance",
+     "https://finance.yahoo.com/technology/articles/germany-automotive-semiconductor-memory-market-152600796.html"
+    ]
+   ]
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "flag": "🇩🇪",
+   "c": [
+    "hsl(29,55%,26%)",
+    "hsl(64,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+   "summary": "Four years after the attacks, Serhii K will appear in court accused of a plot to destroy Russia's gas pipelines to Germany.",
+   "image": "http://www.bing.com/th?id=ORMS.bfe13e1da6a5976e8604f85bd0fa9717&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-13T16:42:22+00:00",
+   "breaking": false,
+   "url": "https://www.msn.com/en-us/news/other/germany-puts-ukrainian-on-trial-accused-of-blowing-up-nord-stream-pipelines/ar-AA2eb4FG",
+   "refs": [
+    [
+     "BBC on MSN",
+     "https://www.msn.com/en-us/news/other/germany-puts-ukrainian-on-trial-accused-of-blowing-up-nord-stream-pipelines/ar-AA2eb4FG"
     ]
    ]
   },
@@ -4358,6 +4383,56 @@
    ]
   },
   {
+   "country": "Italy",
+   "code": "IT",
+   "flag": "🇮🇹",
+   "c": [
+    "hsl(49,55%,26%)",
+    "hsl(84,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "This Might Just Become Italy’s Next Cult Pastry",
+   "summary": "Taste pistachio four ways and the soul of Sicily in Gianluca Colucci’s picture-perfect treat.",
+   "image": "http://www.bing.com/th?id=ONUT.7rg8b8Ch9KFFd9x5-iUzrQ&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T05:29:00+00:00",
+   "breaking": false,
+   "url": "https://www.msn.com/en-us/food-and-drink/world-cuisines/this-might-just-become-italy-s-next-cult-pastry/ar-AA2eiomv",
+   "refs": [
+    [
+     "Food & Wine on MSN",
+     "https://www.msn.com/en-us/food-and-drink/world-cuisines/this-might-just-become-italy-s-next-cult-pastry/ar-AA2eiomv"
+    ]
+   ]
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "flag": "🇪🇸",
+   "c": [
+    "hsl(224,55%,26%)",
+    "hsl(259,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Netflix will stream every FIFA World Cup 2030 game live from Spain",
+   "summary": "Netflix just secured the right to exclusively stream all 104 matches of the game, which will take place in Spain and Andorra in 2030. The FIFA World Cup 2030 will be the 100th anniversary of the ...",
+   "image": "https://s.yimg.com/lo/mysterio/api/d28084cb525ea5792ae92ca002259c8469af47ff7bc59fd7fc7d462492d141bb/lightyear_networkapi/resizefill_w750_h422%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftime_out_us_492%2F020d89b7fec15060d6fd0f8c4e6ff322.jpg",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T11:08:00+00:00",
+   "breaking": false,
+   "url": "https://sports.yahoo.com/articles/netflix-stream-every-fifa-world-180818198.html",
+   "refs": [
+    [
+     "Yahoo Sports",
+     "https://sports.yahoo.com/articles/netflix-stream-every-fifa-world-180818198.html"
+    ]
+   ]
+  },
+  {
    "country": "Spain",
    "code": "ES",
    "flag": "🇪🇸",
@@ -4379,6 +4454,31 @@
     [
      "Reuters on MSN",
      "https://www.msn.com/en-us/news/other/spains-electoral-board-opens-proceedings-against-pm-sanchez/ar-AA2ejolu"
+    ]
+   ]
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "flag": "🇪🇸",
+   "c": [
+    "hsl(224,55%,26%)",
+    "hsl(259,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "David Ferrer set for one last hurrah as Spain's Davis Cup captain as plans to vacate his current role emerge",
+   "summary": "Spain head to the Davis Cup Finals as one of the teams to beat. Headed by their captain, David Ferrer, he has a strong number of players to pick from ahead of the event in Bologna.",
+   "image": "http://www.bing.com/th?id=ONUT._xxECNbBh9cmogiLw6Xq2g&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T09:05:00+00:00",
+   "breaking": false,
+   "url": "https://www.yardbarker.com/tennis/articles/david_ferrer_set_for_one_last_hurrah_as_spains_davis_cup_captain_as_plans_to_vacate_his_current_role_emerge/s1_17460_44431632",
+   "refs": [
+    [
+     "Yardbarker",
+     "https://www.yardbarker.com/tennis/articles/david_ferrer_set_for_one_last_hurrah_as_spains_davis_cup_captain_as_plans_to_vacate_his_current_role_emerge/s1_17460_44431632"
     ]
    ]
   },
@@ -4417,68 +4517,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "USWNT showed they have depth against Spain. Suddenly, Emma Hayes’ core group is under pressure",
-   "summary": "The impact of her substitutes has left the U.S. head coach to ponder some challenging questions before a crucial World Cup qualifier ...",
-   "image": "http://www.bing.com/th?id=ONUT.QYj3q0-hWo9EoIiTyljshw&pid=News",
+   "title": "Spain bids for Rugby World Cup with Nou Camp final",
+   "summary": "Barcelona's Nou Camp, Madrid's Bernabeu and the Mestalla in Valencia are all on a list of possible venues as Spain bids to host the Rugby World Cup in 2035.",
+   "image": "http://www.bing.com/th?id=ONUT.Xovee6HeVU9B3xDtqPD4yQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-14T04:00:00+00:00",
+   "published": "2026-10-15T03:01:05+00:00",
    "breaking": false,
-   "url": "https://www.nytimes.com/athletic/7688943/2026/10/14/uswnt-spain-emma-hayes-substitutes/",
+   "url": "https://www.msn.com/en-us/news/other/spain-bids-for-rugby-world-cup-with-nou-camp-final/ar-AA2ei2Db",
    "refs": [
     [
-     "The New York Times",
-     "https://www.nytimes.com/athletic/7688943/2026/10/14/uswnt-spain-emma-hayes-substitutes/"
-    ]
-   ]
-  },
-  {
-   "country": "Spain",
-   "code": "ES",
-   "flag": "🇪🇸",
-   "c": [
-    "hsl(224,55%,26%)",
-    "hsl(259,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Spain's final 12-month EU-harmonised inflation at 5% in September",
-   "summary": "Oct 14 (Reuters) - Spain's European Union-harmonised 12-month inflation rate rose to 5.0% in September, up from 4.6% in the period through August, final data released by the National Statistics ...",
-   "image": "http://www.bing.com/th?id=ONUT.T-y7YzmQ5Flad1da5Kxz7A&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-14T00:01:36+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/spains-final-12-month-eu-harmonised-inflation-at-5-in-september/ar-AA2ecAeu",
-   "refs": [
-    [
-     "Reuters on MSN",
-     "https://www.msn.com/en-us/news/other/spains-final-12-month-eu-harmonised-inflation-at-5-in-september/ar-AA2ecAeu"
-    ]
-   ]
-  },
-  {
-   "country": "Spain",
-   "code": "ES",
-   "flag": "🇪🇸",
-   "c": [
-    "hsl(224,55%,26%)",
-    "hsl(259,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Mallory Swanson secures thrilling late draw for USWNT vs Spain: Highlights, recap",
-   "summary": "The U.S. women's national team faces Spain in a friendly in Chester, Pennsylvania, on Tuesday, Oct. 13. Follow all the action live right here!",
-   "image": "http://www.bing.com/th?id=ONUT.-BXJxjb_sug8JMUoSalwzw&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-13T19:05:00+00:00",
-   "breaking": false,
-   "url": "https://www.usatoday.com/story/sports/soccer/uswnt/2026/10/13/uswnt-spain-updates-lineups-score-where-to-watch--live/92237276007/",
-   "refs": [
-    [
-     "USA TODAY",
-     "https://www.usatoday.com/story/sports/soccer/uswnt/2026/10/13/uswnt-spain-updates-lineups-score-where-to-watch--live/92237276007/"
+     "BBC on MSN",
+     "https://www.msn.com/en-us/news/other/spain-bids-for-rugby-world-cup-with-nou-camp-final/ar-AA2ei2Db"
     ]
    ]
   },
@@ -4529,6 +4579,31 @@
     [
      "UAE Moments on MSN",
      "https://www.msn.com/en-ae/news/other/netherlands-names-squad-for-icc-cricket-world-cup-league-2/ar-AA2eiQSS"
+    ]
+   ]
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "flag": "🇨🇭",
+   "c": [
+    "hsl(103,55%,26%)",
+    "hsl(138,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Switzerland's top court upholds Credit Suisse bonus cuts",
+   "summary": "ZURICH, Oct 15 (Reuters) - Switzerland's highest court on Thursday said it had upheld cuts and cancellations of bonuses for the top three management levels of Credit Suisse following the Swiss bank's ...",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Switzerland%27s%20top%20court%20upholds%20Credit%20Suisse%20bonus%20cuts%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
+   "topic": "News",
+   "published": "2026-10-15T06:36:00+00:00",
+   "breaking": false,
+   "url": "https://www.msn.com/en-gb/news/other/switzerlands-top-court-upholds-credit-suisse-bonus-cuts/ar-AA2ejuA8",
+   "refs": [
+    [
+     "Reuters on MSN",
+     "https://www.msn.com/en-gb/news/other/switzerlands-top-court-upholds-credit-suisse-bonus-cuts/ar-AA2ejuA8"
     ]
    ]
   },
@@ -4599,11 +4674,36 @@
    "topic": "News",
    "published": "2026-10-15T14:07:49+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-in/news/other/haryana-cm-s-sweden-visit-nayab-saini-holds-meeting-with-swedish-minister/ar-AA2ejUDZ",
+   "url": "https://www.msn.com/en-in/news/other/haryana-cms-sweden-visit-nayab-saini-holds-meeting-with-swedish-minister/ar-AA2ejUDZ",
    "refs": [
     [
      "Press Trust of India on MSN",
-     "https://www.msn.com/en-in/news/other/haryana-cm-s-sweden-visit-nayab-saini-holds-meeting-with-swedish-minister/ar-AA2ejUDZ"
+     "https://www.msn.com/en-in/news/other/haryana-cms-sweden-visit-nayab-saini-holds-meeting-with-swedish-minister/ar-AA2ejUDZ"
+    ]
+   ]
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "flag": "🇵🇱",
+   "c": [
+    "hsl(12,55%,26%)",
+    "hsl(47,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Sweden signs new agreement to lease HMS Södermanland submarine to Poland until new A26-class arrives.",
+   "summary": "On October 12, 2026, Sweden’s Defence Materiel Administration (FMV) and the Swedish Armed Forces signed a formal agreement to prepare and lease the HMS Södermanland submarine to Poland from October ...",
+   "image": "http://www.bing.com/th?id=ONUT.DKmhLIAhFgYYZMU_6_h_FQ&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-14T17:00:00+00:00",
+   "breaking": false,
+   "url": "https://www.armyrecognition.com/news/navy-news/2026/sweden-signs-new-agreement-to-lease-hms-soedermanland-submarine-to-poland-until-new-a26-class-arrives",
+   "refs": [
+    [
+     "Army Recognition",
+     "https://www.armyrecognition.com/news/navy-news/2026/sweden-signs-new-agreement-to-lease-hms-soedermanland-submarine-to-poland-until-new-a26-class-arrives"
     ]
    ]
   },
@@ -4658,31 +4758,6 @@
    ]
   },
   {
-   "country": "Poland",
-   "code": "PL",
-   "flag": "🇵🇱",
-   "c": [
-    "hsl(12,55%,26%)",
-    "hsl(47,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Sweden signs new agreement to lease HMS Södermanland submarine to Poland until new A26-class arrives.",
-   "summary": "On October 12, 2026, Sweden’s Defence Materiel Administration (FMV) and the Swedish Armed Forces signed a formal agreement to prepare and lease the HMS Södermanland submarine to Poland from October ...",
-   "image": "http://www.bing.com/th?id=ONUT.DKmhLIAhFgYYZMU_6_h_FQ&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-14T17:00:00+00:00",
-   "breaking": false,
-   "url": "https://www.armyrecognition.com/news/navy-news/2026/sweden-signs-new-agreement-to-lease-hms-soedermanland-submarine-to-poland-until-new-a26-class-arrives",
-   "refs": [
-    [
-     "Army Recognition",
-     "https://www.armyrecognition.com/news/navy-news/2026/sweden-signs-new-agreement-to-lease-hms-soedermanland-submarine-to-poland-until-new-a26-class-arrives"
-    ]
-   ]
-  },
-  {
    "country": "Sweden",
    "code": "SE",
    "flag": "🇸🇪",
@@ -4692,43 +4767,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Sweden receives first GlobalEye under accelerated delivery timeline",
-   "summary": "Sweden has received the first of three currently contracted Saab S 106 GlobalEye airborne early warning and control (AEW&C) aircraft.",
-   "image": "http://www.bing.com/th?id=ONUT.3mvWyX__Ytaos7PF4XuLjQ&pid=News",
+   "title": "How Sweden's J 21 fighter helped make ejection seats practical",
+   "summary": "During the Second World War, Sweden’s Saab J 21 took shape as an unusual pusher-propeller fighter, with twin tail booms and its guns concentrated in the nose. The propeller and tailplane made escape ...",
+   "image": "http://www.bing.com/th?id=ONUT.EtlOT8igvZyBt7hgOA22EQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-14T17:00:00+00:00",
+   "published": "2026-10-15T06:59:17+00:00",
    "breaking": false,
-   "url": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/sweden-receives-first-globaleye-under-accelerated-delivery-timeline",
+   "url": "https://www.msn.com/en-ca/news/other/how-swedens-j-21-fighter-helped-make-ejection-seats-practical/vi-AA2ej7V0",
    "refs": [
     [
-     "Janes",
-     "https://www.janes.com/defence-intelligence-insights/defence-news/defence/sweden-receives-first-globaleye-under-accelerated-delivery-timeline"
-    ]
-   ]
-  },
-  {
-   "country": "Norway",
-   "code": "NO",
-   "flag": "🇳🇴",
-   "c": [
-    "hsl(49,55%,26%)",
-    "hsl(84,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Norway may open €2 trillion wealth fund to nuclear weapons makers",
-   "summary": "Norway's sovereign wealth fund, the world's largest with assets of more than €2 trillion, may once again be allowed to invest in firms that make nuclear weapons under a proposal published on Thursday.",
-   "image": "http://www.bing.com/th?id=ONUT.YzMrdjGAaE8w9NVzGbdlhg&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T06:25:00+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-my/news/other/norway-may-open-2-trillion-wealth-fund-to-nuclear-weapons-makers/ar-AA2eiXYK",
-   "refs": [
-    [
-     "Euronews (English) on MSN",
-     "https://www.msn.com/en-my/news/other/norway-may-open-2-trillion-wealth-fund-to-nuclear-weapons-makers/ar-AA2eiXYK"
+     "Aviation Republic on MSN",
+     "https://www.msn.com/en-ca/news/other/how-swedens-j-21-fighter-helped-make-ejection-seats-practical/vi-AA2ej7V0"
     ]
    ]
   },
@@ -4792,18 +4842,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Norway's sovereign wealth fund should invest in major defence groups, commission concludes",
-   "summary": "By Gwladys Fouche OSLO, Oct 15 (Reuters) - Norway should allow its $2.3 trillion wealth fund to invest in major Western defence groups that are currently banned from its portfolio due to their ...",
+   "title": "Norway's wealth fund set to overhaul ethical rules after US scrutiny",
+   "summary": "By Gwladys Fouche OSLO, Oct 15 (Reuters) - Norway is expected to overhaul the ethical rules for its $2.3 trillion wealth fund in response to the findings of a state-appointed commission due on ...",
    "image": "http://www.bing.com/th?id=ONUT.bAhydLVy1aV12rKKQbhOxw&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T00:52:02+00:00",
+   "published": "2026-10-14T18:21:21+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/norways-sovereign-wealth-fund-should-invest-in-major-defence-groups-commission-concludes/ar-AA2ehkKm",
+   "url": "https://www.msn.com/en-us/news/other/norways-wealth-fund-set-to-overhaul-ethical-rules-after-us-scrutiny/ar-AA2efxYT",
    "refs": [
     [
      "Reuters on MSN",
-     "https://www.msn.com/en-us/news/other/norways-sovereign-wealth-fund-should-invest-in-major-defence-groups-commission-concludes/ar-AA2ehkKm"
+     "https://www.msn.com/en-us/news/other/norways-wealth-fund-set-to-overhaul-ethical-rules-after-us-scrutiny/ar-AA2efxYT"
     ]
    ]
   },
@@ -4817,18 +4867,43 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Norway Starts Domestic Production of Leopard 2A8 Tanks to Strengthen NATO Armored Forces.",
-   "summary": "Norway has launched domestic production of Leopard 2A8 NOR main battle tanks at a new manufacturing facility in Levanger, strengthening the Norwegian Army’s armored combat capabilities and expanding ...",
-   "image": "http://www.bing.com/th?id=ONUT.KugocGKgMaMuGEjtzuQdeg&pid=News",
+   "title": "UEFA Champions League: BVB aim to build on home win in Norway",
+   "summary": "The situationBVB opened their Champions League campaign with a 3-2 home win over Villarreal. Following an own goal by the visitors, Serhou Guirassy scored both of Dortmund’s goals to set BVB on the ...",
+   "image": "https://s.yimg.com/lo/mysterio/api/a8436849ec3eb90d27f72eaf39c55b031f5aabe7235a101e7287587a90d99ce2/lightyear_networkapi/resizefill_w1024_h576%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fborussia_dortmund_articles_399%2Fe50057a2e179d88f005aabb312cccbb2.jpg",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-14T17:00:00+00:00",
+   "published": "2026-10-14T13:00:00+00:00",
    "breaking": false,
-   "url": "https://www.armyrecognition.com/news/army-news/2026/norway-starts-domestic-production-of-leopard-2a8-tanks-to-strengthen-nato-armored-forces",
+   "url": "https://sports.yahoo.com/articles/uefa-champions-league-bvb-aim-000000696.html",
    "refs": [
     [
-     "Army Recognition",
-     "https://www.armyrecognition.com/news/army-news/2026/norway-starts-domestic-production-of-leopard-2a8-tanks-to-strengthen-nato-armored-forces"
+     "Yahoo Sports",
+     "https://sports.yahoo.com/articles/uefa-champions-league-bvb-aim-000000696.html"
+    ]
+   ]
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "flag": "🇳🇴",
+   "c": [
+    "hsl(49,55%,26%)",
+    "hsl(84,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Norway police arrest five in bribery probe over supplying services to NATO ships",
+   "summary": "BRUSSELS, Oct 14 (Reuters) - The Norwegian police arrested five people as part of an investigation over possible bribery involving a company supplying services to NATO military vessels, the European ...",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Norway%20police%20arrest%20five%20in%20bribery%20probe%20over%20supplying%20services%20to%20NATO%20ships%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
+   "topic": "News",
+   "published": "2026-10-14T05:49:00+00:00",
+   "breaking": false,
+   "url": "https://www.msn.com/en-us/news/other/norway-police-arrest-five-in-bribery-probe-over-supplying-services-to-nato-ships/ar-AA2eeIxZ",
+   "refs": [
+    [
+     "Reuters on MSN",
+     "https://www.msn.com/en-us/news/other/norway-police-arrest-five-in-bribery-probe-over-supplying-services-to-nato-ships/ar-AA2eeIxZ"
     ]
    ]
   },
@@ -4942,18 +5017,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Germany warns against bringing Russia back into G20 fold",
-   "summary": "By Maria Martinez and David Milliken BANGKOK, Oct 15 (Reuters) - Germany warned on Thursday against efforts to bring Russia back on to the international stage, while Britain called for tighter ...",
-   "image": "http://www.bing.com/th?id=ONUT.NKzIcQhRDz19jEQJXDFA-Q&pid=News",
+   "title": "Russia targets Ukraine with 'massive' attack, including hundreds of drones",
+   "summary": "Moscow has chosen to \"deliberately\" escalate it's attacks, Kyiv said.",
+   "image": "http://www.bing.com/th?id=ONUT.yQZ1Jpbsy6gP7mAPkGsDaw&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T06:15:31+00:00",
+   "published": "2026-10-15T02:19:49+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/germany-warns-against-bringing-russia-back-into-g20-fold/ar-AA2ej5gP",
+   "url": "https://www.msn.com/en-us/news/other/russia-targets-ukraine-with-massive-attack-including-hundreds-of-drones/ar-AA2ehFO6",
    "refs": [
     [
-     "Reuters on MSN",
-     "https://www.msn.com/en-us/news/other/germany-warns-against-bringing-russia-back-into-g20-fold/ar-AA2ej5gP"
+     "ABC News on MSN",
+     "https://www.msn.com/en-us/news/other/russia-targets-ukraine-with-massive-attack-including-hundreds-of-drones/ar-AA2ehFO6"
     ]
    ]
   },
@@ -4967,18 +5042,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "What Is Starshield, SpaceX's Military Version of Starlink, and Why Is It So Important to Ukraine?",
-   "summary": "Ukrainian forces said its battlefield efforts were temporarily hampered after losing some access to SpaceX’s military-grade satellite Internet service. Experts tell TIME why Starshield is so uniquely ...",
-   "image": "http://www.bing.com/th?id=ONUT.GqssegqNVa5gvGbSq3tjOA&pid=News",
+   "title": "Senators Demand Investigation Into Ukraine Satellite Disruption",
+   "summary": "Republicans joined Democrats in calling on the Pentagon’s inspector general to look into whether the Trump administration was responsible for the interruption.",
+   "image": "http://www.bing.com/th?id=ONUT.R4BulO4PWzsbIV3rGRaiOA&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T13:44:00+00:00",
+   "published": "2026-10-15T15:01:00+00:00",
    "breaking": false,
-   "url": "https://time.com/article/2026/10/15/what-is-starshield-spacex-military-version-starlink-restrictions-ukraine-battlefield/",
+   "url": "https://www.nytimes.com/2026/10/15/us/politics/ukraine-satellite-intelligence-investigation-senate.html",
    "refs": [
     [
-     "TIME",
-     "https://time.com/article/2026/10/15/what-is-starshield-spacex-military-version-starlink-restrictions-ukraine-battlefield/"
+     "The New York Times",
+     "https://www.nytimes.com/2026/10/15/us/politics/ukraine-satellite-intelligence-investigation-senate.html"
     ]
    ]
   },
@@ -4992,18 +5067,43 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Zelensky says Ukraine will resume strikes on Russian refineries as frustration with Trump mounts",
-   "summary": "Ukraine will resume strikes on Russia’s oil refineries President Volodymyr Zelensky has said, also criticizing what he called a “dangerous” withdrawal of US intelligence sharing and restrictions to ...",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Zelensky%20says%20Ukraine%20will%20resume%20strikes%20on%20Russian%20refineries%20as%20frustration%20with%20Trump%20mounts%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
+   "title": "What to know about Starshield and why its disruption rattled Ukraine’s forces",
+   "summary": "SpaceX’s military-grade version of the Starlink satellite internet service and the backbone of Ukraine's drone operations and communication — alarmed the country's military and government officials ...",
+   "image": "http://www.bing.com/th?id=ONUT.brqBaCpHk6rZ0vfZ-A1Pdw&pid=News",
+   "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T11:15:54+00:00",
+   "published": "2026-10-15T13:37:50+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/zelensky-says-ukraine-will-resume-strikes-on-russian-refineries-as-frustration-with-trump-mounts/ar-AA2efqTt",
+   "url": "https://www.msn.com/en-us/news/other/what-to-know-about-starshield-and-why-its-disruption-rattled-ukraine-s-forces/ar-AA2ekFAU",
    "refs": [
     [
-     "CNN on MSN",
-     "https://www.msn.com/en-us/news/other/zelensky-says-ukraine-will-resume-strikes-on-russian-refineries-as-frustration-with-trump-mounts/ar-AA2efqTt"
+     "Associated Press News on MSN",
+     "https://www.msn.com/en-us/news/other/what-to-know-about-starshield-and-why-its-disruption-rattled-ukraine-s-forces/ar-AA2ekFAU"
+    ]
+   ]
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "flag": "🇺🇦",
+   "c": [
+    "hsl(150,55%,26%)",
+    "hsl(185,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
+   "summary": "Ukraine says there has been a restriction to the speed of SpaceX's Starlink internet network in the country. Starlink - owned by Elon Musk - plays a vital part in the war between Ukraine and Russia, ...",
+   "image": "http://www.bing.com/th?id=ONUT.yK-rYe5jparVcligKS-QTA&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T10:31:00+00:00",
+   "breaking": false,
+   "url": "https://www.bbc.com/news/videos/cqr7yzpxm083o",
+   "refs": [
+    [
+     "BBC",
+     "https://www.bbc.com/news/videos/cqr7yzpxm083o"
     ]
    ]
   },
@@ -5058,31 +5158,6 @@
    ]
   },
   {
-   "country": "Ukraine",
-   "code": "UA",
-   "flag": "🇺🇦",
-   "c": [
-    "hsl(150,55%,26%)",
-    "hsl(185,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Exclusive: Ukraine runs out of Patriot interceptor missiles as Zelensky and Trump clash over war",
-   "summary": "Ukraine has run out of missiles for the US-made Patriot air defense system, leaving it more vulnerable to Russian ballistic missile attacks, a source familiar with the situation told CNN on Thursday.",
-   "image": "http://www.bing.com/th?id=ONUT.uZnAyvsxMMM8t7gC1AfjPQ&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T09:50:09+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/exclusive-ukraine-runs-out-of-patriot-interceptor-missiles-as-zelensky-and-trump-clash-over-war/ar-AA2ejkRZ",
-   "refs": [
-    [
-     "CNN on MSN",
-     "https://www.msn.com/en-us/news/other/exclusive-ukraine-runs-out-of-patriot-interceptor-missiles-as-zelensky-and-trump-clash-over-war/ar-AA2ejkRZ"
-    ]
-   ]
-  },
-  {
    "country": "Poland",
    "code": "PL",
    "flag": "🇵🇱",
@@ -5104,6 +5179,31 @@
     [
      "Yahoo",
      "https://www.yahoo.com/news/world/articles/zelenskyy-says-poland-provided-ukraine-181600770.html"
+    ]
+   ]
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "flag": "🇵🇱",
+   "c": [
+    "hsl(12,55%,26%)",
+    "hsl(47,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Sweden signs new agreement to lease HMS Södermanland submarine to Poland until new A26-class arrives.",
+   "summary": "On October 12, 2026, Sweden’s Defence Materiel Administration (FMV) and the Swedish Armed Forces signed a formal agreement to prepare and lease the HMS Södermanland submarine to Poland from October ...",
+   "image": "http://www.bing.com/th?id=ONUT.DKmhLIAhFgYYZMU_6_h_FQ&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-14T17:00:00+00:00",
+   "breaking": false,
+   "url": "https://www.armyrecognition.com/news/navy-news/2026/sweden-signs-new-agreement-to-lease-hms-soedermanland-submarine-to-poland-until-new-a26-class-arrives",
+   "refs": [
+    [
+     "Army Recognition",
+     "https://www.armyrecognition.com/news/navy-news/2026/sweden-signs-new-agreement-to-lease-hms-soedermanland-submarine-to-poland-until-new-a26-class-arrives"
     ]
    ]
   },
@@ -5179,31 +5279,6 @@
     [
      "World Nuclear News",
      "https://www.world-nuclear-news.org/articles/joint-venture-formed-for-six-unit-smr-plant-in-poland"
-    ]
-   ]
-  },
-  {
-   "country": "Poland",
-   "code": "PL",
-   "flag": "🇵🇱",
-   "c": [
-    "hsl(12,55%,26%)",
-    "hsl(47,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Poland’s ascent from communist state to top 20 economy reverses the brain drain",
-   "summary": "In the final part of our series on the country, Poles tell how wages have soared – along with the cost of living ...",
-   "image": "http://www.bing.com/th?id=ONUT.u-ewY5tdGAZTDYchymWZTg&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-14T22:00:00+00:00",
-   "breaking": false,
-   "url": "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub",
-   "refs": [
-    [
-     "The Guardian",
-     "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub"
     ]
    ]
   },
@@ -5342,18 +5417,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Israel ex-intel chief files libel suit against Netanyahu",
-   "summary": "A former head of Israel's intelligence service has filed a defamation suit against Prime Minister Benjamin Netanyahu. The lawsuit says Netanyahu spread libel against him to shift responsibility for ...",
-   "image": "http://www.bing.com/th?id=ONUT.8KhtI00zQaA7JjqXmEiSSg&pid=News",
+   "title": "Israel halts commercial goods from entering Gaza; Hamas denies tax claims",
+   "summary": "The halt to commercial shipments, including fruit and winter clothing, cuts off a key source of critical supplies.",
+   "image": "http://www.bing.com/th?id=ONUT.BnCzC6TRokxDUXAhoF3P7Q&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:59:00+00:00",
+   "published": "2026-10-15T14:57:58+00:00",
    "breaking": false,
-   "url": "https://www3.nhk.or.jp/nhkworld/news/20261016de60176/",
+   "url": "https://www.msn.com/en-us/news/world/israel-halts-commercial-goods-from-entering-gaza-hamas-denies-tax-claims/ar-AA2ekV87",
    "refs": [
     [
-     "NHK",
-     "https://www3.nhk.or.jp/nhkworld/news/20261016de60176/"
+     "Al Jazeera on MSN",
+     "https://www.msn.com/en-us/news/world/israel-halts-commercial-goods-from-entering-gaza-hamas-denies-tax-claims/ar-AA2ekV87"
     ]
    ]
   },
@@ -5917,6 +5992,31 @@
    ],
    "emoji": "📰",
    "lang": "en",
+   "title": "Watheefti 2026 career fair opens in Kuwait",
+   "summary": "People visit the Watheefti career fair in Hawalli Governorate, Kuwait, Oct. 15, 2026. The Watheefti 2026 career fair opened in Kuwait's Hawalli Governorate on Thursday, bringing together more than 120 ...",
+   "image": "http://www.bing.com/th?id=ONUT.mZ9m4YFtCC4I4D0WOJRmPA&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T14:10:00+00:00",
+   "breaking": false,
+   "url": "https://english.news.cn/20261015/af11a47e87424c0da33a08b34615221c/c.html",
+   "refs": [
+    [
+     "Xinhua",
+     "https://english.news.cn/20261015/af11a47e87424c0da33a08b34615221c/c.html"
+    ]
+   ]
+  },
+  {
+   "country": "Kuwait",
+   "code": "KW",
+   "flag": "🇰🇼",
+   "c": [
+    "hsl(234,55%,26%)",
+    "hsl(269,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
    "title": "Kuwait Introduces New Salary Payment System for All Private Companies",
    "summary": "Kuwait's Central Bank (CBK) has launched a new Wage Payment System to monitor salary payments to Kuwaiti and foreign workers in the private sector. The ...",
    "image": "http://www.bing.com/th?id=ONUT.YPN0xPrtM6sRpffPYstkGw&pid=News",
@@ -6008,31 +6108,6 @@
    ]
   },
   {
-   "country": "Kuwait",
-   "code": "KW",
-   "flag": "🇰🇼",
-   "c": [
-    "hsl(234,55%,26%)",
-    "hsl(269,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Kuwait announces 10-hour water disruption in four areasPublished on: October 15, 2026 12:21 AM",
-   "summary": "Pakistan, Oct. 15 -- Kuwait will experience a 10-hour disruption to its water supply in four residential areas starting Thursday night, October 15. The Ministry of Electricity, Water and Renewable ...",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Kuwait%20announces%2010-hour%20water%20disruption%20in%20four%20areasPublished%20on%3A%20October%2015%2C%202026%2012%3A21%20AM%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-14T17:51:00+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-xl/asia/pakistan/kuwait-announces-10-hour-water-disruption-in-four-areaspublished-on-october-15-2026-1221-am/ar-AA2efyBG",
-   "refs": [
-    [
-     "Daily Times on MSN",
-     "https://www.msn.com/en-xl/asia/pakistan/kuwait-announces-10-hour-water-disruption-in-four-areaspublished-on-october-15-2026-1221-am/ar-AA2efyBG"
-    ]
-   ]
-  },
-  {
    "country": "Iran",
    "code": "IR",
    "flag": "🇮🇷",
@@ -6092,31 +6167,6 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Israel's ambassador to the UN issues stark warning to Iran, Hezbollah during election period",
-   "summary": "Israeli envoy Danny Danon warns Iran, Hezbollah of devastating response if they exploit election period ...",
-   "image": "http://www.bing.com/th?id=ONUT.iFwkikkztPrr-j25Ab8nAw&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T12:21:00+00:00",
-   "breaking": false,
-   "url": "https://www.foxnews.com/video/6406922896112",
-   "refs": [
-    [
-     "Fox News",
-     "https://www.foxnews.com/video/6406922896112"
-    ]
-   ]
-  },
-  {
-   "country": "Iran",
-   "code": "IR",
-   "flag": "🇮🇷",
-   "c": [
-    "hsl(335,55%,26%)",
-    "hsl(10,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
    "title": "Joe Rogan thinks Trump supporters feel betrayed by Iran war",
    "summary": "During a recent episode of \"The Joe Rogan Experience,\" the podcaster said he thinks some Trump supporters may feel betrayed by the Iran war.",
    "image": "http://www.bing.com/th?id=ONUT.s5CYdJKfWVL2cOlCbjXY7g&pid=News",
@@ -6158,6 +6208,31 @@
    ]
   },
   {
+   "country": "Iran",
+   "code": "IR",
+   "flag": "🇮🇷",
+   "c": [
+    "hsl(335,55%,26%)",
+    "hsl(10,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Iran prepping for combat to resume 'at any moment'",
+   "summary": "Fox News chief foreign correspondent Trey Yingst reports on Iran preparing for the possibility of renewed combat with the U.S. as Houthi attacks on Saudi Arabia escalate regional tensions.",
+   "image": "http://www.bing.com/th?id=ONUT.gQw8SBRy8lD3WngE2VEGbw&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T07:23:00+00:00",
+   "breaking": false,
+   "url": "https://www.foxnews.com/video/6406911782112",
+   "refs": [
+    [
+     "Fox News",
+     "https://www.foxnews.com/video/6406911782112"
+    ]
+   ]
+  },
+  {
    "country": "Iraq",
    "code": "IQ",
    "flag": "🇮🇶",
@@ -6167,18 +6242,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Iraq parliament fills Cabinet posts, naming a US-sanctioned deputy prime minister",
-   "summary": "Iraq’s parliament has appointed ministers to vacant Cabinet posts, including a deputy prime minister under U.S. sanctions ...",
-   "image": "http://www.bing.com/th?id=ONUT.mWc7PxgbT1A6jJUG85MNgA&pid=News",
+   "title": "ISIS Appears to Regroup in Iraq After US Departure",
+   "summary": "The U.S.-designated terrorist group is stepping up movements on the outskirts of Baghdad, exploiting rural routes and gaps in security surveillance, Iraqi security sources say.",
+   "image": "https://i0.wp.com/alhurra.com/wp-content/uploads/2026/10/2026-09-30T091210Z_461258206_RC2LTNAH3IMM_RTRMADP_3_IRAQ-USA-COALITION.jpg?fit=1200%2C800&ssl=1",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T13:36:00+00:00",
+   "published": "2026-10-15T15:18:00+00:00",
    "breaking": false,
-   "url": "https://www.washingtonpost.com/world/2026/10/15/iraq-deputy-prime-minister-sanctions-laith-khazali/fdfdd748-c8d7-11f1-aefb-abe4112d087e_story.html",
+   "url": "https://alhurra.com/en/46703",
    "refs": [
     [
-     "The Washington Post",
-     "https://www.washingtonpost.com/world/2026/10/15/iraq-deputy-prime-minister-sanctions-laith-khazali/fdfdd748-c8d7-11f1-aefb-abe4112d087e_story.html"
+     "Alhurra",
+     "https://alhurra.com/en/46703"
     ]
    ]
   },
@@ -6217,6 +6292,56 @@
    ],
    "emoji": "📰",
    "lang": "en",
+   "title": "Iraq parliament fills Cabinet posts, naming a US-sanctioned deputy prime minister",
+   "summary": "Iraq's parliament has appointed ministers to vacant Cabinet posts, including a deputy prime minister under U.S. sanctions.",
+   "image": "https://cdn.newsday.com/ace/c:YTVmMmIzOTctNjJkZC00:ZGQ3MmMwYWYtODU5ZS00/landscape/1280",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T09:35:00+00:00",
+   "breaking": false,
+   "url": "https://www.newsday.com/news/nation/iraq-deputy-prime-minister-sanctions-laith-khazali-b94745",
+   "refs": [
+    [
+     "Newsday",
+     "https://www.newsday.com/news/nation/iraq-deputy-prime-minister-sanctions-laith-khazali-b94745"
+    ]
+   ]
+  },
+  {
+   "country": "Iraq",
+   "code": "IQ",
+   "flag": "🇮🇶",
+   "c": [
+    "hsl(298,55%,26%)",
+    "hsl(333,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Iraq devalues dinar to ease cash crunch, leaving traders in limbo",
+   "summary": "The government hopes a weaker dinar will help pay salaries, but traders face rising import costs and uncertainty.",
+   "image": "http://www.bing.com/th?id=ONUT._y-rtHY9kVlVQ5l_78juuA&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T01:44:58+00:00",
+   "breaking": false,
+   "url": "https://www.msn.com/en-us/news/world/iraq-devalues-dinar-to-ease-cash-crunch-leaving-traders-in-limbo/ar-AA2ehRHv",
+   "refs": [
+    [
+     "Al Jazeera on MSN",
+     "https://www.msn.com/en-us/news/world/iraq-devalues-dinar-to-ease-cash-crunch-leaving-traders-in-limbo/ar-AA2ehRHv"
+    ]
+   ]
+  },
+  {
+   "country": "Iraq",
+   "code": "IQ",
+   "flag": "🇮🇶",
+   "c": [
+    "hsl(298,55%,26%)",
+    "hsl(333,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
    "title": "Iraq Has Been Here Before",
    "summary": "The completion of that withdrawal on Dec. 31 of the same year provided a third occasion for official Iraqi celebrations of sovereignty. The government called it “Iraq Day,” and Maliki, addressing a ...",
    "image": "https://i0.wp.com/alhurra.com/wp-content/uploads/2026/10/AFP__20261003__D26L8T4__v1__HighRes__IraqNationalDay.jpg?fit=1200%2C800&ssl=1",
@@ -6233,52 +6358,27 @@
    ]
   },
   {
-   "country": "Iraq",
-   "code": "IQ",
-   "flag": "🇮🇶",
+   "country": "Egypt",
+   "code": "EG",
+   "flag": "🇪🇬",
    "c": [
-    "hsl(298,55%,26%)",
-    "hsl(333,60%,45%)"
+    "hsl(140,55%,26%)",
+    "hsl(175,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Iraq PM tells Saudi Crown Prince Iraqi territory won’t be used for attacks",
-   "summary": "Saudi Arabia’s East-West oil pipeline was struck by drones last month in an attack that originated in Iraq.",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Iraq%20PM%20tells%20Saudi%20Crown%20Prince%20Iraqi%20territory%20won%E2%80%99t%20be%20used%20for%20attacks%2C%20no%20text?width=800&height=450&nologo=true",
+   "title": "Egyptian Embassy Marks October War Anniversary, Honors Moroccan Martyrs",
+   "summary": "Egyptian Embassy Marks October War Anniversary, Honors Moroccan Martyrs Morocco World News",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Egyptian%20Embassy%20Marks%20October%20War%20Anniversary%2C%20Honors%20Moroccan%20Martyrs%2C%20no%20text?width=800&height=450&nologo=true",
    "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-14T05:50:51+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/news/world/iraq-pm-tells-saudi-crown-prince-iraqi-territory-won-t-be-used-for-attacks/ar-AA2ee5HR",
+   "published": "2026-10-15T22:04:28+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQazFYcnZRSmJibDlHZkkzZ1p6c2xvclNyZUhpdXE5S0wtSlBJVzUtbm1oV0JEazltdkdmQU9wUkRBOVdUR0t0REU0OUlibFVkczBfbVgzWGNQN1pUSW1MamJSZC1GcHR5d0Riam9XcXl0QVRnZ2lFcVc0LWltY2tlakFuM2FHT09ibG9iNVRmNkU5N01DSzdiTGhQbTJncWNYWVlfNi1SUTFnbG9EZjFFdWk3aWhoWFVmUVNz?oc=5",
    "refs": [
     [
-     "Al Jazeera on MSN",
-     "https://www.msn.com/en-us/news/world/iraq-pm-tells-saudi-crown-prince-iraqi-territory-won-t-be-used-for-attacks/ar-AA2ee5HR"
-    ]
-   ]
-  },
-  {
-   "country": "Iraq",
-   "code": "IQ",
-   "flag": "🇮🇶",
-   "c": [
-    "hsl(298,55%,26%)",
-    "hsl(333,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Iran targets Kurdish opposition groups in Iraq with new round of drone attacks",
-   "summary": "Iran launched a new round of drone attacks against Iranian Kurdish opposition groups in northern Iraq, including a strike on a Democratic Party of Iranian Kurdistan camp near Koya on October 12. As ...",
-   "image": "http://www.bing.com/th?id=ONUT.n-bW-kAXUhC3zqC94cemSg&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-13T08:14:00+00:00",
-   "breaking": false,
-   "url": "https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php",
-   "refs": [
-    [
-     "FDD's Long War Journal",
-     "https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php"
+     "Morocco World News",
+     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQazFYcnZRSmJibDlHZkkzZ1p6c2xvclNyZUhpdXE5S0wtSlBJVzUtbm1oV0JEazltdkdmQU9wUkRBOVdUR0t0REU0OUlibFVkczBfbVgzWGNQN1pUSW1MamJSZC1GcHR5d0Riam9XcXl0QVRnZ2lFcVc0LWltY2tlakFuM2FHT09ibG9iNVRmNkU5N01DSzdiTGhQbTJncWNYWVlfNi1SUTFnbG9EZjFFdWk3aWhoWFVmUVNz?oc=5"
     ]
    ]
   },
@@ -6292,18 +6392,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Egypt's El Gouna Kicks Of Middle East's Fall Film Festival Season",
-   "summary": "The Middle East and North Africa's 2026 fall film festival season gets underway today with the 9th El Gouna Film Festival. Unfolding in its namesake Egyptian Red Sea resort of El Gouna, the festival ...",
-   "image": "http://www.bing.com/th?id=ONUT.HoBOdm10yERBe1Ee0CHyEA&pid=News",
-   "imageType": "photo",
+   "title": "From the Nile to the Pyramids: Four Seasons Hotel Cairo at Nile Plaza Defines Luxury Weddings in Egypt",
+   "summary": "From the Nile to the Pyramids: Four Seasons Hotel Cairo at Nile Plaza Defines Luxury Weddings in Egypt Four Seasons Press Room",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20From%20the%20Nile%20to%20the%20Pyramids%3A%20Four%20Seasons%20Hotel%20Cairo%20at%20Nile%20Plaza%20Defines%20Luxury%20Weddings%20in%20Egypt%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-15T11:13:22+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/entertainment/film-festivals/egypt-s-el-gouna-kicks-of-middle-east-s-fall-film-festival-season/ar-AA2ejOFt",
+   "published": "2026-10-15T21:33:47+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5RV0ROQmZoOHJOX3VPMVhPazhoNXJlY0YwYUZxdW5wa19nLXozQ1dSb0FCLUhxbHVoNDZReTA1ckhmeE1IOUtjWDFzVHBBNzFLYy0taFdRQ2ZCTXF0UEpFZ2c4VWQ3X1JhTkluMnNycTZMTkNrMUpn?oc=5",
    "refs": [
     [
-     "Deadline on MSN",
-     "https://www.msn.com/en-us/entertainment/film-festivals/egypt-s-el-gouna-kicks-of-middle-east-s-fall-film-festival-season/ar-AA2ejOFt"
+     "Four Seasons Press Room",
+     "https://news.google.com/rss/articles/CBMid0FVX3lxTE5RV0ROQmZoOHJOX3VPMVhPazhoNXJlY0YwYUZxdW5wa19nLXozQ1dSb0FCLUhxbHVoNDZReTA1ckhmeE1IOUtjWDFzVHBBNzFLYy0taFdRQ2ZCTXF0UEpFZ2c4VWQ3X1JhTkluMnNycTZMTkNrMUpn?oc=5"
     ]
    ]
   },
@@ -6317,18 +6417,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Farmer's discovery in Egypt leads to pieces of statues for ancient king",
-   "summary": "An Egyptian farmer was working on his land when he came across an unusual rock that turned his field into an archaeology dig.",
-   "image": "http://www.bing.com/th?id=ONUT.WVgNkatM_lka6PTAyyrYpA&pid=News",
-   "imageType": "photo",
+   "title": "Eastern Mediterranean Gas",
+   "summary": "Eastern Mediterranean Gas Middle East Institute",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Eastern%20Mediterranean%20Gas%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-15T09:51:08+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/farmers-discovery-in-egypt-leads-to-pieces-of-statues-for-ancient-king/ar-AA2ej9uw",
+   "published": "2026-10-15T21:00:29+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iQ0JVdVd5X2JXU1hINXB4RklsM1Y2VlRzYjk3SjkyMnE0UVJ3YmNOYzdlckZXUGNqZnZmOFktcmh0RG9LaEtLcm03X096S1NDUWxVLUJxdTNKOXVjUFhlQWVYU1NjQQ?oc=5",
    "refs": [
     [
-     "CBS News on MSN",
-     "https://www.msn.com/en-us/news/other/farmers-discovery-in-egypt-leads-to-pieces-of-statues-for-ancient-king/ar-AA2ej9uw"
+     "Middle East Institute",
+     "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iQ0JVdVd5X2JXU1hINXB4RklsM1Y2VlRzYjk3SjkyMnE0UVJ3YmNOYzdlckZXUGNqZnZmOFktcmh0RG9LaEtLcm03X096S1NDUWxVLUJxdTNKOXVjUFhlQWVYU1NjQQ?oc=5"
     ]
    ]
   },
@@ -6342,18 +6442,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Sisi says Egypt has no ‘territorial ambitions’ after Israel’s Smotrich threatens Sinai",
-   "summary": "The Egyptian president’s remarks follow a warning from Israeli Finance Minister Bezalel Smotrich that Israel would seize the Sinai Peninsula if Egypt attacks.",
-   "image": "http://www.bing.com/th?id=ONUT.5zSo0KWxexIgMroYhSaEGQ&pid=News",
-   "imageType": "photo",
+   "title": "Magnificent Explorers launch Egypt tours for the longest eclipse until 2114, with astrophysicist Dr Kirsten Banks",
+   "summary": "Magnificent Explorers launch Egypt tours for the longest eclipse until 2114, with astrophysicist Dr Kirsten Banks EIN News",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Magnificent%20Explorers%20launch%20Egypt%20tours%20for%20the%20longest%20eclipse%20until%202114%2C%20with%20astrophysicist%20Dr%20Kirsten%20Banks%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-15T06:28:00+00:00",
-   "breaking": false,
-   "url": "https://www.al-monitor.com/originals/2026/10/sisi-says-egypt-has-no-territorial-ambitions-after-israels-smotrich-threatens",
+   "published": "2026-10-15T21:00:00+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQekEzSGo2SWVBaDVfeFR4QjI0ZlZkZG40WFVXejUyU3B4a1hUamdqdU5Cd3o4TzhpbGRyYWVmZzIxUEtOLUlqT1NSS0RkRnpMUVZKako1eTR2RXZ4MUV5bl9CWDFkaldCSDg0XzZmdmtQVkFaN25JTmd0ckZ0MnRPaGlNb3BaMTRaczZZRzk1LXR2cXVuc1JEWThoUFJtZDNsQWE0WEJPUWJBUlp4NGlCMXhqdDBCQ29nbzduOTFaYzFXa1NsRXY0cUNrNjdUZjY1OE9mVmM1YlVwQ09KMWFZS285TkFYRi1WWVE?oc=5",
    "refs": [
     [
-     "Al-Monitor",
-     "https://www.al-monitor.com/originals/2026/10/sisi-says-egypt-has-no-territorial-ambitions-after-israels-smotrich-threatens"
+     "EIN News",
+     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQekEzSGo2SWVBaDVfeFR4QjI0ZlZkZG40WFVXejUyU3B4a1hUamdqdU5Cd3o4TzhpbGRyYWVmZzIxUEtOLUlqT1NSS0RkRnpMUVZKako1eTR2RXZ4MUV5bl9CWDFkaldCSDg0XzZmdmtQVkFaN25JTmd0ckZ0MnRPaGlNb3BaMTRaczZZRzk1LXR2cXVuc1JEWThoUFJtZDNsQWE0WEJPUWJBUlp4NGlCMXhqdDBCQ29nbzduOTFaYzFXa1NsRXY0cUNrNjdUZjY1OE9mVmM1YlVwQ09KMWFZS285TkFYRi1WWVE?oc=5"
     ]
    ]
   },
@@ -6367,68 +6467,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Egypt vs Mozambique | Highlights | Futsal AFCON",
-   "summary": "Egypt beat Mozambique 4-0 at the Futsal AFCON. The Pharaohs now have two wins, 12 goals scored and none conceded.",
-   "image": "http://www.bing.com/th?id=ONUT.vszCY5gRc1CahxZjhAxATw&pid=News",
-   "imageType": "photo",
+   "title": "Man discovers mysterious stone outside home, leading to massive 3,300-year-old Egyptian treasure",
+   "summary": "Man discovers mysterious stone outside home, leading to massive 3,300-year-old Egyptian treasure FOX Weather",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Man%20discovers%20mysterious%20stone%20outside%20home%2C%20leading%20to%20massive%203%2C300-year-old%20Egyptian%20treasure%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-14T22:51:00+00:00",
-   "breaking": false,
-   "url": "https://www.beinsports.com/en-us/soccer/africa-cup-of-nations/articles-video/how-and-where-to-watch-egypt-vs-mozambique-in-the-2026-futsal-afcon-on-bein-sports-2026-10-15",
+   "published": "2026-10-15T20:46:00+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR1FzYnZqQ0dyOTZYalZmVFptSGIzdGhPS3dYQkc0bDAwZzluUzhpblJTRXhZLXNqVVJIUk1mZmw1NjZMZVVVZ2lmYUFlUENUS1g5NnBUUmFjZGxWX1M1cXdUeXN6VW9GTmZJdFZ6Y1ZaY3k1SWVZSG9Yd0NOemdjTzBKMGVXbGVyT21UbmxB0gGTAUFVX3lxTE5VWlhqM0RyQW9COXJHVmZjbXh3TldmVWFjUU5lVlE5S2VyMzlYMkRrSjZTRmFwS3I0MEN1VDEzemlEblZobkdRVDQzS0dTblNwQ2hqOFFNZTVQY21uT1Y1SnBBdnRTRVB5ekVka0dFQWFONjZyQTExR0tfbXhRcUpWY3dkUFRBbmMwcU5DTTJNazEwWQ?oc=5",
    "refs": [
     [
-     "beIN SPORTS",
-     "https://www.beinsports.com/en-us/soccer/africa-cup-of-nations/articles-video/how-and-where-to-watch-egypt-vs-mozambique-in-the-2026-futsal-afcon-on-bein-sports-2026-10-15"
-    ]
-   ]
-  },
-  {
-   "country": "Egypt",
-   "code": "EG",
-   "flag": "🇪🇬",
-   "c": [
-    "hsl(140,55%,26%)",
-    "hsl(175,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Egypt claim second victory with convincing win over Mozambique",
-   "summary": "Egypt continued their strong start to the TotalEnergies CAF Futsal Africa Cup of Nations Morocco 2026 with a commanding 4-0 victory over Mozambique on Wednesday, recording a second consecutive win in ...",
-   "image": "http://www.bing.com/th?id=ONUT.mevor8Cet2HhqXmBBPAUIA&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-14T17:00:00+00:00",
-   "breaking": false,
-   "url": "https://www.cafonline.com/caf-futsal-africa-cup-of-nations/news/egypt-claim-second-victory-with-convincing-win-over-mozambique/",
-   "refs": [
-    [
-     "CAFOnline.com",
-     "https://www.cafonline.com/caf-futsal-africa-cup-of-nations/news/egypt-claim-second-victory-with-convincing-win-over-mozambique/"
-    ]
-   ]
-  },
-  {
-   "country": "South Africa",
-   "code": "ZA",
-   "flag": "🇿🇦",
-   "c": [
-    "hsl(335,55%,26%)",
-    "hsl(10,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "International Oil Companies Call For Regulatory Interventions To Streamline Upstream Investment In South Africa",
-   "summary": "International oil companies active in South Africa have called for government intervention to streamline regulations and address appeal-related licensing ...",
-   "image": "http://www.bing.com/th?id=ONUT.ICMAvwdgUKSDleDlmytf2Q&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T13:57:00+00:00",
-   "breaking": false,
-   "url": "https://www.eurasiareview.com/15102026-international-oil-companies-call-for-regulatory-interventions-to-streamline-upstream-investment-in-south-africa/",
-   "refs": [
-    [
-     "Eurasia Review",
-     "https://www.eurasiareview.com/15102026-international-oil-companies-call-for-regulatory-interventions-to-streamline-upstream-investment-in-south-africa/"
+     "FOX Weather",
+     "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR1FzYnZqQ0dyOTZYalZmVFptSGIzdGhPS3dYQkc0bDAwZzluUzhpblJTRXhZLXNqVVJIUk1mZmw1NjZMZVVVZ2lmYUFlUENUS1g5NnBUUmFjZGxWX1M1cXdUeXN6VW9GTmZJdFZ6Y1ZaY3k1SWVZSG9Yd0NOemdjTzBKMGVXbGVyT21UbmxB0gGTAUFVX3lxTE5VWlhqM0RyQW9COXJHVmZjbXh3TldmVWFjUU5lVlE5S2VyMzlYMkRrSjZTRmFwS3I0MEN1VDEzemlEblZobkdRVDQzS0dTblNwQ2hqOFFNZTVQY21uT1Y1SnBBdnRTRVB5ekVka0dFQWFONjZyQTExR0tfbXhRcUpWY3dkUFRBbmMwcU5DTTJNazEwWQ?oc=5"
     ]
    ]
   },
@@ -6517,43 +6567,43 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "SA drop Stubbs after Durban drubbing; call up Breetzke and eye Rabada return",
-   "summary": "The changes are likely to bring a reshuffle in South Africa's batting order for the Test, which starts on Sunday. Conrad also confirmed that Ryan Rickelton will take over as wicketkeeper.",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20SA%20drop%20Stubbs%20after%20Durban%20drubbing%3B%20call%20up%20Breetzke%20and%20eye%20Rabada%20return%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
+   "title": "Cricket-South African calls up Breetzke as batting reshuffle looms after defeat",
+   "summary": "GQEBERHA, South Africa, Oct 15 (Reuters) - South Africa have called up Matthew Breetzke and dropped Tristan Stubbs from their squad for the second test against Australia in Gqeberha, their coach ...",
+   "image": "http://www.bing.com/th?id=ONUT.LOj-bxR-3WWr9XDKUIEPOQ&pid=News",
+   "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T08:18:00+00:00",
+   "published": "2026-10-15T08:44:00+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-in/sports/cricket/sa-drop-stubbs-after-durban-drubbing-call-up-breetzke-and-eye-rabada-return/ar-AA2ehyus",
+   "url": "https://www.msn.com/en-gb/news/other/cricket-south-african-calls-up-breetzke-as-batting-reshuffle-looms-after-defeat/ar-AA2egQlJ",
    "refs": [
     [
-     "The Times of India on MSN",
-     "https://www.msn.com/en-in/sports/cricket/sa-drop-stubbs-after-durban-drubbing-call-up-breetzke-and-eye-rabada-return/ar-AA2ehyus"
+     "Reuters on MSN",
+     "https://www.msn.com/en-gb/news/other/cricket-south-african-calls-up-breetzke-as-batting-reshuffle-looms-after-defeat/ar-AA2egQlJ"
     ]
    ]
   },
   {
-   "country": "Nigeria",
-   "code": "NG",
-   "flag": "🇳🇬",
+   "country": "South Africa",
+   "code": "ZA",
+   "flag": "🇿🇦",
    "c": [
-    "hsl(113,55%,26%)",
-    "hsl(148,60%,45%)"
+    "hsl(335,55%,26%)",
+    "hsl(10,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Fani-Kayode to Keyamo: Nigeria Airways mess not Obasanjo’s making… FEC members opposed pension payments",
-   "summary": "Kayode, Nigeria’s ambassador to South Africa, has defended former President Olusegun Obasanjo over the liquidation of Nigeria Airways, saying the mess created was not his making.",
-   "image": "http://www.bing.com/th?id=ONUT.bNRxqS4JxSPiWzQWxaiGnQ&pid=News",
+   "title": "South Africa to stop subsidizing imported vehicle kits, pushing automakers to build locally",
+   "summary": "By Nqobile Dludla JOHANNESBURG, Oct 15 (Reuters) - South Africa will stop providing policy support for automakers that import near-complete vehicles for local assembly, Trade, Industry and Competition ...",
+   "image": "http://www.bing.com/th?id=ONUT.d2eWEQ-785orZSotrd05rA&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T13:07:00+00:00",
+   "published": "2026-10-15T06:01:06+00:00",
    "breaking": false,
-   "url": "https://www.thecable.ng/fani-kayode-to-keyamo-nigeria-airways-mess-not-obasanjos-making-fec-members-opposed-pension-payments/",
+   "url": "https://www.msn.com/en-us/money/general/south-africa-to-stop-subsidizing-imported-vehicle-kits-pushing-automakers-to-build-locally/ar-AA2ejhSn",
    "refs": [
     [
-     "TheCable",
-     "https://www.thecable.ng/fani-kayode-to-keyamo-nigeria-airways-mess-not-obasanjos-making-fec-members-opposed-pension-payments/"
+     "Reuters on MSN",
+     "https://www.msn.com/en-us/money/general/south-africa-to-stop-subsidizing-imported-vehicle-kits-pushing-automakers-to-build-locally/ar-AA2ejhSn"
     ]
    ]
   },
@@ -6658,77 +6708,27 @@
    ]
   },
   {
-   "country": "Kenya",
-   "code": "KE",
-   "flag": "🇰🇪",
+   "country": "Nigeria",
+   "code": "NG",
+   "flag": "🇳🇬",
    "c": [
-    "hsl(288,55%,26%)",
-    "hsl(323,60%,45%)"
+    "hsl(113,55%,26%)",
+    "hsl(148,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Kenya Announces Its Second Ebola Infection",
-   "summary": "The case is likely to raise alarms in the country and increase scrutiny of the government’s surveillance measures.",
-   "image": "http://www.bing.com/th?id=ONUT.kGiXH913Vn1UlhDA-h47GQ&pid=News",
+   "title": "IMF Warns Nigeria Off Fuel Subsidy Wednesday",
+   "summary": "The IMF warned Nigeria on 14 October against restoring its fuel subsidy and urged targeted help for poor households before the 2027 election.",
+   "image": "http://www.bing.com/th?id=ONUT.kxS6_kJszP_8WfZtYSrsEA&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T11:38:00+00:00",
+   "published": "2026-10-14T23:26:00+00:00",
    "breaking": false,
-   "url": "https://www.nytimes.com/2026/10/15/world/africa/kenya-ebola-infections.html",
-   "refs": [
-    [
-     "The New York Times",
-     "https://www.nytimes.com/2026/10/15/world/africa/kenya-ebola-infections.html"
-    ]
-   ]
-  },
-  {
-   "country": "Kenya",
-   "code": "KE",
-   "flag": "🇰🇪",
-   "c": [
-    "hsl(288,55%,26%)",
-    "hsl(323,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Bolt Launches Subscription Option in Kenya at KSh280 a Month",
-   "summary": "Bolt Plus costs KSh 280 a month, or KSh 899 a year, with 5% to 10% ride cashback, free delivery and priority pick-ups. Here is what members get.",
-   "image": "http://www.bing.com/th?id=ONUT.Krbr-O2Q-1gnwoAR6g591A&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T04:23:00+00:00",
-   "breaking": false,
-   "url": "https://kenyanwallstreet.com/bolt-plus-kenya-subscription",
-   "refs": [
-    [
-     "Kenyan Wall Street",
-     "https://kenyanwallstreet.com/bolt-plus-kenya-subscription"
-    ]
-   ]
-  },
-  {
-   "country": "Kenya",
-   "code": "KE",
-   "flag": "🇰🇪",
-   "c": [
-    "hsl(288,55%,26%)",
-    "hsl(323,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Kenya Ebola Cases Rise to 2 in One Family",
-   "summary": "Kenya confirmed a second Ebola case on 14 October, a relative of the first patient already in quarantine, and says there is no wider community spread.",
-   "image": "https://www.riotimesonline.com/wp-content/uploads/2026/08/img3.jpg",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-14T23:15:00+00:00",
-   "breaking": false,
-   "url": "https://www.riotimesonline.com/kenya-second-ebola-case-2026/",
+   "url": "https://www.riotimesonline.com/nigeria-fuel-subsidy-imf-2026/",
    "refs": [
     [
      "The Rio Times",
-     "https://www.riotimesonline.com/kenya-second-ebola-case-2026/"
+     "https://www.riotimesonline.com/nigeria-fuel-subsidy-imf-2026/"
     ]
    ]
   },
@@ -6742,18 +6742,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Kenya raises fuel prices as Middle East conflict lifts import costs",
-   "summary": "NAIROBI, Oct 15 (Reuters) - Kenya raised the maximum retail prices of petrol and diesel on Wednesday, the energy regulator said, citing higher import costs linked to the conflict in the Middle East. • ...",
-   "image": "http://www.bing.com/th?id=ONUT.3RG2XKEBMKe79t6xEyocaA&pid=News",
-   "imageType": "photo",
+   "title": "Kenyan parliamentary committee approves benefits for Ford Foundation — Nation Kenya",
+   "summary": "Kenyan parliamentary committee approves benefits for Ford Foundation — Nation Kenya UA.NEWS",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Kenyan%20parliamentary%20committee%20approves%20benefits%20for%20Ford%20Foundation%20%E2%80%94%20Nation%20Kenya%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-14T22:49:54+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/money/economy/kenya-raises-fuel-prices-as-middle-east-conflict-lifts-import-costs/ar-AA2egHMh",
+   "published": "2026-10-15T22:12:04+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRVduc3BuSE85SDZ1ei1jR2tVZ2p4X2dqUERLdHVZU1FFMlM5dk11NGstSzZqOWQ2TG1od0YwSERsblc2OWR1VjRFQ1JJa1c4Rlg5UVJGWmppY3c5LVJFb1d4T2NsbjFOeHFPQ2dpaWtpWkxuc0hVVVY3aWNMLTBlU2U1RlpZUFVrcWdoMXJIUEpNendTMkpMYUdsenM2UHAt?oc=5",
    "refs": [
     [
-     "Reuters on MSN",
-     "https://www.msn.com/en-us/money/economy/kenya-raises-fuel-prices-as-middle-east-conflict-lifts-import-costs/ar-AA2egHMh"
+     "UA.NEWS",
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRVduc3BuSE85SDZ1ei1jR2tVZ2p4X2dqUERLdHVZU1FFMlM5dk11NGstSzZqOWQ2TG1od0YwSERsblc2OWR1VjRFQ1JJa1c4Rlg5UVJGWmppY3c5LVJFb1d4T2NsbjFOeHFPQ2dpaWtpWkxuc0hVVVY3aWNMLTBlU2U1RlpZUFVrcWdoMXJIUEpNendTMkpMYUdsenM2UHAt?oc=5"
     ]
    ]
   },
@@ -6767,18 +6767,93 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Kenya’s Ebola cases test preparedness beyond Nairobi",
-   "summary": "The scare exposed gaps in how far outbreak readiness reaches Kenya’s remote communities.",
-   "image": "http://www.bing.com/th?id=ONUT.z1JF8NhCQFXYHW4ybCcZjg&pid=News",
-   "imageType": "photo",
+   "title": "Gachoka explains why Raila’s handshakes mattered to Kenya",
+   "summary": "Gachoka explains why Raila’s handshakes mattered to Kenya People Daily",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Gachoka%20explains%20why%20Raila%E2%80%99s%20handshakes%20mattered%20to%20Kenya%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-14T19:45:49+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/kenya-s-ebola-cases-test-preparedness-beyond-nairobi/ar-AA2egGt1",
+   "published": "2026-10-15T21:22:30+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWnN6MFR1bkw3ZWU5ekJBOTM3aXM1RU4td29OQ0RoTVhJVl9EU3c4SHBjV2ZoV3ZaeUtldkpVMFNMRmREWVVZMjVYWlJFYTQ4Ymo1czNxbVJHN3RudmxaUmdSaU8zbU03WFF5U2NBSEJ2MURxSng5X1dMTTlqc20yY21pSXZlTVBhZ2ZKYVNYU1MyT1hnV3lfTldRWXdmVXNELUE?oc=5",
    "refs": [
     [
-     "Al Jazeera on MSN",
-     "https://www.msn.com/en-us/news/other/kenya-s-ebola-cases-test-preparedness-beyond-nairobi/ar-AA2egGt1"
+     "People Daily",
+     "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWnN6MFR1bkw3ZWU5ekJBOTM3aXM1RU4td29OQ0RoTVhJVl9EU3c4SHBjV2ZoV3ZaeUtldkpVMFNMRmREWVVZMjVYWlJFYTQ4Ymo1czNxbVJHN3RudmxaUmdSaU8zbU03WFF5U2NBSEJ2MURxSng5X1dMTTlqc20yY21pSXZlTVBhZ2ZKYVNYU1MyT1hnV3lfTldRWXdmVXNELUE?oc=5"
+    ]
+   ]
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "flag": "🇰🇪",
+   "c": [
+    "hsl(288,55%,26%)",
+    "hsl(323,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Kenya becomes co-chair of school meals coalition — Nation Kenya",
+   "summary": "Kenya becomes co-chair of school meals coalition — Nation Kenya UA.NEWS",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Kenya%20becomes%20co-chair%20of%20school%20meals%20coalition%20%E2%80%94%20Nation%20Kenya%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
+   "topic": "News",
+   "published": "2026-10-15T21:17:52+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONjdHT3dKLUNubkt6RlZSZmtScVFuR0hvb3Z4dmFiNjEzRm9CbmE3dU9QVjZhREt0VU5FNXVMYlFoNFFGQzRuR09ETmdsRVlsUE1veGsxc1NFUTlFam1MNWU2ZG5jR1ZMekRpR2pneEpGQ0JMd2pRWjNtMWpwNXAxNWlJRld6ZXNudmZLZU1PeGdFTkVNV2ZZLURZN3ppc3F3cVNj?oc=5",
+   "refs": [
+    [
+     "UA.NEWS",
+     "https://news.google.com/rss/articles/CBMiowFBVV95cUxONjdHT3dKLUNubkt6RlZSZmtScVFuR0hvb3Z4dmFiNjEzRm9CbmE3dU9QVjZhREt0VU5FNXVMYlFoNFFGQzRuR09ETmdsRVlsUE1veGsxc1NFUTlFam1MNWU2ZG5jR1ZMekRpR2pneEpGQ0JMd2pRWjNtMWpwNXAxNWlJRld6ZXNudmZLZU1PeGdFTkVNV2ZZLURZN3ppc3F3cVNj?oc=5"
+    ]
+   ]
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "flag": "🇰🇪",
+   "c": [
+    "hsl(288,55%,26%)",
+    "hsl(323,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Kenya announces second Ebola case, downplays wider spread",
+   "summary": "Kenya announces second Ebola case, downplays wider spread Peoples Gazette Nigeria",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Kenya%20announces%20second%20Ebola%20case%2C%20downplays%20wider%20spread%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
+   "topic": "News",
+   "published": "2026-10-15T20:57:34+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0xiVHBJQl9aQjJZcmE0UVhtTjBYaENhUHJyVXlfYTFqN2p3WWpZUVdGaUdFNDkxRWhfc29nN3ZkN1c2czgzdExHa2x0SjNnVlpBNUw5dnNGWUVDU3ptQUREaTJHaHhITGhjNnpCZnVRZ1R2TS10U2FlSUhJeHAtSF9qZndBT1E?oc=5",
+   "refs": [
+    [
+     "Peoples Gazette Nigeria",
+     "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0xiVHBJQl9aQjJZcmE0UVhtTjBYaENhUHJyVXlfYTFqN2p3WWpZUVdGaUdFNDkxRWhfc29nN3ZkN1c2czgzdExHa2x0SjNnVlpBNUw5dnNGWUVDU3ptQUREaTJHaHhITGhjNnpCZnVRZ1R2TS10U2FlSUhJeHAtSF9qZndBT1E?oc=5"
+    ]
+   ]
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "flag": "🇰🇪",
+   "c": [
+    "hsl(288,55%,26%)",
+    "hsl(323,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "𝗞𝗲𝗻𝘆𝗮 𝘀𝘁𝗿𝗲𝗻𝗴𝘁𝗵𝗲𝗻𝘀 𝗔𝗜 𝗴𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝘁𝗼 𝗰𝗼𝗺𝗯𝗮𝘁 𝗿𝗶𝘀𝗶𝗻𝗴 𝗰𝘆𝗯𝗲𝗿𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝘁𝗵𝗿𝗲𝗮𝘁𝘀 The government has called for stronger oversight of artificial intelligence (AI) systems, warning that criminals increasingly use the technology to launch",
+   "summary": "𝗞𝗲𝗻𝘆𝗮 𝘀𝘁𝗿𝗲𝗻𝗴𝘁𝗵𝗲𝗻𝘀 𝗔𝗜 𝗴𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝘁𝗼 𝗰𝗼𝗺𝗯𝗮𝘁 𝗿𝗶𝘀𝗶𝗻𝗴 𝗰𝘆𝗯𝗲𝗿𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝘁𝗵𝗿𝗲𝗮𝘁𝘀 The government has called for stronger oversight of artificial intelligence (AI) systems, warning that criminals increasingly use the technology to l…",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20%F0%9D%97%9E%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%86%F0%9D%97%AE%20%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%B4%F0%9D%98%81%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%20%F0%9D%97%94%F0%9D%97%9C%20%F0%9D%97%B4%F0%9D%97%BC%F0%9D%98%83%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B0%F0%9D%97%B2%20%F0%9D%98%81%F0%9D%97%BC%20%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%AF%F0%9D%97%AE%F0%9D%98%81%20%F0%9D%97%BF%F0%9D%97%B6%F0%9D%98%80%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4%20%F0%9D%97%B0%F0%9D%98%86%F0%9D%97%AF%F0%9D%97%B2%F0%9D%97%BF%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%B0%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B6%F0%9D%98%81%F0%9D%98%86%20%F0%9D%98%81%F0%9D%97%B5%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%AE%F0%9D%98%81%F0%9D%98%80%20The%20government%20has%20called%20for%20stronger%20oversight%20of%20artificial%20intelligence%20%28AI%29%20systems%2C%20warning%20that%20criminals%20increasingly%20use%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
+   "topic": "News",
+   "published": "2026-10-15T20:49:18+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMi6whBVV95cUxPYjd0WUtPQ0M4dnc2Yk5DWWVhc1p4T1JqY0w1eGdqWjJGSUdLTDJJaGYyZ29OckpHTFlIUXVwRzRTZU9POUdZOTNvN0pBR0JsMW9rQTc5SlBTLThqc21USVhDTnpWTXdyejBmZjJyMjhOMWMxd0o2QlBBckY5dXNNVnRNY2M5Z04tWVFzNHNidkRUQVZRRFo5a3ZLT3pGdGpPQWxCOGdzVWd5bmozMmZub0pBTWJzOTNKdzE3QWtfQWZleTNQVHd1azJkV2wzSi1nY0NVYUo1V3ZmQ3kwdEVza3U1QU5CYU9XRlNqVHdTemxWNzhDUGpXTTBSa1VUZWF5YXRpUmpJRG5iNUdhbEo1RWhNMjNkRjVORzVfOERQTmxwYzdzeHV5VXdQYUtleWV0WkRnQ0ZrTGhydXFUaEhmQWJZb2ZIX2RkcF9DYzJrZUNtVFVTRWcyWER3aS1taHlFWlBCa1gya3A1YnE1enNqZFlwMm5sU3dOaWZqMzI0TDFGNmdmOFZibW4xZmRrcnVia3ZSTXRSYjg1eDk5YVZhenZvLUxsZEVic0ZweFNPVk52ZFB4N0pWcjE4Mk1qQ1RGendfN2t5OWtuWHBkclJURXRjN2MydUl0MjNYTG5WcWdlVzJrTzdNYlNrYlpwVVIyRUhDUWs5dzNVdTdqMW15bW1RVjhwVDlHUHRpWVRxd0RldDRrMjVSUmVJZHZ3cVhna0FkaEhSQVM1b0ZhVmlIX0ctZjVSYm9XSE5La2NLSmZvdU9BVUZVVWYyaWZ2bHlEUG1GaDgtaGJkeFpydUZQSGRad0w5OEZ3V211ajZoWDJFa1o2dGF0UUZGd05YWGZaaGRpX3RBaU95OGpJRmNEU1ltcVRmVUdhNWs1YUVUdEFTMnhSSGljMTY2d3EtQUUyUlhPU3EtVDRaN2U5eXBWeVlwWXYteHR5dHZEcDE0NHgtVDlaZlBCOFE5UWQydzg1SldqTGhuWWJaWlNKdmFQRktCM19FVGw4R2ZfYVo3LVVKaG9ad3hMM0x2bG1SMDJweEpqbWVEcTNNRUh0N1ozM2UtYVNxS25TVHBFZ196SGhYdTQzQ0dFYmpBZENENHYyYWlWb0F4S1ExQk9ZNE56X3M1b0hoZU1GZmJRQUx2RklqTTVNY3dxOHU1b1kwQjZjSGRkVGN3SnhiNEZRaGhQUFlPVWlIQmxsVjFmTFBqcjBxNTlTRWR2bGVIcEpGaHBGNGRBSHpSVkIyU1FEeE1KOXpHc09ydmhnN2dFODJzbVZrMmdvbXFMai1xUERCYWN4dXRLNm1MaG90cUVZR05oX0hqUHNTZ2Q5S05QX0c0MVJfaHMtSmRfRlN2QWY4LXg0dlJzRFZFcnNKMjVjV0xQemZBVGE3SjNCMm9qMmJ3SDhmMkYxOEVybGpULVJHREwySVVHMjFKOGxwa0ZiNzQ1QkQ1UTBuTlZfbk8tS1VKc09zc3pVUGNncUs1N3NLV1F0QmJvenVlQ1J6R1k?oc=5",
+   "refs": [
+    [
+     "Facebook",
+     "https://news.google.com/rss/articles/CBMi6whBVV95cUxPYjd0WUtPQ0M4dnc2Yk5DWWVhc1p4T1JqY0w1eGdqWjJGSUdLTDJJaGYyZ29OckpHTFlIUXVwRzRTZU9POUdZOTNvN0pBR0JsMW9rQTc5SlBTLThqc21USVhDTnpWTXdyejBmZjJyMjhOMWMxd0o2QlBBckY5dXNNVnRNY2M5Z04tWVFzNHNidkRUQVZRRFo5a3ZLT3pGdGpPQWxCOGdzVWd5bmozMmZub0pBTWJzOTNKdzE3QWtfQWZleTNQVHd1azJkV2wzSi1nY0NVYUo1V3ZmQ3kwdEVza3U1QU5CYU9XRlNqVHdTemxWNzhDUGpXTTBSa1VUZWF5YXRpUmpJRG5iNUdhbEo1RWhNMjNkRjVORzVfOERQTmxwYzdzeHV5VXdQYUtleWV0WkRnQ0ZrTGhydXFUaEhmQWJZb2ZIX2RkcF9DYzJrZUNtVFVTRWcyWER3aS1taHlFWlBCa1gya3A1YnE1enNqZFlwMm5sU3dOaWZqMzI0TDFGNmdmOFZibW4xZmRrcnVia3ZSTXRSYjg1eDk5YVZhenZvLUxsZEVic0ZweFNPVk52ZFB4N0pWcjE4Mk1qQ1RGendfN2t5OWtuWHBkclJURXRjN2MydUl0MjNYTG5WcWdlVzJrTzdNYlNrYlpwVVIyRUhDUWs5dzNVdTdqMW15bW1RVjhwVDlHUHRpWVRxd0RldDRrMjVSUmVJZHZ3cVhna0FkaEhSQVM1b0ZhVmlIX0ctZjVSYm9XSE5La2NLSmZvdU9BVUZVVWYyaWZ2bHlEUG1GaDgtaGJkeFpydUZQSGRad0w5OEZ3V211ajZoWDJFa1o2dGF0UUZGd05YWGZaaGRpX3RBaU95OGpJRmNEU1ltcVRmVUdhNWs1YUVUdEFTMnhSSGljMTY2d3EtQUUyUlhPU3EtVDRaN2U5eXBWeVlwWXYteHR5dHZEcDE0NHgtVDlaZlBCOFE5UWQydzg1SldqTGhuWWJaWlNKdmFQRktCM19FVGw4R2ZfYVo3LVVKaG9ad3hMM0x2bG1SMDJweEpqbWVEcTNNRUh0N1ozM2UtYVNxS25TVHBFZ196SGhYdTQzQ0dFYmpBZENENHYyYWlWb0F4S1ExQk9ZNE56X3M1b0hoZU1GZmJRQUx2RklqTTVNY3dxOHU1b1kwQjZjSGRkVGN3SnhiNEZRaGhQUFlPVWlIQmxsVjFmTFBqcjBxNTlTRWR2bGVIcEpGaHBGNGRBSHpSVkIyU1FEeE1KOXpHc09ydmhnN2dFODJzbVZrMmdvbXFMai1xUERCYWN4dXRLNm1MaG90cUVZR05oX0hqUHNTZ2Q5S05QX0c0MVJfaHMtSmRfRlN2QWY4LXg0dlJzRFZFcnNKMjVjV0xQemZBVGE3SjNCMm9qMmJ3SDhmMkYxOEVybGpULVJHREwySVVHMjFKOGxwa0ZiNzQ1QkQ1UTBuTlZfbk8tS1VKc09zc3pVUGNncUs1N3NLV1F0QmJvenVlQ1J6R1k?oc=5"
     ]
    ]
   },
@@ -6867,18 +6942,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Border of the world: Russia is ready to help resolve the conflict between Ethiopia and Eritrea",
-   "summary": "Russia can mediate in the conflict between Ethiopia and Eritrea. If both sides are interested, Russia is ready to provide a platform for organizing contacts at the Russia–Africa summit, Russian Deputy ...",
-   "image": "http://www.bing.com/th?id=ONUT.Zeq2EKAiEmE0i002wHweQA&pid=News",
+   "title": "Between Ethiopia and Eritrea, a border town's residents worry",
+   "summary": "(AFP) — Around the border town of Zalambessa, Eritrean and Ethiopian armies face each other with anxious civilians stuck between them, residents told AFP, as the threat of regional war looms.",
+   "image": "http://www.bing.com/th?id=ONUT.9koG2b458QTFs9Uwj-mEJg&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T03:01:00+00:00",
+   "published": "2026-10-15T05:02:00+00:00",
    "breaking": false,
-   "url": "https://iz.ru/en/node/2184732",
+   "url": "https://www.courthousenews.com/between-ethiopia-and-eritrea-a-border-towns-residents-worry/",
    "refs": [
     [
-     "Izvestia",
-     "https://iz.ru/en/node/2184732"
+     "Courthouse News Service",
+     "https://www.courthousenews.com/between-ethiopia-and-eritrea-a-border-towns-residents-worry/"
     ]
    ]
   },
@@ -6917,18 +6992,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Ghana seeks long-term mining investments that benefit local communities – Armah-Kofi Buah",
-   "summary": "The Minister for Lands and Natural Resources, Emmanuel Armah-Kofi Buah, has reaffirmed Ghana’s readiness to partner with Guangdong Shengmai Tech Co. Ltd. to explore investment opportunities in the ...",
-   "image": "http://www.bing.com/th?id=ONUT.lZGhdCDXxqfOOCwgz6Zd1g&pid=News",
+   "title": "Ghana’s investment climate presents opportunities for industrial growth, job creation.",
+   "summary": "The Country Manager of Senok West Africa Ltd, Roshan Buddhagamage, says the expansion of industrial activity presents opportunities for businesses to invest in machinery and develop the local ...",
+   "image": "http://www.bing.com/th?id=ONUT.aQP_O1bi4i-PndLhsCWs3w&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:30:00+00:00",
+   "published": "2026-10-15T15:14:00+00:00",
    "breaking": false,
-   "url": "https://www.myjoyonline.com/ghana-seeks-long-term-mining-investments-that-benefit-local-communities-armah-kofi-buah/",
+   "url": "https://www.myjoyonline.com/ghanas-investment-climate-presents-opportunities-for-industrial-growth-job-creation/",
    "refs": [
     [
      "MyJoyOnline",
-     "https://www.myjoyonline.com/ghana-seeks-long-term-mining-investments-that-benefit-local-communities-armah-kofi-buah/"
+     "https://www.myjoyonline.com/ghanas-investment-climate-presents-opportunities-for-industrial-growth-job-creation/"
     ]
    ]
   },
@@ -6942,18 +7017,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Ghana’s Ambassador to China, Kojo Bonsu, presents credentials to Nepalese President",
-   "summary": "Ghana’s Ambassador Extraordinary and Plenipotentiary to the People’s Republic of China, Kojo Bonsu, has presented his credentials to Nepalese President Ram Chandra Paudel. The ceremony took place at ...",
-   "image": "http://www.bing.com/th?id=ONUT.biI5r1cUTgKvjtlujSFQ5Q&pid=News",
+   "title": "Ghana seeks long-term mining investments that benefit local communities – Armah-Kofi Buah",
+   "summary": "The Minister for Lands and Natural Resources, Emmanuel Armah-Kofi Buah, has reaffirmed Ghana’s readiness to partner with Guangdong Shengmai Tech Co. Ltd. to explore investment opportunities in the ...",
+   "image": "http://www.bing.com/th?id=ONUT.lZGhdCDXxqfOOCwgz6Zd1g&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:17:00+00:00",
+   "published": "2026-10-15T14:30:00+00:00",
    "breaking": false,
-   "url": "https://www.myjoyonline.com/ghanas-ambassador-to-china-kojo-bonsu-presents-credentials-to-nepalese-president/",
+   "url": "https://www.myjoyonline.com/ghana-seeks-long-term-mining-investments-that-benefit-local-communities-armah-kofi-buah/",
    "refs": [
     [
      "MyJoyOnline",
-     "https://www.myjoyonline.com/ghanas-ambassador-to-china-kojo-bonsu-presents-credentials-to-nepalese-president/"
+     "https://www.myjoyonline.com/ghana-seeks-long-term-mining-investments-that-benefit-local-communities-armah-kofi-buah/"
     ]
    ]
   },
@@ -6992,18 +7067,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Mount Sinai wins NIH grant to test community-based hypertension care model in rural Ghana",
-   "summary": "Researchers at the Icahn School of Medicine at Mount Sinai have received a $3.3 million, five-year grant from the National Heart, Lung, and Blood Institute, part of the National Institutes of Health, ...",
-   "image": "http://www.bing.com/th?id=ONUT.JdKlO2qPl9OA4fXLMHGlRw&pid=News",
-   "imageType": "photo",
+   "title": "The Republic: A Professional Journey, Ghana's Cybersecurity and the Making of a Role Model Country",
+   "summary": "Ghana's name stood tall at the 15th United Nations Congress on Crime Prevention and Criminal Justice, held in Abu Dhabi, United Arab Emirates, from September 26 to October 1, 2026, where a ...",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20The%20Republic%3A%20A%20Professional%20Journey%2C%20Ghana%27s%20Cybersecurity%20and%20the%20Making%20of%20a%20Role%20Model%20Country%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-15T12:56:00+00:00",
+   "published": "2026-10-15T13:21:00+00:00",
    "breaking": false,
-   "url": "https://www.news-medical.net/news/20261015/Mount-Sinai-wins-NIH-grant-to-test-community-based-hypertension-care-model-in-rural-Ghana.aspx",
+   "url": "https://www.graphic.com.gh/lifestyle/the-republic-a-professional-journey-ghanas-cybersecurity-and-the-making-of-a-role-model-country.html",
    "refs": [
     [
-     "News-Medical.Net",
-     "https://www.news-medical.net/news/20261015/Mount-Sinai-wins-NIH-grant-to-test-community-based-hypertension-care-model-in-rural-Ghana.aspx"
+     "Daily Graphic",
+     "https://www.graphic.com.gh/lifestyle/the-republic-a-professional-journey-ghanas-cybersecurity-and-the-making-of-a-role-model-country.html"
     ]
    ]
   },
@@ -7017,18 +7092,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "IShowSpeed Partners With Breakwater Studios, Obamas’ Higher Ground to Bring ‘The Eyes of Ghana’ Doc to Theaters (EXCLUSIVE)",
-   "summary": "Streaming superstar IShowSpeed has partnered with Breakwater Studios and Barack and Michelle Obama’s Higher Ground to bring Ben Proudfoot’s upcoming documentary “The Eyes of Ghana” to theaters for a ...",
-   "image": "http://www.bing.com/th?id=ONUT.ZoB_ucwV8l3do7Q8DrZz0A&pid=News",
+   "title": "Mount Sinai wins NIH grant to test community-based hypertension care model in rural Ghana",
+   "summary": "Researchers at the Icahn School of Medicine at Mount Sinai have received a $3.3 million, five-year grant from the National Heart, Lung, and Blood Institute, part of the National Institutes of Health, ...",
+   "image": "http://www.bing.com/th?id=ONUT.JdKlO2qPl9OA4fXLMHGlRw&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T12:02:00+00:00",
+   "published": "2026-10-15T12:56:00+00:00",
    "breaking": false,
-   "url": "https://www.yahoo.com/entertainment/movies/articles/ishowspeed-partners-breakwater-studios-obamas-190102285.html",
+   "url": "https://www.news-medical.net/news/20261015/Mount-Sinai-wins-NIH-grant-to-test-community-based-hypertension-care-model-in-rural-Ghana.aspx",
    "refs": [
     [
-     "Yahoo",
-     "https://www.yahoo.com/entertainment/movies/articles/ishowspeed-partners-breakwater-studios-obamas-190102285.html"
+     "News-Medical.Net",
+     "https://www.news-medical.net/news/20261015/Mount-Sinai-wins-NIH-grant-to-test-community-based-hypertension-care-model-in-rural-Ghana.aspx"
     ]
    ]
   },
@@ -7054,56 +7129,6 @@
     [
      "Hespress on MSN",
      "https://www.msn.com/en-xl/news/other/morocco-revokes-1-490-cannabis-licenses-over-regulatory-violations/ar-AA2ek46z"
-    ]
-   ]
-  },
-  {
-   "country": "Morocco",
-   "code": "MA",
-   "flag": "🇲🇦",
-   "c": [
-    "hsl(214,55%,26%)",
-    "hsl(249,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Morocco’s new parliament speaker: Ahmed Touizi’s rise to the top of the legislature",
-   "summary": "London: Ahmed Touizi’s rise to become Morocco’s parliament speaker in October 2026 marks the opening of a new political phase after a reshaping of the country’s governing majority and opposition.The ...",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Morocco%E2%80%99s%20new%20parliament%20speaker%3A%20Ahmed%20Touizi%E2%80%99s%20rise%20to%20the%20top%20of%20the%20legislature%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-15T11:02:12+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-ae/news/other/morocco-s-new-parliament-speaker-ahmed-touizi-s-rise-to-the-top-of-the-legislature/ar-AA2ekkXd",
-   "refs": [
-    [
-     "Asharq Al-Awsat on MSN",
-     "https://www.msn.com/en-ae/news/other/morocco-s-new-parliament-speaker-ahmed-touizi-s-rise-to-the-top-of-the-legislature/ar-AA2ekkXd"
-    ]
-   ]
-  },
-  {
-   "country": "Morocco",
-   "code": "MA",
-   "flag": "🇲🇦",
-   "c": [
-    "hsl(214,55%,26%)",
-    "hsl(249,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Morocco’s Souhaib Azibou Reaches World Karate Championship Final",
-   "summary": "Moroccan karateka Souhaib Azibou has qualified for the final of the boys’ under-61 kg junior category at the World Karate Championships ...",
-   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/souhaib-Azibou.webp",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T10:41:00+00:00",
-   "breaking": false,
-   "url": "https://www.moroccoworldnews.com/2026/10/342287/moroccos-souhaib-azibou-reaches-world-karate-championship-final/",
-   "refs": [
-    [
-     "Morocco World News",
-     "https://www.moroccoworldnews.com/2026/10/342287/moroccos-souhaib-azibou-reaches-world-karate-championship-final/"
     ]
    ]
   },
@@ -7154,6 +7179,56 @@
     [
      "Renewables Now",
      "https://renewablesnow.com/news/morocco-opens-350-mw-noor-pv-multisites-tender-1303062/"
+    ]
+   ]
+  },
+  {
+   "country": "Morocco",
+   "code": "MA",
+   "flag": "🇲🇦",
+   "c": [
+    "hsl(214,55%,26%)",
+    "hsl(249,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Renting in Morocco 2026: Leases, Deposits and Rents",
+   "summary": "Morocco's lease law caps deposits at two months' rent. Listings show US$510 to US$1,840 a month for an 80 m² flat in Marrakech, Rabat and Casablanca.",
+   "image": "http://www.bing.com/th?id=ONUT.zSdcOMA-vL0C1A2hIm_o3Q&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T04:19:00+00:00",
+   "breaking": false,
+   "url": "https://www.riotimesonline.com/renting-morocco-foreigners-2026",
+   "refs": [
+    [
+     "The Rio Times",
+     "https://www.riotimesonline.com/renting-morocco-foreigners-2026"
+    ]
+   ]
+  },
+  {
+   "country": "Morocco",
+   "code": "MA",
+   "flag": "🇲🇦",
+   "c": [
+    "hsl(214,55%,26%)",
+    "hsl(249,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Morocco History Explained, From Origins to 2026",
+   "summary": "Amazigh and Roman roots, Islamic dynasties, French rule, independence in 1956, the Green March and the road to 2026.",
+   "image": "https://www.riotimesonline.com/wp-content/uploads/2026/10/pl18-cover-1.jpg",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-14T10:10:00+00:00",
+   "breaking": false,
+   "url": "https://www.riotimesonline.com/morocco-history-explained-2026/",
+   "refs": [
+    [
+     "The Rio Times",
+     "https://www.riotimesonline.com/morocco-history-explained-2026/"
     ]
    ]
   },
@@ -7292,18 +7367,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Workers rally at MPs' offices across Canada to defend right to strike",
-   "summary": "Workers are rallying in 21 communities across Canada today, warning MPs that Bill C-39 will fuel labour unrest as some of the country's largest unions pledge to defy the proposed restrictions on the ...",
-   "image": "https://s.yimg.com/lo/mysterio/api/9216d04fa3efc836862edae482215050eb10e2f043ac4d5ef457c7becafa7de3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcnwgroup.com%2F1e384132a68cae78768a8d00d0308218.png",
+   "title": "Canada’s Prime Minister Mark Carney says Alberta separation vote comes at 'worst time'",
+   "summary": "Canadian Prime Minister Mark Carney said Thursday there “couldn’t be a worse time” for oil-rich Alberta to start down a path toward a future referendum on separation from Canada, as he campaigned for ...",
+   "image": "http://www.bing.com/th?id=ONUT.lI0fUnnJoztvSr888cLYPQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:19:00+00:00",
+   "published": "2026-10-15T15:17:49+00:00",
    "breaking": false,
-   "url": "https://finance.yahoo.com/economy/policy/articles/workers-rally-mps-offices-across-211900875.html",
+   "url": "https://www.msn.com/en-us/news/other/canada-s-prime-minister-mark-carney-says-alberta-separation-vote-comes-at-worst-time/ar-AA2ekghg",
    "refs": [
     [
-     "Yahoo Finance",
-     "https://finance.yahoo.com/economy/policy/articles/workers-rally-mps-offices-across-211900875.html"
+     "Associated Press News on MSN",
+     "https://www.msn.com/en-us/news/other/canada-s-prime-minister-mark-carney-says-alberta-separation-vote-comes-at-worst-time/ar-AA2ekghg"
     ]
    ]
   },
@@ -7317,18 +7392,43 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Canada’s Prime Minister Mark Carney says Alberta separation vote comes at ‘worst time’",
-   "summary": "Canadian Prime Minister Mark Carney campaigned for national unity in oil-rich Alberta as advance voting was underway in a referendum that could set the province on a path toward a future vote on ...",
-   "image": "http://www.bing.com/th?id=ONUT.yBHXjIrxAMCbdOm7T2vPMw&pid=News",
+   "title": "Canada wants the wind farms that Donald Trump despises",
+   "summary": "Canada can give foreign wind power companies the certainty they aren’t getting south of the border to attract billions in investments, Energy Minister Tim Hodgson says.",
+   "image": "http://www.bing.com/th?id=ONUT.0f8aJmDEtc1mCdjwHA6piQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T12:36:00+00:00",
+   "published": "2026-10-15T14:45:00+00:00",
    "breaking": false,
-   "url": "https://apnews.com/article/canada-alberta-carney-separation-vote-referendum-4e39eb0f5bda2438b3c2fedbf6088d09",
+   "url": "https://www.thestar.com/politics/federal/canada-wants-the-wind-farms-that-donald-trump-despises/article_2bf78082-76ea-40ae-91e2-f0a32524cfef.html",
    "refs": [
     [
-     "Associated Press News",
-     "https://apnews.com/article/canada-alberta-carney-separation-vote-referendum-4e39eb0f5bda2438b3c2fedbf6088d09"
+     "The Star",
+     "https://www.thestar.com/politics/federal/canada-wants-the-wind-farms-that-donald-trump-despises/article_2bf78082-76ea-40ae-91e2-f0a32524cfef.html"
+    ]
+   ]
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "flag": "🇨🇦",
+   "c": [
+    "hsl(204,55%,26%)",
+    "hsl(239,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Cleveland-Cliffs CEO Calls Canada’s Stelco Threats ‘Bullying’",
+   "summary": "Cleveland-Cliffs Inc. Chief Executive Officer Lourenco Goncalves pushed back against Canada’s threat to take legal action over job cuts at its Stelco steel unit, warning the government risks ...",
+   "image": "http://www.bing.com/th?id=ONUT.af5_o45sNohjS7RovfsYtg&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-15T14:37:00+00:00",
+   "breaking": false,
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/cleveland-cliffs-ceo-calls-canada-s-stelco-threats-bullying",
+   "refs": [
+    [
+     "Bloomberg",
+     "https://www.bloomberg.com/news/articles/2026-10-15/cleveland-cliffs-ceo-calls-canada-s-stelco-threats-bullying"
     ]
    ]
   },
@@ -7367,43 +7467,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "What does Alberta's referendum on separation from Canada mean?",
-   "summary": "Alberta is holding a nonbinding referendum on Monday to ask residents if they want to remain part of Canada, marking the first time the oil-rich province has ever put the question of separation to the ...",
-   "image": "http://www.bing.com/th?id=ONUT.DyBwjPhG697ocwjNzdtogg&pid=News",
+   "title": "Explainer-What Does Alberta's Referendum on Separation From Canada Mean?",
+   "summary": "Supporters of an October 19 non-binding referendum proposing that Alberta separate from Canada hold a convoy through Carstairs, Alberta, Canada October 10, 2026. REUTERS/Todd Korol/File Photo OTTAWA, ...",
+   "image": "http://www.bing.com/th?id=ONUT.CO7lDdiEx1-y-io1PBYXMw&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T09:06:00+00:00",
+   "published": "2026-10-15T05:06:00+00:00",
    "breaking": false,
-   "url": "https://www.reuters.com/world/americas/what-does-albertas-referendum-separation-canada-mean-2026-10-15/",
+   "url": "https://www.usnews.com/news/world/articles/2026-10-15/explainer-what-does-albertas-referendum-on-separation-from-canada-mean",
    "refs": [
     [
-     "Reuters",
-     "https://www.reuters.com/world/americas/what-does-albertas-referendum-separation-canada-mean-2026-10-15/"
-    ]
-   ]
-  },
-  {
-   "country": "Canada",
-   "code": "CA",
-   "flag": "🇨🇦",
-   "c": [
-    "hsl(204,55%,26%)",
-    "hsl(239,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Canada factory sales recover in August with increased prices",
-   "summary": "Shipments increased 1.5% from the month before, marking a sixth rise in factory trade in the last seven months after a 0.3% dip in July.",
-   "image": "http://www.bing.com/th?id=ONUT.eSw-KW7mB5-POwHpLAf2Fw&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T08:18:00+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/money/economy/canada-factory-sales-recover-in-august-with-increased-prices/ar-AA2ejiXf",
-   "refs": [
-    [
-     "The Wall Street Journal on MSN",
-     "https://www.msn.com/en-us/money/economy/canada-factory-sales-recover-in-august-with-increased-prices/ar-AA2ejiXf"
+     "U.S. News & World Report",
+     "https://www.usnews.com/news/world/articles/2026-10-15/explainer-what-does-albertas-referendum-on-separation-from-canada-mean"
     ]
    ]
   },
@@ -7417,18 +7492,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Hurricane Trudy to 'rapidly intensify' on course for western Mexico",
-   "summary": "\"Trudy is forecast to become a major hurricane Friday or Friday night.\" ...",
-   "image": "http://www.bing.com/th?id=ONUT.lhM0ROZbRBc0SkIqLyuVyQ&pid=News",
+   "title": "Mexico Air Arrivals Fall 6.5% in August",
+   "summary": "INEGI says non-border tourists arriving by air fell 6.5% in August, as spending rose 7.0% to US$2.41 billion. A higher visitor fee awaits the Senate.",
+   "image": "/th?id=ONUT.BZJW1mMdrkxgr-mQH81GVw&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:41:05+00:00",
+   "published": "2026-10-15T13:45:00+00:00",
    "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/hurricane-trudy-to-rapidly-intensify-on-course-for-western-mexico/ar-AA2ekATG",
+   "url": "https://www.riotimesonline.com/mexico-air-arrivals-fall-6-5-percent-august-2026/",
    "refs": [
     [
-     "For The Win on MSN",
-     "https://www.msn.com/en-us/news/other/hurricane-trudy-to-rapidly-intensify-on-course-for-western-mexico/ar-AA2ekATG"
+     "The Rio Times",
+     "https://www.riotimesonline.com/mexico-air-arrivals-fall-6-5-percent-august-2026/"
     ]
    ]
   },
@@ -7454,31 +7529,6 @@
     [
      "CBS News on MSN",
      "https://www.msn.com/en-us/lifestyle/other/medical-cosmetic-treatments-in-mexico-offer-big-savings-why-americans-are-making-the-trip-as-potential-risks-remain/ar-AA2ejhbY"
-    ]
-   ]
-  },
-  {
-   "country": "Mexico",
-   "code": "MX",
-   "flag": "🇲🇽",
-   "c": [
-    "hsl(345,55%,26%)",
-    "hsl(20,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Americans take trips to Mexico for big savings on cosmetic treatments, as potential risks remain",
-   "summary": "In Tijuana, Mexico, a growing number of medical tourists are seeking discounted procedures, including Botox injections, laser treatments and other aesthetic services. CBS California Investigates ...",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Americans%20take%20trips%20to%20Mexico%20for%20big%20savings%20on%20cosmetic%20treatments%2C%20as%20potential%20risks%20remain%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-15T09:23:00+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/travel/north-america-travel/americans-take-trips-to-mexico-for-big-savings-on-cosmetic-treatments-as-potential-risks-remain/vi-AA2ek5cd",
-   "refs": [
-    [
-     "CBS News on MSN",
-     "https://www.msn.com/en-us/travel/north-america-travel/americans-take-trips-to-mexico-for-big-savings-on-cosmetic-treatments-as-potential-risks-remain/vi-AA2ek5cd"
     ]
    ]
   },
@@ -7533,27 +7583,27 @@
    ]
   },
   {
-   "country": "Brazil",
-   "code": "BR",
-   "flag": "🇧🇷",
+   "country": "Mexico",
+   "code": "MX",
+   "flag": "🇲🇽",
    "c": [
-    "hsl(76,55%,26%)",
-    "hsl(111,60%,45%)"
+    "hsl(345,55%,26%)",
+    "hsl(20,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Brazil Deficit Forecast Rises to US$10.5B",
-   "summary": "Forecasters surveyed by Brazil's Finance Ministry expect a 2026 primary deficit of US$10.5 billion, with gross debt seen rising to 87.0% of GDP in 2027.",
-   "image": "http://www.bing.com/th?id=ONUT.BZJW1mMdrkxgr-mQH81GVw&pid=News",
+   "title": "U.S-born Mexican gray wolf crosses back into New Mexico",
+   "summary": "After being moved to Mexico in May, a Mexican gray wolf named Flor returned to New Mexico last week. The Mexican gray wolf remains listed as endangered by the federal government, but an executive",
+   "image": "/th?id=ONUT.ZoB_ucwV8l3do7Q8DrZz0A&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T14:19:00+00:00",
+   "published": "2026-10-13T20:59:00+00:00",
    "breaking": false,
-   "url": "https://www.riotimesonline.com/brazil-deficit-forecast-rises-prisma-fiscal-october-2026/",
+   "url": "https://www.yahoo.com/news/us/articles/u-born-mexican-gray-wolf-035900248.html",
    "refs": [
     [
-     "The Rio Times",
-     "https://www.riotimesonline.com/brazil-deficit-forecast-rises-prisma-fiscal-october-2026/"
+     "Yahoo",
+     "https://www.yahoo.com/news/us/articles/u-born-mexican-gray-wolf-035900248.html"
     ]
    ]
   },
@@ -7567,18 +7617,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "MAGA World Is Counting on a Bolsonaro Win in Brazil",
-   "summary": "We’re going to achieve the Golden Era of Latin America,” Eduardo Bolsonaro said at a far-right Washington gala.",
-   "image": "http://www.bing.com/th?id=ONUT.0mlgeo9jrW16DvkKaZpOsg&pid=News",
-   "imageType": "photo",
+   "title": "Second cave-dwelling centipede of its kind discovered in Brazil’s Serra da Bodoquena",
+   "summary": "Second cave-dwelling centipede of its kind discovered in Brazil’s Serra da Bodoquena Bioengineer.org",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Second%20cave-dwelling%20centipede%20of%20its%20kind%20discovered%20in%20Brazil%E2%80%99s%20Serra%20da%20Bodoquena%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-15T14:04:00+00:00",
-   "breaking": false,
-   "url": "https://www.motherjones.com/politics/2026/10/brazil-election-maga-bolsonaro-lula-milei-hispanic-heritage-gala/",
+   "published": "2026-10-15T22:29:33+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS2xyOWNXOGdqWVZYc0Znamt2TUp0T1NRLTRHSEV0OTBFUk13UUhteXFMY1pPcGxwQ3c4UUlHVzRDT1VLWDB4YTFWUkhBM3N0R3d2ZTFQSTMzOG9LVlRGRm9OdGxScHYwemR4bjdERGN5d0UtSnV5NnRCNWc2SWk1TjhQWmxUaUxEMzN6ZnZHeC1HNEFzZHpMb25uN2Vjb3Z2XzFNU3dsem5mOEJ3?oc=5",
    "refs": [
     [
-     "Mother Jones",
-     "https://www.motherjones.com/politics/2026/10/brazil-election-maga-bolsonaro-lula-milei-hispanic-heritage-gala/"
+     "Bioengineer.org",
+     "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS2xyOWNXOGdqWVZYc0Znamt2TUp0T1NRLTRHSEV0OTBFUk13UUhteXFMY1pPcGxwQ3c4UUlHVzRDT1VLWDB4YTFWUkhBM3N0R3d2ZTFQSTMzOG9LVlRGRm9OdGxScHYwemR4bjdERGN5d0UtSnV5NnRCNWc2SWk1TjhQWmxUaUxEMzN6ZnZHeC1HNEFzZHpMb25uN2Vjb3Z2XzFNU3dsem5mOEJ3?oc=5"
     ]
    ]
   },
@@ -7592,18 +7642,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Brazil Judge Bars Flávio Bolsonaro Ad Boost",
-   "summary": "Judge André Mendonça barred Flávio Bolsonaro's campaign from paying to boost a video attacking Lula and gave Meta three hours to comply.",
-   "image": "http://www.bing.com/th?id=ONUT.BZJW1mMdrkxgr-mQH81GVw&pid=News",
-   "imageType": "photo",
+   "title": "Lula pledges free weekend transit nationwide as Brazil runoff nears",
+   "summary": "Lula pledges free weekend transit nationwide as Brazil runoff nears TradingView",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Lula%20pledges%20free%20weekend%20transit%20nationwide%20as%20Brazil%20runoff%20nears%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-15T13:20:00+00:00",
-   "breaking": false,
-   "url": "https://www.riotimesonline.com/brazil-judge-bars-flavio-bolsonaro-ad-boost-2026/",
+   "published": "2026-10-15T22:15:12+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOelhpZjZtNkZISThBMmk4NEd2MkZMeE5ueEFRTTRuM2JGdGtvU3BNUmcweWpmcHRXU0EzVFhicnVtcVBIM1lXa2hYcm1uVEpQV0NJc3hVa05qOEhMN2R1U2xZU1BHMlAxc0VzLU9leUFOTS1SZ094X1JnTlB0dkVNYnppWl96SWFZSnJJSmNOV0JhT3NvdFZBVHl3SUNVaHpXYnlIT3BvUktudXFWSXRpdF9sRUZhT0xWOTJnQVRUMnVCMWttRXNUNmJaRDlFd3Y4cEtJ?oc=5",
    "refs": [
     [
-     "The Rio Times",
-     "https://www.riotimesonline.com/brazil-judge-bars-flavio-bolsonaro-ad-boost-2026/"
+     "TradingView",
+     "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOelhpZjZtNkZISThBMmk4NEd2MkZMeE5ueEFRTTRuM2JGdGtvU3BNUmcweWpmcHRXU0EzVFhicnVtcVBIM1lXa2hYcm1uVEpQV0NJc3hVa05qOEhMN2R1U2xZU1BHMlAxc0VzLU9leUFOTS1SZ094X1JnTlB0dkVNYnppWl96SWFZSnJJSmNOV0JhT3NvdFZBVHl3SUNVaHpXYnlIT3BvUktudXFWSXRpdF9sRUZhT0xWOTJnQVRUMnVCMWttRXNUNmJaRDlFd3Y4cEtJ?oc=5"
     ]
    ]
   },
@@ -7617,18 +7667,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Brazil candidates focus fiscal plans on voter-friendly measures before runoff",
-   "summary": "By Marcela Ayres BRASILIA, Oct 15 (Reuters) - As Brazil's presidential runoff campaign enters its final stretch, both candidates are focusing plans for fiscal adjustments on politically palatable ...",
-   "image": "http://www.bing.com/th?id=ONUT.aset3R1sRqZHntuDrjjLeQ&pid=News",
-   "imageType": "photo",
+   "title": "Bolsonaro’s lead over Lula narrows ahead of Brazil runoff, Datafolha poll shows By Reuters",
+   "summary": "Bolsonaro’s lead over Lula narrows ahead of Brazil runoff, Datafolha poll shows By Reuters Investing.com",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Bolsonaro%E2%80%99s%20lead%20over%20Lula%20narrows%20ahead%20of%20Brazil%20runoff%2C%20Datafolha%20poll%20shows%20By%20Reuters%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-15T12:58:05+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/money/economy/brazil-candidates-focus-fiscal-plans-on-voter-friendly-measures-before-runoff/ar-AA2ekvrJ",
+   "published": "2026-10-15T22:08:47+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZnJqdUVDWGpBZG8wWnJHdlRja3hqWXZRV20zT0NoZE9ndWduT3RsRGJ0Z2QySmNBSDVuQWc0NWN4T0U3N2docTFzbjNqWko0dzQtVHFCeS1aUmdvZDZGOXlUbGxTZkFsRFNTUnJ4STI3TnNKRkdGOTVWZWppSDBkUm0tYzBpenphWkhld0xYWkdyUVFZS0xsRmFkZHJBUl9vam14VXQtVlNXUjFOY0Z5ZnNnSkVOTkNLb0RmUjhNT3dRaXh6akE?oc=5",
    "refs": [
     [
-     "Reuters on MSN",
-     "https://www.msn.com/en-us/money/economy/brazil-candidates-focus-fiscal-plans-on-voter-friendly-measures-before-runoff/ar-AA2ekvrJ"
+     "Investing.com",
+     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZnJqdUVDWGpBZG8wWnJHdlRja3hqWXZRV20zT0NoZE9ndWduT3RsRGJ0Z2QySmNBSDVuQWc0NWN4T0U3N2docTFzbjNqWko0dzQtVHFCeS1aUmdvZDZGOXlUbGxTZkFsRFNTUnJ4STI3TnNKRkdGOTVWZWppSDBkUm0tYzBpenphWkhld0xYWkdyUVFZS0xsRmFkZHJBUl9vam14VXQtVlNXUjFOY0Z5ZnNnSkVOTkNLb0RmUjhNT3dRaXh6akE?oc=5"
     ]
    ]
   },
@@ -7642,18 +7692,68 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Brazil face Indonesia in Nations Cup round two after opening win",
-   "summary": "Brazil beat Cape Verde 4–2 in their 2026 Futsal Nations Cup openerCredits: @kiaravilarinho/Handout/@brasil_futsalAfter opening with a 4–2 win over Cape Verde, Brazil face Indonesia this Thursday ...",
-   "image": "https://s.yimg.com/lo/mysterio/api/2373f94f4f60dee44d3c414a90c567411179156e5a7993b7eec6f560b05679ee/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcbf_articles_956%2F3c4259409ce4be7b0b495c1c7bb05615.jpg",
-   "imageType": "photo",
+   "title": "Bolsonaro, Lula in Tight Race Ahead of Brazil Runoff, Poll Shows",
+   "summary": "Bolsonaro, Lula in Tight Race Ahead of Brazil Runoff, Poll Shows Bloomberg.com",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Bolsonaro%2C%20Lula%20in%20Tight%20Race%20Ahead%20of%20Brazil%20Runoff%2C%20Poll%20Shows%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
    "topic": "News",
-   "published": "2026-10-15T12:52:00+00:00",
-   "breaking": false,
-   "url": "https://sports.yahoo.com/articles/brazil-face-indonesia-nations-cup-195100770.html",
+   "published": "2026-10-15T21:53:59+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGw3ajBzOWprRi1WT0Z5cVV3OVBJZ2NmVmc4MGREbEp6ZGdXVXdSSGs5Y0NSRGtIN2RZNWtOUFVOY2pyaTNqMl9lV2ZiSUp5SnJyY2tXTmlkdDRiaUt2Q2dWLXlya0tpYWVwN2E1ZW0weWVVN1h2QV85OElrZUJ4VGVnUERub0o4NWFtUGs5aW9YVWVMdFN0RkhGWXZGbm13WG1hVHN5eXFZeEhjYnV6SFlwNA?oc=5",
    "refs": [
     [
-     "Yahoo Sports",
-     "https://sports.yahoo.com/articles/brazil-face-indonesia-nations-cup-195100770.html"
+     "Bloomberg.com",
+     "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGw3ajBzOWprRi1WT0Z5cVV3OVBJZ2NmVmc4MGREbEp6ZGdXVXdSSGs5Y0NSRGtIN2RZNWtOUFVOY2pyaTNqMl9lV2ZiSUp5SnJyY2tXTmlkdDRiaUt2Q2dWLXlya0tpYWVwN2E1ZW0weWVVN1h2QV85OElrZUJ4VGVnUERub0o4NWFtUGs5aW9YVWVMdFN0RkhGWXZGbm13WG1hVHN5eXFZeEhjYnV6SFlwNA?oc=5"
+    ]
+   ]
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "flag": "🇧🇷",
+   "c": [
+    "hsl(76,55%,26%)",
+    "hsl(111,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Brazil's Senate approves bill aimed at forgiving $2.5 billion in micro-entrepreneurs' debt",
+   "summary": "Brazil's Senate approves bill aimed at forgiving $2.5 billion in micro-entrepreneurs' debt TradingView",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Brazil%27s%20Senate%20approves%20bill%20aimed%20at%20forgiving%20%242.5%20billion%20in%20micro-entrepreneurs%27%20debt%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
+   "topic": "News",
+   "published": "2026-10-15T21:51:00+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWnhONUptR21ZUGxuNEl3NGZpWFlmaS1OYklfdjJnVURReVhHa2otNDZBWGpWWnk0RXJBUUxybzJOeFpkSWsxTVRTZTBhdnhRTldLTjNpOVM4bWk3R0xwOEg3WU1uazdCLV9MOHJQZ3B0MlF6SHByQTA0akxnMFg2YUVhY0M2bC00TlFGTDVVbl9xZEhQWGxKVlBBbEVsSm9UVHZreldlV01vZWlGV2xHZDJHSkwzdVJBTF9wR1dyVUI0MVJqc0REZ0lBTTZWNlR5U010QUp5Y1VuRmpRSDd3REZLX1ZqWUdLXzBuZ3lvdw?oc=5",
+   "refs": [
+    [
+     "TradingView",
+     "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWnhONUptR21ZUGxuNEl3NGZpWFlmaS1OYklfdjJnVURReVhHa2otNDZBWGpWWnk0RXJBUUxybzJOeFpkSWsxTVRTZTBhdnhRTldLTjNpOVM4bWk3R0xwOEg3WU1uazdCLV9MOHJQZ3B0MlF6SHByQTA0akxnMFg2YUVhY0M2bC00TlFGTDVVbl9xZEhQWGxKVlBBbEVsSm9UVHZreldlV01vZWlGV2xHZDJHSkwzdVJBTF9wR1dyVUI0MVJqc0REZ0lBTTZWNlR5U010QUp5Y1VuRmpRSDd3REZLX1ZqWUdLXzBuZ3lvdw?oc=5"
+    ]
+   ]
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "flag": "🇦🇷",
+   "c": [
+    "hsl(39,55%,26%)",
+    "hsl(74,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Argentine demonstration over education cuts ends in clashes",
+   "summary": "Argentine demonstration over education cuts ends in clashes France 24",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Argentine%20demonstration%20over%20education%20cuts%20ends%20in%20clashes%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
+   "topic": "News",
+   "published": "2026-10-15T22:07:00+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWY3Rno0dmhXemN5eHlfVHBVWU9JVk03RXZDSXcteVJWYUR2N2prMUcyQU9JenRuTnhpUXVaWkZvaE80WTFqZUdOUFdadGZjVlRIMFJhOVRjVm1YWHlCTGxEbkRoWVVyNHFsZFRIbHc3T2FodWltM2EteF95LWY2YTdqSmJnRFpnem1DWWhuTE0yRlVxYUpTOWFwdlluY0plcUl3YXlZSTgxZw?oc=5",
+   "refs": [
+    [
+     "France 24",
+     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWY3Rno0dmhXemN5eHlfVHBVWU9JVk03RXZDSXcteVJWYUR2N2prMUcyQU9JenRuTnhpUXVaWkZvaE80WTFqZUdOUFdadGZjVlRIMFJhOVRjVm1YWHlCTGxEbkRoWVVyNHFsZFRIbHc3T2FodWltM2EteF95LWY2YTdqSmJnRFpnem1DWWhuTE0yRlVxYUpTOWFwdlluY0plcUl3YXlZSTgxZw?oc=5"
     ]
    ]
   },
@@ -7693,17 +7793,42 @@
    "emoji": "📰",
    "lang": "en",
    "title": "Argentina Protest",
-   "summary": "Argentina Protest The Herald Journal",
+   "summary": "Argentina Protest The Batesville Daily Guard",
    "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Argentina%20Protest%2C%20no%20text?width=800&height=450&nologo=true",
    "imageType": "ai",
    "topic": "News",
    "published": "2026-10-15T21:21:20+00:00",
    "breaking": true,
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWElwRzA3S2ViSV9uTXJVaC04RHpsZy1JZDdLS1ZqUEVhOS1vMGNETEE5VVpZWFhPTUNGTkhDR0tGejA5aXJTUHZUeGIyVktRZ0lpWEc0RzY5aEpzd1hRTC1Uc29Fb2RXZzUwVzZFZlRaVmlVcHhMSy1SOXJxWXdPaW1jc3hNMjFOS21QbjdQR0k2R3ozWk13dWRn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRUJfU3E4TkZRUTVwN3M2NUVrNWwyQ1JnRGRrLUdmcEQ3SFlvbVFYdDJkX29rejJUVFdyNlU0VXRVUzFWMUpNM2hiaDV5SDNMSU9VRXJwT25xZW1fa0hac3ljQm55RWdRX2lQUFBHRmdhY3dEcjNPMGYxVkNFRndxbTRmVmlzcXFvY01GRVJJdWdzUFVHdjAyYTREczdUQmxmbEpudmNLdw?oc=5",
    "refs": [
     [
-     "The Herald Journal",
-     "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWElwRzA3S2ViSV9uTXJVaC04RHpsZy1JZDdLS1ZqUEVhOS1vMGNETEE5VVpZWFhPTUNGTkhDR0tGejA5aXJTUHZUeGIyVktRZ0lpWEc0RzY5aEpzd1hRTC1Uc29Fb2RXZzUwVzZFZlRaVmlVcHhMSy1SOXJxWXdPaW1jc3hNMjFOS21QbjdQR0k2R3ozWk13dWRn?oc=5"
+     "The Batesville Daily Guard",
+     "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRUJfU3E4TkZRUTVwN3M2NUVrNWwyQ1JnRGRrLUdmcEQ3SFlvbVFYdDJkX29rejJUVFdyNlU0VXRVUzFWMUpNM2hiaDV5SDNMSU9VRXJwT25xZW1fa0hac3ljQm55RWdRX2lQUFBHRmdhY3dEcjNPMGYxVkNFRndxbTRmVmlzcXFvY01GRVJJdWdzUFVHdjAyYTREczdUQmxmbEpudmNLdw?oc=5"
+    ]
+   ]
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "flag": "🇦🇷",
+   "c": [
+    "hsl(39,55%,26%)",
+    "hsl(74,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Argentina pauses local dollar bond sales as debt wall nears",
+   "summary": "Argentina pauses local dollar bond sales as debt wall nears Buenos Aires Times",
+   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Argentina%20pauses%20local%20dollar%20bond%20sales%20as%20debt%20wall%20nears%2C%20no%20text?width=800&height=450&nologo=true",
+   "imageType": "ai",
+   "topic": "News",
+   "published": "2026-10-15T21:05:42+00:00",
+   "breaking": true,
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbnJqTXM0S241RzcyOGdISmNxc21mNTZZSVJ1NWM3TmFrSWxQNkJqRjA4X0ktejZwSVZuN0xObzBBbnEtSFhtbWROelVPQk94V0dZZjRUMkNZaHdRcVZpdGlPTTdMd3ZidXZTckVxQ3NsNFFvRjBUNTF5TXN3Ym4yYlEzNnpveUFDVS0xaENZTm5qQ2FPM0tmbkFIV2w1M2pYWVg1TnlDLVpOZzZYSXfSAa4BQVVfeXFMUG5yak1zNEtuNUc3MjhnSEpjcXNtZjU2WUlSdTVjN05ha0lsUDZCakYwOF9JLXo2cElWbjdMTm8wQW5xLUhYbW1kTnpVT0JPeFdHWWY0VDJDWWh3UXFWaXRpT003THd2YnV2U3JFcUNzbDRRb0YwVDUxeU1zd2JuMmJRMzZ6b3lBQ1UtMWhDWU5uakNhTzNLZm5BSFdsNTNqWFlYNU55Qy1aTmc2WEl3?oc=5",
+   "refs": [
+    [
+     "Buenos Aires Times",
+     "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbnJqTXM0S241RzcyOGdISmNxc21mNTZZSVJ1NWM3TmFrSWxQNkJqRjA4X0ktejZwSVZuN0xObzBBbnEtSFhtbWROelVPQk94V0dZZjRUMkNZaHdRcVZpdGlPTTdMd3ZidXZTckVxQ3NsNFFvRjBUNTF5TXN3Ym4yYlEzNnpveUFDVS0xaENZTm5qQ2FPM0tmbkFIV2w1M2pYWVg1TnlDLVpOZzZYSXfSAa4BQVVfeXFMUG5yak1zNEtuNUc3MjhnSEpjcXNtZjU2WUlSdTVjN05ha0lsUDZCakYwOF9JLXo2cElWbjdMTm8wQW5xLUhYbW1kTnpVT0JPeFdHWWY0VDJDWWh3UXFWaXRpT003THd2YnV2U3JFcUNzbDRRb0YwVDUxeU1zd2JuMmJRMzZ6b3lBQ1UtMWhDWU5uakNhTzNLZm5BSFdsNTNqWFlYNU55Qy1aTmc2WEl3?oc=5"
     ]
    ]
   },
@@ -7733,56 +7858,6 @@
    ]
   },
   {
-   "country": "Argentina",
-   "code": "AR",
-   "flag": "🇦🇷",
-   "c": [
-    "hsl(39,55%,26%)",
-    "hsl(74,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "GeoPark Q3 2026 output rises 2.6% on Argentina growth",
-   "summary": "GeoPark Q3 2026 output rises 2.6% on Argentina growth StreetInsider",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20GeoPark%20Q3%202026%20output%20rises%202.6%25%20on%20Argentina%20growth%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-15T20:56:43+00:00",
-   "breaking": true,
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZC04V1dVLXhBQUpURjJHMkZRSmNkdGprN1ZGWUc3dnJZX0NKQTlzZGRiRzhISjNQeHVUTkJTd3E2NUI1SnFHNUh1YV9ncVMtbXZwb1JNOXNpNHVIZEhUVG50N3RvU0dUdFRpY1RIdXBYbTZ6ZW1HamktdVNqVHVGUEJLanpUa0NZdkdKM0dtR202eXk3dFB6SWlQTlhFSkljTDZjOXRNVzQyVm1LRnlaUEN0V18?oc=5",
-   "refs": [
-    [
-     "StreetInsider",
-     "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZC04V1dVLXhBQUpURjJHMkZRSmNkdGprN1ZGWUc3dnJZX0NKQTlzZGRiRzhISjNQeHVUTkJTd3E2NUI1SnFHNUh1YV9ncVMtbXZwb1JNOXNpNHVIZEhUVG50N3RvU0dUdFRpY1RIdXBYbTZ6ZW1HamktdVNqVHVGUEJLanpUa0NZdkdKM0dtR202eXk3dFB6SWlQTlhFSkljTDZjOXRNVzQyVm1LRnlaUEN0V18?oc=5"
-    ]
-   ]
-  },
-  {
-   "country": "Argentina",
-   "code": "AR",
-   "flag": "🇦🇷",
-   "c": [
-    "hsl(39,55%,26%)",
-    "hsl(74,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Argentina reportedly already has first opponent for November window after Lionel Messi’s retirement",
-   "summary": "Argentina reportedly already has first opponent for November window after Lionel Messi’s retirement World Soccer Talk",
-   "image": "https://image.pollinations.ai/prompt/editorial%20news%20illustration%2C%20Argentina%20reportedly%20already%20has%20first%20opponent%20for%20November%20window%20after%20Lionel%20Messi%E2%80%99s%20retirement%2C%20no%20text?width=800&height=450&nologo=true",
-   "imageType": "ai",
-   "topic": "News",
-   "published": "2026-10-15T20:54:24+00:00",
-   "breaking": true,
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc0NSQmljQmF2cjFHRE0wbmFaUUgyUWZsNXl1UjYySFZmaHBjUm53elVIMUlwSVdWR1l1RzBCRDh1UEZCek4tU0pSR1JVNTVCMkZjY0picFNnWGlNeU9icWF0Z2xkcHN1YS02aXByZjItQ3g1SVN5S3B4a3p2aUMwTlhZOUtETVVqLTBaRHNpSU83MGdKLVZURTJ4Tk9seElUQTZEWkNxOEZpWTZqMkVVSkd1VHlvSS1VZ0tkSkt2dGNmVno2bGozeXRHYTVYX1dx0gHQAUFVX3lxTE5zQ1JCaWNCYXZyMUdETTBuYVpRSDJRZmw1eXVSNjJIVmZocGNSbnd6VUgxSXBJV1ZHWXVHMEJEOHVQRkJ6Ti1TSlJHUlU1NUIyRmNjSmJwU2dYaU15T2JxYXRnbGRwc3VhLTZpcHJmMi1DeDVJU3lLcHhrenZpQzBOWFk5S0RNVWotMFpEc2lJTzcwZ0otVlRFMnhOT2x4SVRBNkRaQ3E4RmlZNmoyRVVKR3VUeW9JLVVnS2RKS3Z0Y2ZWejZsajN5dEdhNVhfV3E?oc=5",
-   "refs": [
-    [
-     "World Soccer Talk",
-     "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc0NSQmljQmF2cjFHRE0wbmFaUUgyUWZsNXl1UjYySFZmaHBjUm53elVIMUlwSVdWR1l1RzBCRDh1UEZCek4tU0pSR1JVNTVCMkZjY0picFNnWGlNeU9icWF0Z2xkcHN1YS02aXByZjItQ3g1SVN5S3B4a3p2aUMwTlhZOUtETVVqLTBaRHNpSU83MGdKLVZURTJ4Tk9seElUQTZEWkNxOEZpWTZqMkVVSkd1VHlvSS1VZ0tkSkt2dGNmVno2bGozeXRHYTVYX1dx0gHQAUFVX3lxTE5zQ1JCaWNCYXZyMUdETTBuYVpRSDJRZmw1eXVSNjJIVmZocGNSbnd6VUgxSXBJV1ZHWXVHMEJEOHVQRkJ6Ti1TSlJHUlU1NUIyRmNjSmJwU2dYaU15T2JxYXRnbGRwc3VhLTZpcHJmMi1DeDVJU3lLcHhrenZpQzBOWFk5S0RNVWotMFpEc2lJTzcwZ0otVlRFMnhOT2x4SVRBNkRaQ3E4RmlZNmoyRVVKR3VUeW9JLVVnS2RKS3Z0Y2ZWejZsajN5dEdhNVhfV3E?oc=5"
-    ]
-   ]
-  },
-  {
    "country": "Colombia",
    "code": "CO",
    "flag": "🇨🇴",
@@ -7792,18 +7867,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Colombia's Streets Erupt: What 'Abelardo Hates Us' Means for De la Espriella's Next 100 Days",
-   "summary": "Tens of thousands marched across Colombia on Oct. 14 in the broadest challenge yet to President De la Espriella's 60-day-old government.",
-   "image": "http://www.bing.com/th?id=ONUT.bxoLaj6q1xMK4b5-Wca97g&pid=News",
+   "title": "Colombia’s left flexes its muscles in first street protests against De la Espriella",
+   "summary": "Tens of thousands marched without any major incidents in the country’s main cities despite adverse weather and the president’s threat of a harsh response ...",
+   "image": "http://www.bing.com/th?id=ONUT.Diu3_wyLbDI2XR3mVsJEXg&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T13:03:00+00:00",
+   "published": "2026-10-15T05:28:00+00:00",
    "breaking": false,
-   "url": "https://www.latintimes.com/colombias-streets-erupt-what-abelardo-hates-us-means-de-la-espriellas-next-100-days-600191",
+   "url": "https://english.elpais.com/international/2026-10-15/colombias-left-flexes-its-muscles-in-first-street-protests-against-de-la-espriella.html",
    "refs": [
     [
-     "Latin Times",
-     "https://www.latintimes.com/colombias-streets-erupt-what-abelardo-hates-us-means-de-la-espriellas-next-100-days-600191"
+     "EL PAÍS English",
+     "https://english.elpais.com/international/2026-10-15/colombias-left-flexes-its-muscles-in-first-street-protests-against-de-la-espriella.html"
     ]
    ]
   },
@@ -7892,43 +7967,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "COLOMBIA OPENS EMBASSY IN YERUSHALAYIM: Foreign Ministers Mark Diplomatic Milestone",
-   "summary": "Colombia officially inaugurated its embassy in Yerushalayim on Wednesday, becoming the tenth country to establish its diplomatic mission in Israel’s capital. Israeli Foreign Minister Gideon Sa’ar and ...",
-   "image": "https://www.theyeshivaworld.com/wp-content/uploads/2026/10/HUlrwH5XMAAKvJJ.jpg",
+   "title": "Colombia inaugurates embassy to Israel in Jerusalem",
+   "summary": "Move by Colombia’s new right-wing government marks a major shift after former President Petro severed ties with Israel.",
+   "image": "http://www.bing.com/th?id=ORMS.53f507b9d4ab85d44d36c77158a8d7ae&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-14T09:30:00+00:00",
+   "published": "2026-10-14T07:08:45+00:00",
    "breaking": false,
-   "url": "https://www.theyeshivaworld.com/news/israel-news/2609905/colombia-opens-embassy-in-yerushalayim-foreign-ministers-mark-diplomatic-milestone.html",
+   "url": "https://www.msn.com/en-us/news/world/colombia-inaugurates-embassy-to-israel-in-jerusalem/ar-AA2eenWO",
    "refs": [
     [
-     "The Yeshiva World",
-     "https://www.theyeshivaworld.com/news/israel-news/2609905/colombia-opens-embassy-in-yerushalayim-foreign-ministers-mark-diplomatic-milestone.html"
-    ]
-   ]
-  },
-  {
-   "country": "Chile",
-   "code": "CL",
-   "flag": "🇨🇱",
-   "c": [
-    "hsl(251,55%,26%)",
-    "hsl(286,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Chile sentences Venezuelan gang member to 20 years for kidnapping and killing dissident",
-   "summary": "SANTIAGO, Chile (AP) — A Chilean court on Thursday sentenced a Venezuelan man extradited from Costa Rica to 20 years in prison for his role in the kidnapping and killing of former Venezuelan military ...",
-   "image": "http://www.bing.com/th?id=ONUT.ZUmnNynVB4HaslFMmxE0Fw&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T14:42:02+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-ca/news/other/chile-sentences-venezuelan-gang-member-to-20-years-for-kidnapping-and-killing-dissident/ar-AA2ekwdm",
-   "refs": [
-    [
-     "The Canadian Press on MSN",
-     "https://www.msn.com/en-ca/news/other/chile-sentences-venezuelan-gang-member-to-20-years-for-kidnapping-and-killing-dissident/ar-AA2ekwdm"
+     "Al Jazeera on MSN",
+     "https://www.msn.com/en-us/news/world/colombia-inaugurates-embassy-to-israel-in-jerusalem/ar-AA2eenWO"
     ]
    ]
   },
@@ -7967,18 +8017,18 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Chile Natural Resources Explained 2026",
-   "summary": "Chile resources in 2026: copper worth US$58.7 billion in exports, the largest lithium reserves, fruit, forests, salmon, and who profits from them.",
-   "image": "https://www.riotimesonline.com/wp-content/uploads/2026/10/pt02-cover.jpg",
+   "title": "The researchers who achieved Chile’s first cloned horse: ‘It would not be complicated to clone humans; the only limitation is ethical’",
+   "summary": "Two Cuban scientists, who began their careers a few years after the Dolly the sheep milestone, have created the country’s first identical copy of an equine ...",
+   "image": "http://www.bing.com/th?id=ONUT.0DcabLPdPN_95cIR3vymsQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T05:36:00+00:00",
+   "published": "2026-10-15T05:42:00+00:00",
    "breaking": false,
-   "url": "https://www.riotimesonline.com/chile-natural-resources-explained-2026/",
+   "url": "https://english.elpais.com/international/2026-10-15/the-researchers-who-achieved-chiles-first-cloned-horse-it-would-not-be-complicated-to-clone-humans-the-only-limitation-is-ethical.html",
    "refs": [
     [
-     "The Rio Times",
-     "https://www.riotimesonline.com/chile-natural-resources-explained-2026/"
+     "EL PAÍS English",
+     "https://english.elpais.com/international/2026-10-15/the-researchers-who-achieved-chiles-first-cloned-horse-it-would-not-be-complicated-to-clone-humans-the-only-limitation-is-ethical.html"
     ]
    ]
   },
@@ -8042,81 +8092,6 @@
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Peru’s Terms of Trade Jump 14% on Copper",
-   "summary": "Peru's central bank data show its terms of trade rose 14.3% in August from a year earlier, as copper and gold prices climbed more than 30%.",
-   "image": "https://www.riotimesonline.com/wp-content/uploads/2026/10/peru-terms-of-trade-copper-gold-2026-cover-photo.jpg",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-15T00:53:00+00:00",
-   "breaking": false,
-   "url": "https://www.riotimesonline.com/peru-terms-of-trade-copper-gold-2026/",
-   "refs": [
-    [
-     "The Rio Times",
-     "https://www.riotimesonline.com/peru-terms-of-trade-copper-gold-2026/"
-    ]
-   ]
-  },
-  {
-   "country": "Peru",
-   "code": "PE",
-   "flag": "🇵🇪",
-   "c": [
-    "hsl(113,55%,26%)",
-    "hsl(148,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Peru and US Step Up Fight on Illegal Mining",
-   "summary": "Peru's defence minister met the US ambassador and the head of US Southern Command in Iquitos to widen the fight against cartels and illegal mining.",
-   "image": "http://www.bing.com/th?id=ONUT.g6faCZnDbTESaeWv8EJFeQ&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-14T23:47:00+00:00",
-   "breaking": false,
-   "url": "https://www.riotimesonline.com/peru-us-illegal-mining-fight-2026/",
-   "refs": [
-    [
-     "The Rio Times",
-     "https://www.riotimesonline.com/peru-us-illegal-mining-fight-2026/"
-    ]
-   ]
-  },
-  {
-   "country": "Peru",
-   "code": "PE",
-   "flag": "🇵🇪",
-   "c": [
-    "hsl(113,55%,26%)",
-    "hsl(148,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
-   "title": "Peru: One kidnapping report every 93 minutes — criminal networks are swapping threats for abductions",
-   "summary": "Peru's Ministerio Público logged 463 kidnapping reports in September alone. With 3,910 cases in nine months, 2026 is headed for a six-year high.",
-   "image": "http://www.bing.com/th?id=ONUT._IZoe_V69RznjI46DptSLQ&pid=News",
-   "imageType": "photo",
-   "topic": "News",
-   "published": "2026-10-14T12:08:25+00:00",
-   "breaking": false,
-   "url": "https://www.msn.com/en-us/news/other/peru-one-kidnapping-report-every-93-minutes-criminal-networks-are-swapping-threats-for-abductions/ar-AA2efNCP",
-   "refs": [
-    [
-     "Latin Times on MSN",
-     "https://www.msn.com/en-us/news/other/peru-one-kidnapping-report-every-93-minutes-criminal-networks-are-swapping-threats-for-abductions/ar-AA2efNCP"
-    ]
-   ]
-  },
-  {
-   "country": "Peru",
-   "code": "PE",
-   "flag": "🇵🇪",
-   "c": [
-    "hsl(113,55%,26%)",
-    "hsl(148,60%,45%)"
-   ],
-   "emoji": "📰",
-   "lang": "en",
    "title": "Wildfires are sweeping across Peru’s Cusco region: What travelers should know",
    "summary": "From air quality concerns to exact areas impacted, here's the 411.",
    "image": "http://www.bing.com/th?id=ONUT.7dqs6ohVKPuR4Z1itx8XQw&pid=News",
@@ -8133,27 +8108,27 @@
    ]
   },
   {
-   "country": "Cuba",
-   "code": "CU",
-   "flag": "🇨🇺",
+   "country": "Peru",
+   "code": "PE",
+   "flag": "🇵🇪",
    "c": [
-    "hsl(224,55%,26%)",
-    "hsl(259,60%,45%)"
+    "hsl(113,55%,26%)",
+    "hsl(148,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "A Cuban-American family claimed Cuba seized its island in 1959, won a $119.4 million verdict against Expedia companies, then saw a judge overturn it",
-   "summary": "The dispute over a Cuban island seized after the 1959 revolution has reached an unusual point in American legal history. As reported by Transnational Litigation Blog (TLB), in April 2025, a jury in ...",
-   "image": "http://www.bing.com/th?id=ONUT.OSWMdEzN5CRRr0w_LRhaWA&pid=News",
+   "title": "A left-wing candidate named Hitler Mussolini just won Peru's most-watched mayoral race. Here's the full story.",
+   "summary": "A Peruvian businessman named Hitler Mussolini won a small-town mayoral race by 25 votes, triggering global headlines and extortion threats.",
+   "image": "http://www.bing.com/th?id=ONUT.oQJ8S76dCImhDJa4XvxBMQ&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T13:00:00+00:00",
+   "published": "2026-10-14T05:19:17+00:00",
    "breaking": false,
-   "url": "https://timesofindia.indiatimes.com/world/rest-of-world/a-cuban-american-family-claimed-cuba-seized-its-island-in-1959-won-a-119-4-million-verdict-against-expedia-companies-then-saw-a-judge-overturn-it/articleshow/134973480.cms",
+   "url": "https://www.msn.com/en-us/news/news/a-left-wing-candidate-named-hitler-mussolini-just-won-peru-s-most-watched-mayoral-race-here-s-the-full-story/ar-AA2edmux",
    "refs": [
     [
-     "The Times of India",
-     "https://timesofindia.indiatimes.com/world/rest-of-world/a-cuban-american-family-claimed-cuba-seized-its-island-in-1959-won-a-119-4-million-verdict-against-expedia-companies-then-saw-a-judge-overturn-it/articleshow/134973480.cms"
+     "Latin Times on MSN",
+     "https://www.msn.com/en-us/news/news/a-left-wing-candidate-named-hitler-mussolini-just-won-peru-s-most-watched-mayoral-race-here-s-the-full-story/ar-AA2edmux"
     ]
    ]
   },
@@ -8258,27 +8233,27 @@
    ]
   },
   {
-   "country": "Panama",
-   "code": "PA",
-   "flag": "🇵🇦",
+   "country": "Cuba",
+   "code": "CU",
+   "flag": "🇨🇺",
    "c": [
-    "hsl(325,55%,26%)",
-    "hsl(0,60%,45%)"
+    "hsl(224,55%,26%)",
+    "hsl(259,60%,45%)"
    ],
    "emoji": "📰",
    "lang": "en",
-   "title": "Panama removed from EU’s tax haven ‘blacklist’ a decade after the Panama Papers",
-   "summary": "Ten years after ICIJ’s investigation exposed the country as a corporate haven, regulations and checks have been put in place to deal with the reputational damage.",
-   "image": "http://www.bing.com/th?id=ONUT.gGPVCaij4jPHLyO_EcLZ9w&pid=News",
+   "title": "A surge in U.S. solar exports helps Cuba keep some of its lights on",
+   "summary": "Chronic power woes have made life a misery for Cuba's 9.4 million people. But that pain is being eased by one of the fastest solar adoption rates in the region.",
+   "image": "http://www.bing.com/th?id=ONUT.BbKNtVCbgBMIS0xj8ymy-w&pid=News",
    "imageType": "photo",
    "topic": "News",
-   "published": "2026-10-15T11:44:00+00:00",
+   "published": "2026-10-14T12:30:00+00:00",
    "breaking": false,
-   "url": "https://www.icij.org/investigations/panama-papers/panama-removed-from-eus-tax-haven-blacklist-a-decade-after-the-panama-papers/",
+   "url": "https://www.latimes.com/environment/story/2026-10-14/solar-panels-are-helping-cuba-keep-some-of-lights-on",
    "refs": [
     [
-     "International Consortium of Investigative Journalists",
-     "https://www.icij.org/investigations/panama-papers/panama-removed-from-eus-tax-haven-blacklist-a-decade-after-the-panama-papers/"
+     "Los Angeles Times",
+     "https://www.latimes.com/environment/story/2026-10-14/solar-panels-are-helping-cuba-keep-some-of-lights-on"
     ]
    ]
   },
@@ -8379,6 +8354,31 @@
     [
      "The US Sun",
      "https://www.the-sun.com/news/17145856/influencer-sparks-backlash-panama-earthquake-rubble-photoshoot/"
+    ]
+   ]
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "flag": "🇵🇦",
+   "c": [
+    "hsl(325,55%,26%)",
+    "hsl(0,60%,45%)"
+   ],
+   "emoji": "📰",
+   "lang": "en",
+   "title": "Panama was hit by 2 major earthquakes and more than 100 aftershocks—here’s what it means for travelers",
+   "summary": "After a 7.7-magnitude quake and a second 6.6-magnitude tremor, Panama experienced more than 100 aftershocks, with airlines offering flexible rebooking options.",
+   "image": "http://www.bing.com/th?id=ONUT.rBE1U94Aw7jlgkEI8IEZtg&pid=News",
+   "imageType": "photo",
+   "topic": "News",
+   "published": "2026-10-13T08:19:44+00:00",
+   "breaking": false,
+   "url": "https://www.msn.com/en-us/news/news/panama-was-hit-by-2-major-earthquakes-and-more-than-100-aftershocks-here-s-what-it-means-for-travelers/ar-AA2e97BL",
+   "refs": [
+    [
+     "Travel + Leisure on MSN",
+     "https://www.msn.com/en-us/news/news/panama-was-hit-by-2-major-earthquakes-and-more-than-100-aftershocks-here-s-what-it-means-for-travelers/ar-AA2e97BL"
     ]
    ]
   }
