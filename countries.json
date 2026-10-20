@@ -92,19 +92,26 @@
 ],
 "Australia": [
 "AU",
-"en"
+"en",
+"zh",
+"ar"
 ],
 "New Zealand": [
 "NZ",
-"en"
+"en",
+"mi"
 ],
 "United Kingdom": [
 "GB",
-"en"
+"en",
+"cy",
+"pl"
 ],
 "Ireland": [
 "IE",
-"en"
+"en",
+"ga",
+"pl"
 ],
 "France": [
 "FR",
@@ -237,7 +244,8 @@
 ],
 "Ghana": [
 "GH",
-"en"
+"en",
+"tw"
 ],
 "Morocco": [
 "MA",
@@ -294,5 +302,278 @@
 "PA",
 "en",
 "es"
+],
+"Cambodia": [
+"KH",
+"en",
+"km"
+],
+"Laos": [
+"LA",
+"en",
+"lo"
+],
+"Mongolia": [
+"MN",
+"en",
+"mn"
+],
+"Taiwan": [
+"TW",
+"en",
+"zh"
+],
+"Hong Kong": [
+"HK",
+"en",
+"zh"
+],
+"Kazakhstan": [
+"KZ",
+"en",
+"kk",
+"ru"
+],
+"Uzbekistan": [
+"UZ",
+"en",
+"uz",
+"ru"
+],
+"Azerbaijan": [
+"AZ",
+"en",
+"az",
+"ru"
+],
+"Georgia": [
+"GE",
+"en",
+"ka"
+],
+"Armenia": [
+"AM",
+"en",
+"hy"
+],
+"Jordan": [
+"JO",
+"en",
+"ar"
+],
+"Lebanon": [
+"LB",
+"en",
+"ar",
+"fr"
+],
+"Syria": [
+"SY",
+"en",
+"ar"
+],
+"Yemen": [
+"YE",
+"en",
+"ar"
+],
+"Oman": [
+"OM",
+"en",
+"ar"
+],
+"Bahrain": [
+"BH",
+"en",
+"ar"
+],
+"Algeria": [
+"DZ",
+"en",
+"ar",
+"fr"
+],
+"Tunisia": [
+"TN",
+"en",
+"ar",
+"fr"
+],
+"Sudan": [
+"SD",
+"en",
+"ar"
+],
+"Tanzania": [
+"TZ",
+"en",
+"sw"
+],
+"Uganda": [
+"UG",
+"en",
+"sw"
+],
+"Rwanda": [
+"RW",
+"en",
+"fr",
+"rw"
+],
+"Senegal": [
+"SN",
+"en",
+"fr"
+],
+"Mozambique": [
+"MZ",
+"en",
+"pt"
+],
+"Angola": [
+"AO",
+"en",
+"pt"
+],
+"Somalia": [
+"SO",
+"en",
+"so",
+"ar"
+],
+"Portugal": [
+"PT",
+"en",
+"pt"
+],
+"Belgium": [
+"BE",
+"en",
+"nl",
+"fr"
+],
+"Austria": [
+"AT",
+"en",
+"de"
+],
+"Greece": [
+"GR",
+"en",
+"el"
+],
+"Czechia": [
+"CZ",
+"en",
+"cs"
+],
+"Hungary": [
+"HU",
+"en",
+"hu"
+],
+"Romania": [
+"RO",
+"en",
+"ro"
+],
+"Serbia": [
+"RS",
+"en",
+"sr"
+],
+"Croatia": [
+"HR",
+"en",
+"hr"
+],
+"Denmark": [
+"DK",
+"en",
+"da"
+],
+"Finland": [
+"FI",
+"en",
+"fi",
+"sv"
+],
+"Iceland": [
+"IS",
+"en",
+"is"
+],
+"Belarus": [
+"BY",
+"en",
+"be",
+"ru"
+],
+"Lithuania": [
+"LT",
+"en",
+"lt"
+],
+"Venezuela": [
+"VE",
+"en",
+"es"
+],
+"Ecuador": [
+"EC",
+"en",
+"es"
+],
+"Bolivia": [
+"BO",
+"en",
+"es"
+],
+"Uruguay": [
+"UY",
+"en",
+"es"
+],
+"Paraguay": [
+"PY",
+"en",
+"es"
+],
+"Costa Rica": [
+"CR",
+"en",
+"es"
+],
+"Dominican Republic": [
+"DO",
+"en",
+"es"
+],
+"Guatemala": [
+"GT",
+"en",
+"es"
+],
+"Haiti": [
+"HT",
+"en",
+"fr",
+"ht"
+],
+"Fiji": [
+"FJ",
+"en",
+"hi"
+],
+"Mauritius": [
+"MU",
+"en",
+"fr"
+],
+"DR Congo": [
+"CD",
+"en",
+"fr",
+"sw"
 ]
 }

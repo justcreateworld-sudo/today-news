@@ -3,168 +3,249 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Today News: World news by country</title>
-<meta name="description" content="Search any country and read its latest news in one place. Photos and sources from news channels, updated every 30 minutes.">
+<title>Today News 24hrs: World news by country</title>
+<meta name="description" content="Today News 24hrs: search any country and read its latest news in your language. Photos, videos and sources, updated every 30 minutes.">
 <link rel="canonical" href="https://justcreateworld-sudo.github.io/today-news/">
 <meta name="theme-color" content="#101a2b">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📰%3C/text%3E%3C/svg%3E">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Today News">
-<meta property="og:title" content="Today News: World news by country">
-<meta property="og:description" content="Search any country and read its latest news, with photos and sources. Updated every 30 minutes.">
+<meta property="og:site_name" content="Today News 24hrs">
+<meta property="og:title" content="Today News 24hrs: World news by country">
+<meta property="og:description" content="Search any country and read its latest news in your language, with photos, videos and sources.">
 <meta property="og:url" content="https://justcreateworld-sudo.github.io/today-news/">
 <meta property="og:image" content="https://justcreateworld-sudo.github.io/today-news/preview.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Today News: World news by country">
-<meta name="twitter:image" content="https://justcreateworld-sudo.github.io/today-news/preview.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Today News","url":"https://justcreateworld-sudo.github.io/today-news/","description":"World news sorted by country, with photos and sources."}</script>
-<!-- GOOGLE-VERIFICATION: paste the Search Console meta tag on the next line if you use that method -->
- <meta name="google-site-verification" content="IWy3k1r50MrarOQXNYRPIjcoJ6GweOWript4L64f-NI" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Today News 24hrs","url":"https://justcreateworld-sudo.github.io/today-news/","description":"World news sorted by country, in your language."}</script>
+<!-- GOOGLE-VERIFICATION: paste the Search Console meta tag on the next line -->
 <style>
-:root{--bg:#f4f6f9;--card:#fff;--ink:#101a2b;--mut:#5b6678;--line:#dfe4ec;--acc:#0a6e8a;--red:#d62839;--chip:#e6f1f5;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#f2f5f9;--card:#fff;--ink:#101a2b;--mut:#5b6678;--line:#dfe4ec;--acc:#0a6e8a;--red:#d62839;--chip:#e6f1f5;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1420;--card:#152033;--ink:#e8edf5;--mut:#9aa7bb;--line:#243249;--acc:#4fc3de;--chip:#1b2c42;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#0d1420;--card:#152033;--ink:#e8edf5;--mut:#9aa7bb;--line:#243249;--acc:#4fc3de;--chip:#1b2c42;color-scheme:dark}
 *{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:1120px;margin:0 auto;padding:0 18px}
-header{border-bottom:1px solid var(--line);background:var(--card)}
-.bar{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
-.logo{font:800 24px Georgia,"Times New Roman",serif;letter-spacing:-.5px}.logo i{font-style:normal;color:var(--red)}
-.date{color:var(--mut);font-size:13px}
-.ticker{background:var(--red);color:#fff;font-size:14px;overflow:hidden;white-space:nowrap}
-.ticker div{display:inline-block;padding:8px 0 8px 100%;animation:t 45s linear infinite}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Nirmala UI",sans-serif}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.top{top:env(safe-area-inset-top,0px);display:flex;align-items:center;gap:12px;padding:10px 16px;background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.burger{width:44px;height:44px;border:1px solid var(--line);background:var(--card);border-radius:10px;font-size:22px;line-height:1}
+.brand{font:800 24px Georgia,"Times New Roman",serif;letter-spacing:-.5px;white-space:nowrap}.brand i{font-style:normal;color:var(--red)}
+.brand small{font:700 12px system-ui;background:var(--red);color:#fff;padding:2px 7px;border-radius:5px;margin-left:6px;vertical-align:middle}
+.date{margin-left:auto;color:var(--mut);font-size:13px;text-align:right}
+.ticker{display:flex;background:var(--red);color:#fff;font-size:14px;overflow:hidden}
+.tl{background:#8f1423;padding:8px 12px;font-weight:800;white-space:nowrap;position:relative;z-index:1}
+.tw{overflow:hidden;white-space:nowrap;flex:1}.tw div{display:inline-block;padding:8px 0 8px 100%;animation:t 70s linear infinite}
 @keyframes t{to{transform:translateX(-100%)}}
-@media(prefers-reduced-motion:reduce){.ticker div{animation:none;padding-left:18px}}
-.hero{padding:44px 0 22px}
-.hero h1{font:700 clamp(30px,5vw,50px)/1.1 Georgia,serif;margin:0 0 8px;letter-spacing:-1px;max-width:760px}
-.hero p{color:var(--mut);margin:0 0 20px;max-width:560px}
-.sw{position:relative;max-width:560px}
-.sw input{width:100%;font:inherit;font-size:18px;padding:16px 18px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink);outline:none}
-.sw input:focus-visible{border-color:var(--acc);box-shadow:0 0 0 4px color-mix(in srgb,var(--acc) 22%,transparent)}
-.sug{position:absolute;left:0;right:0;top:100%;margin-top:6px;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;z-index:5;box-shadow:0 10px 30px #0003}
-.sug button{display:flex;gap:10px;width:100%;text-align:left;border:0;background:none;color:var(--ink);font:inherit;padding:11px 16px;cursor:pointer}
-.sug button:hover,.sug button.on{background:var(--chip)}.sug small{margin-left:auto;color:var(--mut)}
-.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
-.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-size:14px;padding:7px 13px;border-radius:99px;cursor:pointer}
+@media(prefers-reduced-motion:reduce){.tw div{animation:none;padding-left:12px}}
+.wx{display:flex;gap:14px;flex-wrap:wrap;align-items:center;padding:10px 16px;background:var(--card);border-bottom:1px solid var(--line);font-size:15px}
+.layout{max-width:1100px;margin:0 auto;padding:16px}
+.brandbox{display:flex;flex-direction:column;line-height:1.2;min-width:0}.brandbox .date{margin:2px 0 0;text-align:left;font-size:12px}
+.cbtn{margin-left:auto;display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:0 12px;height:44px;max-width:52vw}
+.cbtn span:nth-child(2){overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sr{display:flex;gap:8px}.sw{position:relative;flex:1}
+.sw input{width:100%;font:inherit;font-size:18px;padding:14px 16px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink);outline:none}
+.sw input:focus-visible{border-color:var(--acc)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.chip{border:1px solid var(--line);background:var(--card);font-size:14px;padding:7px 14px;border-radius:99px}
 .chip[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:#fff}
-.chip:focus-visible,.sug button:focus-visible,.src a:focus-visible,.btn:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
-.head{display:flex;justify-content:space-between;align-items:baseline;margin:26px 0 14px;gap:10px;flex-wrap:wrap}
-.head h2{font:700 26px Georgia,serif;margin:0}.head span{color:var(--mut);font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:18px;padding-bottom:40px}
+.head{display:flex;justify-content:space-between;align-items:baseline;margin:22px 0 14px;gap:10px;flex-wrap:wrap}
+.head h1{font:700 26px Georgia,serif;margin:0}.head span{color:var(--mut);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
-.card.lead{grid-column:1/-1;flex-direction:row}.card.lead .img{width:48%;height:auto;min-height:260px}.card.lead h3{font-size:28px}
-@media(max-width:720px){.card.lead{flex-direction:column}.card.lead .img{width:100%;height:200px;min-height:0}}
-.img{height:170px;display:grid;place-items:center;font-size:60px;position:relative;color:#fff}
-.img em{position:absolute;left:10px;bottom:8px;font:600 11px system-ui;background:#0009;padding:3px 8px;border-radius:99px}
+.card.lead{grid-column:1/-1;flex-direction:row}.card.lead .img{width:50%;height:auto;min-height:270px}.card.lead h3{font-size:28px}
+@media(max-width:720px){.card.lead{flex-direction:column}.card.lead .img{width:100%;height:210px;min-height:0}}
+.img{height:190px;position:relative;background:#233;overflow:hidden}
+.img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.img em{position:absolute;left:10px;bottom:8px;font:600 11px system-ui;background:#000a;color:#fff;padding:3px 8px;border-radius:99px;max-width:85%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .body{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1}
-.meta{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--mut)}
+.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--mut)}
 .badge{background:var(--red);color:#fff;font-weight:700;font-size:12px;padding:2px 8px;border-radius:5px}
-.cty{font-weight:700;color:var(--acc)}
+.topic{background:var(--chip);color:var(--acc);font-weight:700;font-size:12px;padding:2px 8px;border-radius:5px}
+.cty{font-weight:700;color:var(--acc);display:inline-flex;gap:6px;align-items:center}
 .card h3{font:700 20px/1.25 Georgia,serif;margin:0}.card p{margin:0;color:var(--mut);font-size:15px}
 .src{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:13px}
-.src b{color:var(--mut);font-weight:600}
-.src a{color:var(--ink);text-decoration:none;background:var(--chip);padding:4px 10px;border-radius:99px}
-.src a:hover{text-decoration:underline}
+.src b{color:var(--mut);font-weight:600}.src a{color:var(--ink);text-decoration:none;background:var(--chip);padding:4px 10px;border-radius:99px}
+.src a.vid{background:var(--red);color:#fff}.src a:hover{text-decoration:underline}
 .empty{grid-column:1/-1;text-align:center;padding:50px 16px;color:var(--mut);border:1px dashed var(--line);border-radius:14px}
-.note{background:var(--chip);border-radius:12px;padding:14px 16px;font-size:14px;color:var(--mut);margin-bottom:40px}
-footer{border-top:1px solid var(--line);padding:22px 0 30px;color:var(--mut);font-size:13px}
+.more{text-align:center;padding:22px 0}
+#vids h2{font:700 24px Georgia,serif;margin:28px 0 14px}.vg{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.vt{margin:0;position:relative;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;cursor:pointer}
+.vt img{width:100%;height:100%;object-fit:cover;opacity:.85}.vt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vt button{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:54px;height:54px;border-radius:50%;border:0;background:var(--red);color:#fff;font-size:22px}
+.vt figcaption{position:absolute;left:0;right:0;bottom:0;padding:18px 10px 8px;color:#fff;font-size:12px;background:linear-gradient(transparent,#000c)}
+.vt.on figcaption,.vt.on button{display:none}
+.drawer{position:fixed;top:0;left:0;bottom:0;width:290px;max-width:85vw;background:var(--card);border-right:1px solid var(--line);z-index:40;transform:translateX(-105%);transition:transform .2s;padding:14px;overflow:auto;padding-top:calc(14px + env(safe-area-inset-top,0px))}
+.drawer.open{transform:none}.drawer h2{font:700 16px system-ui;margin:8px 8px 10px;color:var(--mut)}
+.drawer button.it{display:flex;gap:12px;align-items:center;width:100%;border:0;background:none;text-align:left;padding:12px;border-radius:10px;font-size:17px}
+.drawer button.it:hover{background:var(--chip)}.drawer button.it[aria-current="true"]{background:var(--acc);color:#fff}
+.scrim{position:fixed;inset:0;background:#0008;z-index:30}[hidden]{display:none!important}
+@media(prefers-reduced-motion:reduce){.drawer{transition:none}}
+.drawer.r{left:auto;right:0;border-right:0;border-left:1px solid var(--line);transform:translateX(105%)}.drawer.r.open{transform:none}
+.drawer ul{list-style:none;margin:0;padding:0}
+.drawer li button{display:flex;align-items:center;gap:10px;width:100%;border:0;background:none;text-align:left;padding:10px;border-radius:8px;font-size:16px}
+.drawer li button:hover{background:var(--chip)}.drawer li button[aria-current="true"]{background:var(--acc);color:#fff}
+.drawer li small{margin-left:auto;color:var(--mut)}.drawer li button[aria-current="true"] small{color:#fff}
+.top{padding:8px 14px}
+.burger{border:0;background:none;width:40px;height:40px;padding:0;display:grid;place-items:center;border-radius:8px;color:var(--ink)}
+.sw>svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--mut);pointer-events:none}
+.sw input{height:40px;padding:0 14px 0 40px;font-size:15px;border:1px solid var(--line);border-radius:10px}
+.sw input:focus-visible{border-color:var(--acc);outline:2px solid color-mix(in srgb,var(--acc) 35%,transparent);outline-offset:0}
+.ctl{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;background:var(--card);overflow:hidden}
+.seg>button,.dpw button{border:0;border-right:1px solid var(--line);background:none;padding:0 14px;height:38px;display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:600;color:var(--mut)}
+.seg>button:hover,.dpw button:hover{background:var(--chip)}.dpw{position:relative;display:inline-flex}.dpw button{border-right:0}
+.seg [aria-pressed="true"]{background:var(--acc);color:#fff}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--red);display:inline-block}.seg [aria-pressed="true"] .dot{background:#fff}
+.dpw input{position:absolute;left:0;bottom:0;width:100%;height:1px;opacity:0;pointer-events:none}
+.cbtn{margin-left:auto;height:38px;border-radius:10px;font-size:14px;font-weight:600;padding:0 12px;max-width:60vw}
+.wx{padding:6px 16px;font-size:14px}.wx .chip{display:inline-flex;align-items:center;gap:6px;padding:5px 12px}
+.drawer button.it{font-size:16px;padding:11px 12px}
+.note{color:var(--mut);font-size:13px;padding:30px 0}
 </style>
 </head>
 <body>
-<header><div class="wrap bar"><div class="logo">Today<i>News</i></div><div class="date" id="date"></div></div></header>
-<div class="ticker" aria-label="Breaking news"><div id="tick"></div></div>
+<header class="top">
+ <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="drawer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+ <div class="brandbox"><div class="brand">Today<i>News</i><small>24hrs</small></div><div class="date" id="date"></div></div>
+</header>
+<div class="ticker" aria-label="Breaking news"><span class="tl" id="tl">BREAKING</span><div class="tw"><div id="tick">…</div></div></div>
+<div class="wx" id="wx"></div>
 
-<main class="wrap">
- <section class="hero">
-  <h1 id="h1">World news, sorted by country</h1>
-  <p id="sub">Type a country name and see only its news. Every story links to the news channels and social posts it came from.</p>
-  <div class="sw">
-   <input id="q" type="search" placeholder="Search a country, e.g. Sri Lanka" autocomplete="off" aria-label="Search country" role="combobox" aria-expanded="false" aria-controls="sug">
-   <div class="sug" id="sug" role="listbox" hidden></div>
-  </div>
+<div class="layout">
+ <main>
+  <div class="sr"><div class="sw"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input id="q" type="search" autocomplete="off" aria-label="Search news"></div></div>
+  <div class="ctl"><div class="seg" id="dates" role="group" aria-label="Date"></div><button class="cbtn" id="cbtn" aria-expanded="false" aria-controls="cdrawer"><span id="cflag"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></span><span id="clab">Countries</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
   <div class="chips" id="langs" role="group" aria-label="Language"></div>
-  <div class="chips" id="chips" role="group" aria-label="Countries"></div>
- </section>
-
- <div class="head"><h2 id="title">Breaking news</h2><span id="count"></span></div>
- <noscript><p>Today News needs JavaScript to show stories. It lists the latest news for about 60 countries, with photos and sources.</p></noscript>
- <div class="grid" id="grid"></div>
- <div style="text-align:center;padding-bottom:40px"><button class="chip" id="more" hidden>Show more stories</button></div>
- <div class="note" id="note"></div>
-</main>
-<footer><div class="wrap">Today News · Always check the original sources linked on each story.</div></footer>
+  <div class="head"><h1 id="title">Latest news</h1><span id="count"></span></div>
+  <div class="grid" id="grid"></div>
+  <noscript><p>Today News 24hrs needs JavaScript to show stories for about 60 countries.</p></noscript>
+  <div class="more"><button class="chip" id="more" hidden>Show more stories</button></div>
+  <section id="vids"></section>
+  <p class="note" id="note"></p>
+ </main>
+</div>
+<nav class="drawer" id="drawer" aria-label="Categories"></nav>
+<nav class="drawer r" id="cdrawer" aria-label="Countries"><h2 id="sh">Countries</h2><ul id="clist"></ul></nav>
+<div class="scrim" id="scrim" hidden></div>
 
 <script>
-let FEED=[];
 const $=id=>document.getElementById(id);
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-let countries=[];
-function buildCountries(){countries=[...new Map(FEED.map(s=>[s.country,s.flag])).entries()].map(([n,f])=>({n,f,k:FEED.filter(s=>s.country===n&&(s.lang||"en")==="en").length}));const PIN=["Sri Lanka","India","United Kingdom","United States","Australia","Japan"];const r=n=>PIN.includes(n)?PIN.indexOf(n):99;countries.sort((a,b)=>r(a.n)-r(b.n)||a.n.localeCompare(b.n))}
-function ago(iso){const m=Math.max(1,Math.round((Date.now()-new Date(iso))/6e4));return m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"}
-let sel="All";
-$("date").textContent=new Date().toLocaleDateString("en",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
-
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const CATS=["sport","business","health","technology","culture","travel","earth"];
+const ICON={sport:"⚽",business:"💼",health:"🩺",technology:"💻",culture:"🎭",travel:"✈️",earth:"🌍",general:"📰"};
 const I={
-en:{h1:"World news, sorted by country",sub:"Type a country name and see only its news. Every story links to the news channels it came from.",ph:"Search a country, e.g. Sri Lanka",latest:"Latest news",news:"news",stories:"stories",story:"story",more:"Show more stories",breaking:"BREAKING",source:"Source",photo:"Photo",ai:"AI image",all:"All",morec:n=>"+"+n+" more countries",fewer:"Show fewer",fallback:"No stories in this language yet. Showing English.",tr:"AI translation",empty:"No stories for this country yet. Try another country."},
-si:{h1:"රටවල් අනුව ලෝක පුවත්",sub:"රටක නම ටයිප් කර එහි පුවත් පමණක් බලන්න. සෑම පුවතක්ම ලබාගත් මූලාශ්‍රයට සම්බන්ධයි.",ph:"රටක් සොයන්න, උදා: Sri Lanka",latest:"නවතම පුවත්",news:"පුවත්",stories:"පුවත්",story:"පුවතක්",more:"තවත් පුවත් පෙන්වන්න",breaking:"හදිසි පුවත",source:"මූලාශ්‍රය",photo:"ඡායාරූපය",ai:"AI රූපය",all:"සියල්ල",morec:n=>"තවත් රටවල් "+n,fewer:"අඩුවෙන් පෙන්වන්න",fallback:"මෙම භාෂාවෙන් තවම පුවත් නැත. ඉංග්‍රීසි පුවත් පෙන්වයි.",tr:"AI පරිවර්තනය",empty:"මෙම රට සඳහා තවම පුවත් නැත."},
-ta:{h1:"நாடு வாரியாக உலகச் செய்திகள்",sub:"ஒரு நாட்டின் பெயரை உள்ளிட்டு அதன் செய்திகளை மட்டும் பாருங்கள். ஒவ்வொரு செய்தியும் அதன் மூலத்துடன் இணைக்கப்பட்டுள்ளது.",ph:"நாட்டைத் தேடுங்கள், எ.கா. Sri Lanka",latest:"சமீபத்திய செய்திகள்",news:"செய்திகள்",stories:"செய்திகள்",story:"செய்தி",more:"மேலும் செய்திகளைக் காட்டு",breaking:"முக்கிய செய்தி",source:"ஆதாரம்",photo:"படம்",ai:"AI படம்",all:"அனைத்தும்",morec:n=>"மேலும் "+n+" நாடுகள்",fewer:"குறைவாகக் காட்டு",fallback:"இந்த மொழியில் செய்திகள் இன்னும் இல்லை. ஆங்கிலச் செய்திகள் காட்டப்படுகின்றன.",tr:"AI மொழிபெயர்ப்பு",empty:"இந்த நாட்டுக்கு இன்னும் செய்திகள் இல்லை."}};
-const ALIAS={"Sri Lanka":["ශ්‍රී ලංකා","இலங்கை"],"India":["ඉන්දියාව","இந்தியா"]};
+en:{ph:"Search news",res:"Results for",latest:"Latest news",news:"news",stories:"stories",story:"story",more:"Show more stories",breaking:"BREAKING",source:"Source",photo:"Photo",ai:"AI image",ill:"Illustration",all:"All news",fallback:"No stories in this language yet. Showing English.",tr:"AI translation",empty:"No stories here yet. Try another country.",watch:"Watch video",videos:"Latest videos",countries:"Countries",cats:"Categories",wx:"Show weather at my location",wxload:"Loading weather…",wxfail:"Weather unavailable. Allow location access and tap to retry.",live:"Live",dat:"Date",today:"Today",yest:"Yesterday",pickdate:"Pick a date",nodate:"No saved news for this date yet.",cat:{sport:"Sport",business:"Business",health:"Health",technology:"Technology",culture:"Culture",travel:"Travel",earth:"Earth",general:"General"}},
+si:{ph:"පුවත් සොයන්න",res:"ප්‍රතිඵල",latest:"නවතම පුවත්",news:"පුවත්",stories:"පුවත්",story:"පුවතක්",more:"තවත් පුවත් පෙන්වන්න",breaking:"හදිසි පුවත",source:"මූලාශ්‍රය",photo:"ඡායාරූපය",ai:"AI රූපය",ill:"නිරූපණය",all:"සියලු පුවත්",fallback:"මෙම භාෂාවෙන් තවම පුවත් නැත. ඉංග්‍රීසි පුවත් පෙන්වයි.",tr:"AI පරිවර්තනය",empty:"තවම පුවත් නැත.",watch:"වීඩියෝව බලන්න",videos:"නවතම වීඩියෝ",countries:"රටවල්",cats:"ප්‍රවර්ග",wx:"මගේ ස්ථානයේ කාලගුණය පෙන්වන්න",wxload:"කාලගුණය ලබාගනිමින්…",wxfail:"කාලගුණය ලබාගත නොහැක. ස්ථාන ප්‍රවේශය ඉඩ දී නැවත උත්සාහ කරන්න.",live:"සජීව",dat:"දිනය",today:"අද",yest:"ඊයේ",pickdate:"දිනය තෝරන්න",nodate:"මෙම දිනය සඳහා පුවත් තවම සුරකින ලද්දේ නැත.",cat:{sport:"ක්‍රීඩා",business:"ව්‍යාපාර",health:"සෞඛ්‍ය",technology:"තාක්ෂණය",culture:"සංස්කෘතිය",travel:"සංචාරය",earth:"පෘථිවිය",general:"පොදු"}},
+ta:{ph:"செய்திகளைத் தேடுங்கள்",res:"முடிவுகள்",latest:"சமீபத்திய செய்திகள்",news:"செய்திகள்",stories:"செய்திகள்",story:"செய்தி",more:"மேலும் காட்டு",breaking:"முக்கிய செய்தி",source:"ஆதாரம்",photo:"படம்",ai:"AI படம்",ill:"விளக்கப்படம்",all:"அனைத்துச் செய்திகள்",fallback:"இந்த மொழியில் செய்திகள் இன்னும் இல்லை. ஆங்கிலச் செய்திகள் காட்டப்படுகின்றன.",tr:"AI மொழிபெயர்ப்பு",empty:"இன்னும் செய்திகள் இல்லை.",watch:"வீடியோ பார்க்க",videos:"சமீபத்திய வீடியோக்கள்",countries:"நாடுகள்",cats:"வகைகள்",wx:"என் இடத்தின் வானிலையைக் காட்டு",wxload:"வானிலை ஏற்றப்படுகிறது…",wxfail:"வானிலை கிடைக்கவில்லை. இடத்தை அனுமதித்து மீண்டும் முயலவும்.",live:"நேரலை",dat:"தேதி",today:"இன்று",yest:"நேற்று",pickdate:"தேதியைத் தேர்ந்தெடுக்கவும்",nodate:"இந்த தேதிக்கான செய்திகள் இன்னும் சேமிக்கப்படவில்லை.",cat:{sport:"விளையாட்டு",business:"வணிகம்",health:"ஆரோக்கியம்",technology:"தொழில்நுட்பம்",culture:"கலாச்சாரம்",travel:"பயணம்",earth:"பூமி",general:"பொது"}}};
+const svg=p=>`<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+const IC_CAL=svg('<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>');
+const IC_PIN=svg('<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>');
+const IC_GLOBE=svg('<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/>');
 const RTL=["ar","ur","fa","he","ps","dv"];
-let shown=24,showAllChips=false,lang="en",LANGS={};
+let DAY="",DAYFEED=[],DAYS=[],Q="",QR="";
+let FEED=[],LANGS={},CODES={},VIDEOS=[],mode="home",sel="All",cat="",lang="en",shown=24,wxOn=false;
 const T=()=>I[lang]||I.en;
-function langOptions(){return sel==="All"?[["en","English"],["si","සිංහල"],["ta","தமிழ்"]]:(LANGS[sel]||[["en","English"]])}
-function fixLang(){if(!langOptions().some(x=>x[0]===lang))lang="en"}
+const cur=()=>DAY?DAYFEED:FEED;
+const catName=c=>(T().cat&&T().cat[c])||I.en.cat[c]||c;
+const flagImg=c=>c?`<img class="flag" src="https://flagcdn.com/w40/${esc(String(c).toLowerCase())}.png" width="22" height="16" alt="" loading="lazy" onerror="this.style.visibility='hidden'">`:"";
+function ago(iso){const m=Math.max(1,Math.round((Date.now()-new Date(iso))/6e4));return m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"}
+
+/* ---------- pictures: photo, then AI image, then drawn illustration ---------- */
+function aiUrl(t){return "https://image.pollinations.ai/prompt/"+encodeURIComponent("editorial news illustration, "+t.slice(0,150)+", no text")+"?width=800&height=450&nologo=true"}
+function art(t,c){let h=0;for(const ch of t+c)h=(h*31+ch.charCodeAt(0))>>>0;const a=h%360,b=(a+50)%360;let sh="";
+ for(let i=0;i<5;i++){const x=(h>>>(i*3))%800,y=(h>>>(i*2+1))%450,r=60+(h>>>(i+2))%120;sh+=`<circle cx="${x}" cy="${y}" r="${r}" fill="hsl(${(a+i*25)%360},70%,70%)" opacity=".18"/>`}
+ const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${a},55%,24%)"/><stop offset="1" stop-color="hsl(${b},60%,42%)"/></linearGradient></defs><rect width="800" height="450" fill="url(#g)"/>${sh}<text x="400" y="270" font-size="150" text-anchor="middle">${ICON[c]||"📰"}</text></svg>`;
+ return "data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg)}
+function imgErr(el){const st=+(el.dataset.s||0);el.dataset.s=st+1;const em=el.nextElementSibling,u=el.dataset.u;
+ if(st===0&&el.dataset.p==="photo"&&u){el.src="https://wsrv.nl/?url="+encodeURIComponent(u)+"&w=800&h=450&fit=cover";return}
+ if(st<=1&&el.dataset.p==="photo"){el.dataset.s=2;el.src=aiUrl(el.dataset.t);if(em)em.textContent=T().ai;return}
+ el.onerror=null;el.src=art(el.dataset.t,el.dataset.c);if(em)em.textContent=T().ill}
+
+/* ---------- state ---------- */
+function langOptions(){if(mode!=="country")return[];return LANGS[sel]||[["en","English"]]}
+function fixLang(){if(mode!=="country"){lang="en";return}const o=langOptions();if(!o.some(x=>x[0]===lang))lang="en"}
+function go(m,v){mode=m;sel=m==="country"?v:"All";cat=m==="cat"?v:"";shown=24;fixLang();
+ $("q").value="";Q="";QR="";closeAll();refresh()}
+function refresh(){ui();langBar();dateBar();ticker();renderSide();render();renderVideos()}
+function ui(){const t=T();$("q").placeholder=t.ph;$("more").textContent=t.more;$("tl").textContent=t.breaking;$("sh").textContent=t.countries;
+ document.documentElement.lang=lang;
+ $("clab").textContent=mode==="country"?sel:t.countries;$("cflag").innerHTML=mode==="country"?flagImg(CODES[sel]):IC_GLOBE;
+ try{$("date").textContent=new Date().toLocaleDateString(lang==="en"?"en-GB":lang+"-LK",{weekday:"long",day:"numeric",month:"long",year:"numeric"})}catch(e){$("date").textContent=new Date().toDateString()}
+ $("drawer").innerHTML=`<h2>${t.cats}</h2><button class="it" data-m="home" aria-current="${mode==="home"}">${t.all}</button>`+CATS.map(c=>`<button class="it" data-m="cat" data-v="${c}" aria-current="${mode==="cat"&&cat===c}">${esc(catName(c))}</button>`).join("");
+ if(!wxOn&&!$("wx").dataset.busy)$("wx").innerHTML=`<button class="chip" id="wxb">${IC_PIN}${t.wx}</button>`}
+function dateBar(){const t=T(),td=new Date().toLocaleDateString("en-CA"),yd=new Date(Date.now()-864e5).toLocaleDateString("en-CA");
+ const lab=d=>d===td?t.today:d===yd?t.yest:new Date(d+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short"});
+ const rec=DAYS.slice(-3).reverse(),loc=lang==="en"?"en-GB":lang+"-LK";
+ let fmt=t.dat;if(DAY){try{fmt=new Date(DAY+"T00:00:00").toLocaleDateString(loc,{day:"numeric",month:"short"})}catch(e){fmt=DAY}}
+ $("dates").innerHTML=`<button aria-pressed="${!DAY}" data-d=""><i class="dot"></i>${t.live}</button>`+rec.map(d=>`<button aria-pressed="${DAY===d}" data-d="${d}">${lab(d)}</button>`).join("")+`<span class="dpw"><button id="dpb" aria-pressed="${!!DAY&&!rec.includes(DAY)}" aria-label="${t.pickdate}">${IC_CAL}<span>${fmt}</span></button><input type="date" id="dp" value="${DAY}" ${DAYS.length?`min="${DAYS[0]}" max="${DAYS[DAYS.length-1]}"`:""} tabindex="-1" aria-hidden="true"></span>`}
+function setDay(d){DAY=d;shown=24;if(!d){DAYFEED=[];refresh();return}
+ fetch(`archive/${encodeURIComponent(d)}.json`,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(a=>{DAYFEED=a;refresh()}).catch(()=>{DAYFEED=[];refresh()})}
 function langBar(){const o=langOptions();$("langs").innerHTML=o.length>1?o.map(l=>`<button class="chip" aria-pressed="${lang===l[0]}" data-l="${l[0]}">${esc(l[1])}</button>`).join(""):""}
-function ui(){$("h1").textContent=T().h1;$("sub").textContent=T().sub;$("q").placeholder=T().ph;$("more").textContent=T().more;document.documentElement.lang=lang}
-function chips(){
- const all=[{n:"All",f:"🌍"},...countries];
- const vis=showAllChips?all:all.filter((c,i)=>i<9||c.n===sel);
- $("chips").innerHTML=vis.map(c=>`<button class="chip" aria-pressed="${sel===c.n}" data-c="${esc(c.n)}">${c.f} ${esc(c.n==="All"?T().all:c.n)}</button>`).join("")+(all.length>9?`<button class="chip" id="tog">${showAllChips?T().fewer:T().morec(all.length-9)}</button>`:"");
-}
-function render(){
- const L=T();
- const pool=l=>FEED.filter(s=>(sel==="All"||s.country===sel)&&(s.lang||"en")===l);
- let list=pool(lang),note="";
- if(!list.length&&lang!=="en"){list=pool("en");note=L.fallback}
+function ticker(){const by=l=>FEED.filter(s=>s.breaking&&(s.lang||"en")===l);const b=(by(lang).length?by(lang):by("en")).slice(0,10);
+ $("tick").textContent=b.map(s=>"● "+(s.country!=="World"?s.country+": ":"")+s.title).join("     ")||"…"}
+function renderSide(){const names=Object.keys(LANGS).sort((a,b)=>a==="Sri Lanka"?-1:b==="Sri Lanka"?1:a.localeCompare(b));
+ const n={};cur().forEach(s=>{if((s.lang||"en")==="en")n[s.country]=(n[s.country]||0)+1});
+ $("clist").innerHTML=`<li><button data-home="1" aria-current="${mode!=="country"}">${IC_GLOBE}<span>${esc(T().all)}</span></button></li>`+names.map(c=>`<li><button data-c="${esc(c)}" aria-current="${mode==="country"&&sel===c}">${flagImg(CODES[c])}<span>${esc(c)}</span><small>${n[c]||0}</small></button></li>`).join("")}
+
+/* ---------- news cards ---------- */
+function card(s,lead){const L=T(),c=s.cat||"general";
+ const src=s.image||art(s.title,c);const kind=s.image?(s.imageType==="photo"?L.photo+": "+esc(s.refs[0][0]):L.ai):L.ill;
+ return `<article class="card${lead?" lead":""}" dir="${RTL.includes(s.lang)?"rtl":"ltr"}">
+ <div class="img"><img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-u="${esc(s.image||"")}" data-t="${esc(s.title)}" data-c="${esc(c)}" data-p="${esc(s.image?s.imageType:"art")}" onerror="imgErr(this)"><em>${kind}</em></div>
+ <div class="body"><div class="meta">${s.breaking&&!DAY?`<span class="badge">${L.breaking}</span>`:""}<span class="topic">${esc(catName(c))}</span>${s.country!=="World"?`<span class="cty">${flagImg(s.code)}${esc(s.country)}</span>`:""}<span>${esc(DAY?new Date(s.published).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"}):ago(s.published))}${s.translated?" · "+L.tr:""}</span></div>
+ <h3><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">${esc(s.title)}</a></h3><p>${esc(s.summary)}</p>
+ <div class="src"><b>${L.source}:</b>${s.refs.map(r=>`<a href="${esc(r[1])}" target="_blank" rel="noopener noreferrer">${esc(r[0])}</a>`).join("")}<a class="vid" href="https://www.youtube.com/results?search_query=${encodeURIComponent(s.title)}" target="_blank" rel="noopener noreferrer">▶ ${L.watch}</a></div></div></article>`}
+function render(){const L=T();let list,note="";
+ const en=s=>(s.lang||"en")==="en";
+ if(mode==="cat"){list=cur().filter(s=>s.cat===cat&&en(s))}
+ else{const pool=l=>cur().filter(s=>(mode==="home"||s.country===sel)&&(s.lang||"en")===l);
+  list=pool(lang);if(!list.length&&lang!=="en"){list=pool("en");note=L.fallback}}
  list.sort((a,b)=>new Date(b.published)-new Date(a.published));
- if(sel==="All"){const n={};list=list.filter(s=>(n[s.country]=(n[s.country]||0)+1)<=2);const li=list.findIndex(s=>s.image);if(li>0)list.unshift(list.splice(li,1)[0])}
- $("title").textContent=sel==="All"?L.latest:sel+" "+L.news;
- $("count").textContent=list.length+" "+(list.length===1?L.story:L.stories)+(note?" · "+note:"");
- const vis=list.slice(0,shown);
- $("grid").innerHTML=vis.length?vis.map((s,i)=>`<article class="card${i===0&&sel==="All"?" lead":""}" dir="${RTL.includes(s.lang)?"rtl":"ltr"}">
-  <div class="img" style="background:linear-gradient(135deg,${s.c[0]},${s.c[1]})" role="img" aria-label="${esc(s.title)}"><span style="font:800 46px Georgia,serif;opacity:.85">${esc(s.code||s.emoji)}</span>${s.image?`<img src="${esc(s.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">`:""}<em>${s.imageType==="photo"?L.photo+": "+esc(s.refs[0][0]):L.ai}</em></div>
-  <div class="body"><div class="meta">${s.breaking?`<span class="badge">${L.breaking}</span>`:''}<span class="cty">${s.flag} ${esc(s.country)}</span><span>· ${esc(ago(s.published))}${s.translated?" · "+L.tr:""}</span></div>
-  <h3><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">${esc(s.title)}</a></h3><p>${esc(s.summary)}</p>
-  <div class="src"><b>${L.source}:</b>${s.refs.map(r=>`<a href="${esc(r[1])}" target="_blank" rel="noopener noreferrer">${esc(r[0])}</a>`).join("")}</div></div></article>`).join("")
-  :`<div class="empty">${L.empty}</div>`;
- $("more").hidden=list.length<=shown;
- chips();
-}
-function pick(n){sel=n;shown=24;fixLang();$("q").value=n==="All"?"":n;hide();ui();langBar();render()}
-function hide(){$("sug").hidden=true;$("q").setAttribute("aria-expanded","false")}
-$("langs").addEventListener("click",e=>{const b=e.target.closest("[data-l]");if(b){lang=b.dataset.l;shown=24;ui();langBar();render()}});
-$("chips").addEventListener("click",e=>{if(e.target.id==="tog"){showAllChips=!showAllChips;chips();return}const b=e.target.closest("[data-c]");if(b)pick(b.dataset.c)});
-$("q").addEventListener("input",e=>{
- const v=e.target.value.trim().toLowerCase();
- if(!v){sel="All";fixLang();ui();langBar();hide();render();return}
- const m=countries.filter(c=>c.n.toLowerCase().includes(v)||(ALIAS[c.n]||[]).some(a=>a.includes(v))).sort((a,b)=>a.n.toLowerCase().indexOf(v)-b.n.toLowerCase().indexOf(v)).slice(0,8);
- $("sug").innerHTML=m.length?m.map(c=>`<button role="option" data-c="${esc(c.n)}">${c.f} ${esc(c.n)}<small>${c.k} stories</small></button>`).join(""):`<div style="padding:12px 16px;color:var(--mut)">No country matches “${esc(v)}”</div>`;
- $("sug").hidden=false;$("q").setAttribute("aria-expanded","true");
- if(m.length===1){sel=m[0].n;fixLang();ui();langBar();render()}
-});
-$("q").addEventListener("keydown",e=>{
- if(e.key==="Enter"){const b=$("sug").querySelector("button");if(b)pick(b.dataset.c)}
- if(e.key==="Escape")hide();
-});
-$("sug").addEventListener("click",e=>{const b=e.target.closest("[data-c]");if(b)pick(b.dataset.c)});
-document.addEventListener("click",e=>{if(!e.target.closest(".sw"))hide()});
+ if(Q)list=list.filter(s=>(s.title+" "+s.summary).toLowerCase().includes(Q));
+function mix(l){const g={};l.forEach(s=>(g[s.country]=g[s.country]||[]).push(s));const q=Object.values(g),o=[];for(let i=0;q.some(a=>a[i]);i++)q.forEach(a=>{if(a[i])o.push(a[i])});return o}
+ if(mode==="home"&&!Q){list=mix(list);const li=list.findIndex(s=>s.image&&s.imageType==="photo");if(li>0)list.unshift(list.splice(li,1)[0])}
+ $("title").textContent=Q?L.res+": “"+QR+"”":mode==="cat"?catName(cat):mode==="country"?sel+" "+L.news:L.latest;
+ $("count").textContent=(DAY?DAY+" · ":"")+list.length+" "+(list.length===1?L.story:L.stories)+(note?" · "+note:"");
+ $("grid").innerHTML=list.length?list.slice(0,shown).map((s,i)=>card(s,i===0&&mode==="home"&&!Q)).join(""):`<div class="empty">${DAY?L.nodate:L.empty}</div>`;
+ $("more").hidden=list.length<=shown}
+function renderVideos(){const own=VIDEOS.filter(v=>mode==="country"&&v.country===sel);const v=(own.length?own:VIDEOS.filter(v=>v.country==="World")).slice(0,8);
+ $("vids").innerHTML=v.length&&mode!=="cat"&&!DAY?`<h2>${T().videos}</h2><div class="vg">${v.map(x=>`<figure class="vt" data-v="${esc(x.id)}"><img src="https://i.ytimg.com/vi/${esc(x.id)}/hqdefault.jpg" alt="" loading="lazy"><button aria-label="Play">▶</button><figcaption>${esc(x.title)} · ${esc(x.channel)}</figcaption></figure>`).join("")}</div>`:""}
+
+/* ---------- weather at the visitor's location ---------- */
+const WC=[[0,"☀️","Clear"],[1,"🌤️","Mostly clear"],[2,"⛅","Partly cloudy"],[3,"☁️","Cloudy"],[45,"🌫️","Fog"],[51,"🌦️","Drizzle"],[61,"🌧️","Rain"],[71,"❄️","Snow"],[80,"🌦️","Showers"],[95,"⛈️","Thunderstorm"]];
+const wcode=c=>{let r=WC[0];for(const w of WC)if(c>=w[0])r=w;return r};
+async function loadWx(){const el=$("wx");el.dataset.busy="1";el.textContent=T().wxload;
+ try{const pos=await new Promise((ok,no)=>navigator.geolocation.getCurrentPosition(ok,no,{timeout:12000,maximumAge:600000}));
+  const la=pos.coords.latitude,lo=pos.coords.longitude;
+  const [w,g]=await Promise.all([fetch(`https://api.open-meteo.com/v1/forecast?latitude=${la}&longitude=${lo}&current=temperature_2m,relative_humidity_2m,weather_code,wind_speed_10m&timezone=auto`).then(r=>r.json()),
+   fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${la}&longitude=${lo}&localityLanguage=en`).then(r=>r.json()).catch(()=>({}))]);
+  const c=w.current,x=wcode(c.weather_code),place=[g.city||g.locality||g.principalSubdivision,g.countryName].filter(Boolean).join(", ");
+  el.innerHTML=`<span style="display:inline-flex;gap:6px;align-items:center">${IC_PIN}${esc(place)}</span><b>${x[1]} ${Math.round(c.temperature_2m)}°C</b><span>${x[2]}</span><span>💧 ${c.relative_humidity_2m}%</span><span>💨 ${Math.round(c.wind_speed_10m)} km/h</span>`;
+  wxOn=true;try{localStorage.setItem("wx","1")}catch(e){}
+ }catch(e){el.innerHTML=`<button class="chip" id="wxb">${T().wxfail}</button>`}
+ delete el.dataset.busy}
+
+/* ---------- menus and events ---------- */
+function closeAll(){$("drawer").classList.remove("open");$("cdrawer").classList.remove("open");$("scrim").hidden=true;$("burger").setAttribute("aria-expanded","false");$("cbtn").setAttribute("aria-expanded","false")}
+$("burger").addEventListener("click",()=>{const o=!$("drawer").classList.contains("open");closeAll();if(o){$("drawer").classList.add("open");$("scrim").hidden=false;$("burger").setAttribute("aria-expanded","true")}});
+$("scrim").addEventListener("click",closeAll);
+$("cbtn").addEventListener("click",()=>{const o=!$("cdrawer").classList.contains("open");closeAll();if(o){$("cdrawer").classList.add("open");$("scrim").hidden=false;$("cbtn").setAttribute("aria-expanded","true")}});
+$("drawer").addEventListener("click",e=>{const b=e.target.closest("[data-m]");if(b)go(b.dataset.m,b.dataset.v)});
+$("clist").addEventListener("click",e=>{const b=e.target.closest("[data-c],[data-home]");if(b){if(b.dataset.home)go("home");else go("country",b.dataset.c)}});
+$("dates").addEventListener("click",e=>{if(e.target.closest("#dpb")){const i=$("dp");try{i.showPicker()}catch(_){try{i.focus();i.click()}catch(__){}}return}const b=e.target.closest("[data-d]");if(b)setDay(b.dataset.d)});
+$("dates").addEventListener("change",e=>{if(e.target.id==="dp")setDay(e.target.value)});
+$("langs").addEventListener("click",e=>{const b=e.target.closest("[data-l]");if(b){lang=b.dataset.l;shown=24;refresh()}});
+$("more").addEventListener("click",()=>{shown+=24;render()});
+$("wx").addEventListener("click",e=>{if(e.target.closest("#wxb"))loadWx()});
+$("vids").addEventListener("click",e=>{const f=e.target.closest("[data-v]");if(f&&!f.classList.contains("on")){f.classList.add("on");f.innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${esc(f.dataset.v)}?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Video"></iframe>`}});
+let qt;$("q").addEventListener("input",e=>{clearTimeout(qt);qt=setTimeout(()=>{QR=e.target.value.trim();Q=QR.toLowerCase();shown=24;render()},150)});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeAll()});
+
+ui();
 fetch("news.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
- FEED=d.stories;LANGS=d.languages||{};buildCountries();ui();langBar();$("more").addEventListener("click",()=>{shown+=24;render()});
- $("tick").textContent=FEED.filter(s=>s.breaking&&(s.lang||"en")==="en").slice(0,8).map(s=>"● "+s.country+": "+s.title).join("     ")||"Latest world news";
- $("note").textContent="Updated "+new Date(d.updated).toLocaleString()+". Images are AI-generated illustrations. Summaries link to the original sources.";
- render();
+ FEED=d.stories||[];LANGS=d.languages||{};CODES=d.codes||{};VIDEOS=d.videos||[];
+ $("note").textContent="Updated "+new Date(d.updated).toLocaleString()+". Photos belong to their news channels. AI images and translations are marked. Always check the original source.";
+ refresh();
+ fetch("archive/index.json",{cache:"no-store"}).then(r=>r.json()).then(a=>{DAYS=a;dateBar()}).catch(()=>{});
+ try{if(localStorage.getItem("wx")==="1")loadWx()}catch(e){}
 }).catch(()=>{$("grid").innerHTML='<div class="empty">News is loading. Please check back in a few minutes.</div>'});
 </script>
 </body>

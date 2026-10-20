@@ -1,0 +1,7 @@
+{"sport":{"feeds":[["BBC Sport","https://feeds.bbci.co.uk/sport/rss.xml"]],"queries":["sport news"]},
+ "business":{"feeds":[["BBC Business","https://feeds.bbci.co.uk/news/business/rss.xml"]],"queries":["business economy news"]},
+ "health":{"feeds":[["BBC Health","https://feeds.bbci.co.uk/news/health/rss.xml"]],"queries":["health medicine news"]},
+ "technology":{"feeds":[["BBC Technology","https://feeds.bbci.co.uk/news/technology/rss.xml"]],"queries":["technology news"]},
+ "culture":{"feeds":[["BBC Entertainment & Arts","https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"]],"queries":["arts culture news"]},
+ "travel":{"feeds":[],"queries":["travel tourism news","airlines airports travel"]},
+ "earth":{"feeds":[["BBC Science & Environment","https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"]],"queries":["climate environment nature news"]}}
