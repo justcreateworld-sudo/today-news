@@ -1,6 +1,6 @@
 """Collects news for ~60 countries, finds a picture for every story, writes news.json.
 Only the Python standard library is used, so nothing needs installing."""
-import json, os, re, html, time, urllib.request, urllib.parse
+import json, os, re, html, time, base64, urllib.request, urllib.parse, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
@@ -12,11 +12,14 @@ MAX_AI_TEXT = 40          # free Gemini calls per run
 MAX_OG_FETCH = 1500
 CAND = 12                 # candidates per country; stories with real photos are preferred         # article-page picture lookups per run
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+MODELS = [m for m in [os.environ.get("GEMINI_MODEL"), "gemini-2.5-flash", "gemini-2.0-flash", "gemini-flash-latest"] if m]
+_good = {"m": None}
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"}
 IMG_EXT = re.compile(r"\.(jpe?g|png|webp|gif)(\?|$)", re.I)
 ATOM = "{http://www.w3.org/2005/Atom}"
-counters = {"ai": 0, "og": 0, "tr": 0}
+counters = {"ai": 0, "og": 0, "tr": 0, "gn": 0}
+MAX_GN = 800              # Google News links turned into the publisher's own link per run
+NONLATIN = {"si","ta","hi","ur","bn","ne","ar","fa","ps","he","ru","uk","zh","ja","ko","th","km","lo","mn","my","el","ka","hy","kk","be","sr","dv","pa","am"}
 MAX_TR_CALLS = int(os.environ.get("MAX_TR_CALLS", "15"))   # free Gemini translation calls per run
 HOME_LANGS = []                                  # languages shown on the first page
 LANGS = {"en":("English","English"),"si":("සිංහල","Sinhala"),"ta":("தமிழ்","Tamil"),"hi":("हिन्दी","Hindi"),"ur":("اردو","Urdu"),"pa":("ਪੰਜਾਬੀ","Punjabi"),"bn":("বাংলা","Bengali"),"ne":("नेपाली","Nepali"),"dv":("ދިވެހި","Dhivehi"),"ps":("پښتو","Pashto"),"fa":("فارسی","Persian"),"my":("မြန်မာ","Burmese"),"zh":("中文","Chinese"),"ja":("日本語","Japanese"),"ko":("한국어","Korean"),"ms":("Melayu","Malay"),"th":("ไทย","Thai"),"id":("Indonesia","Indonesian"),"tl":("Filipino","Filipino"),"vi":("Tiếng Việt","Vietnamese"),"fr":("Français","French"),"de":("Deutsch","German"),"it":("Italiano","Italian"),"es":("Español","Spanish"),"nl":("Nederlands","Dutch"),"sv":("Svenska","Swedish"),"no":("Norsk","Norwegian"),"ru":("Русский","Russian"),"uk":("Українська","Ukrainian"),"pl":("Polski","Polish"),"tr":("Türkçe","Turkish"),"he":("עברית","Hebrew"),"ar":("العربية","Arabic"),"zu":("isiZulu","Zulu"),"af":("Afrikaans","Afrikaans"),"ha":("Hausa","Hausa"),"yo":("Yorùbá","Yoruba"),"sw":("Kiswahili","Swahili"),"am":("አማርኛ","Amharic"),"pt":("Português","Portuguese"),"km":("ខ្មែរ","Khmer"),"lo":("ລາວ","Lao"),"mn":("Монгол","Mongolian"),"kk":("Қазақша","Kazakh"),"uz":("Oʻzbek","Uzbek"),"az":("Azərbaycan","Azerbaijani"),"ka":("ქართული","Georgian"),"hy":("Հայերեն","Armenian"),"rw":("Kinyarwanda","Kinyarwanda"),"so":("Soomaali","Somali"),"el":("Ελληνικά","Greek"),"cs":("Čeština","Czech"),"hu":("Magyar","Hungarian"),"ro":("Română","Romanian"),"sr":("Српски","Serbian"),"hr":("Hrvatski","Croatian"),"da":("Dansk","Danish"),"fi":("Suomi","Finnish"),"is":("Íslenska","Icelandic"),"be":("Беларуская","Belarusian"),"lt":("Lietuvių","Lithuanian"),"ht":("Kreyòl ayisyen","Haitian Creole"),"mi":("Māori","Māori"),"cy":("Cymraeg","Welsh"),"ga":("Gaeilge","Irish"),"tw":("Twi","Twi")}
@@ -86,11 +89,12 @@ def parse(xml_bytes):
         out.append(d)
     return out
 
-def og_image(url):
-    """Reads the main picture (og:image) from the article page itself."""
+def page_meta(url):
+    """Reads the main picture and description from the article page itself."""
     if counters["og"] >= MAX_OG_FETCH or "news.google.com" in url or "bing.com" in url:
-        return ""
+        return "", ""
     counters["og"] += 1
+    img = desc = ""
     try:
         page = fetch(url, 300000, 8).decode("utf-8", "ignore")
         for pat in (r'<meta[^>]+property=["\']og:image(?::secure_url)?["\'][^>]+content=["\']([^"\']+)',
@@ -101,10 +105,70 @@ def og_image(url):
             if m:
                 u = up(urllib.parse.urljoin(url, html.unescape(m.group(1))))
                 if not re.search(r"logo|placeholder|default[-_]|favicon|sprite", u, re.I):
-                    return u
+                    img = u; break
+        for pat in (r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)',
+                    r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description["\']',
+                    r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)'):
+            m = re.search(pat, page, re.I)
+            if m:
+                desc = clean(html.unescape(m.group(1))); break
     except Exception:
         pass
-    return ""
+    return img, desc
+
+def og_image(url):
+    return page_meta(url)[0]
+
+def decode_gnews(url):
+    """Turns a news.google.com article link into the publisher's own article link."""
+    try:
+        path = urllib.parse.urlparse(url).path.split("/")
+        if "articles" not in path:
+            return url
+        b64 = path[-1]
+        try:   # older links carry the address inside
+            raw = base64.urlsafe_b64decode(b64 + "=" * (-len(b64) % 4))
+            m = re.search(rb"https?://[^\x00-\x20\x7f-\xff\"<>]+", raw)
+            if m and "." in m.group(0).decode("ascii", "ignore"):
+                return m.group(0).decode("ascii", "ignore")
+        except Exception:
+            pass
+        page = fetch(f"https://news.google.com/rss/articles/{b64}", 200000, 12).decode("utf-8", "ignore")
+        sg = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if not (sg and ts):
+            return url
+        inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],'
+                 f'"{b64}",{ts.group(1)},"{sg.group(1)}"]')
+        body = ("f.req=" + urllib.parse.quote(json.dumps([[["Fbv4je", inner]]]))).encode()
+        req = urllib.request.Request("https://news.google.com/_/DotsSplashUi/data/batchexecute", body,
+                                     {"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8", "User-Agent": UA["User-Agent"]})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            txt = r.read().decode("utf-8", "ignore")
+        data = json.loads(txt.split("\n\n")[1][:-2])
+        out = json.loads(data[0][2])[1]
+        return out if out.startswith("http") else url
+    except Exception:
+        return url
+
+def resolve_links(items):
+    todo = [d for d in items if "news.google.com" in d["link"]]
+    todo = todo[: max(0, MAX_GN - counters["gn"])]
+    if not todo:
+        return
+    counters["gn"] += len(todo)
+    with ThreadPoolExecutor(6) as ex:
+        for d, u in zip(todo, ex.map(lambda x: decode_gnews(x["link"]), todo)):
+            if u and "news.google.com" not in u:
+                d["link"] = u
+
+def looks_english(t):
+    letters = [c for c in t if c.isalpha()]
+    return not letters or sum(c < "\u0250" for c in letters) / len(letters) >= 0.8
+
+def weak(d):
+    t, x = d["title"].lower(), d["desc"].lower()
+    return len(x) < 60 or x.startswith(t[:40])
 
 def has_photo(d, cache):
     old = cache.get(d["link"] + "|en")
@@ -115,32 +179,50 @@ def fill_images(items, cache):
     if not todo:
         return
     with ThreadPoolExecutor(6) as ex:
-        for d, u in zip(todo, ex.map(lambda x: og_image(x["link"]), todo)):
+        for d, (u, desc) in zip(todo, ex.map(lambda x: page_meta(x["link"]), todo)):
             d["og_tried"] = True
             if u: d["image"] = u
+            if desc and weak(d): d["desc"] = desc
+
+def gemini_json(prompt, timeout=60):
+    """Calls free Gemini. Tries several model names, because Google renames them."""
+    if not GEMINI_KEY:
+        return None
+    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
+                       "generationConfig": {"responseMimeType": "application/json"}}).encode()
+    for m in ([_good["m"]] if _good["m"] else MODELS):
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={GEMINI_KEY}"
+        try:
+            req = urllib.request.Request(url, body, {"Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                out = json.loads(json.load(r)["candidates"][0]["content"]["parts"][0]["text"])
+            _good["m"] = m
+            return out
+        except urllib.error.HTTPError as e:
+            detail = e.read()[:160].decode("utf-8", "ignore").replace("\n", " ")
+            print(f"  Gemini {m}: HTTP {e.code} {detail}")
+            _good["m"] = None
+            if e.code in (400, 404):
+                continue
+            if e.code == 429:
+                time.sleep(20)
+            return None
+        except Exception as e:
+            print(f"  Gemini {m}: {e}")
+            _good["m"] = None
+            return None
+    return None
 
 def ai(title, text):
     if not GEMINI_KEY or counters["ai"] >= MAX_AI_TEXT:
         return None
     counters["ai"] += 1
-    prompt = ("You write for a news site. Using ONLY the facts below, reply with JSON: "
-              '{"summary":"2 neutral sentences","image_prompt":"short description of an editorial illustration, no text, no real people"}\n'
-              f"Headline: {title}\nText: {text}")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_KEY}"
-    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
-                       "generationConfig": {"responseMimeType": "application/json"}}).encode()
+    j = gemini_json("You write for a news site. Using ONLY the facts below, reply with JSON: "
+                    '{"summary":"2 neutral sentences"}\n' f"Headline: {title}\nText: {text}", 30)
     try:
-        req = urllib.request.Request(url, body, {"Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            j = json.loads(json.load(r)["candidates"][0]["content"]["parts"][0]["text"])
-        return j["summary"], j["image_prompt"]
-    except Exception as e:
-        print("  AI skipped:", e)
+        return j["summary"], ""
+    except Exception:
         return None
-
-def ai_image(prompt):
-    p = urllib.parse.quote("editorial news illustration, " + prompt[:200] + ", no text")
-    return f"https://image.pollinations.ai/prompt/{p}?width=800&height=450&nologo=true"
 
 def flag(code):
     return "".join(chr(127397 + ord(c)) for c in code)
@@ -150,22 +232,21 @@ def colors(code):
     return [f"hsl({h},55%,26%)", f"hsl({(h + 35) % 360},60%,45%)"]
 
 def get_items(country, extra):
-    items = []
+    items, got = [], {}
     sources = [(n, u) for n, u in extra.get(country, {}).get("en", [])]
     q = urllib.parse.quote(country)
     sources.append(("Bing", f"https://www.bing.com/news/search?q={q}&format=rss&setlang=en"))
-    for i, (name, url) in enumerate(sources):
+    sources.append(("Google", f"https://news.google.com/rss/search?q={q}+when:2d&hl=en&gl=US&ceid=US:en"))
+    for name, url in sources:
         try:
-            items += parse(fetch(url))
+            part = parse(fetch(url))
+            got[name] = len(part); items += part
         except Exception as e:
+            got[name] = "FAILED"
             print(f"  feed failed ({country} / {name}): {e}")
         time.sleep(0.4)
-    if len(items) < 3:   # backup source
-        try:
-            items += parse(fetch(f"https://news.google.com/rss/search?q={q}+when:1d&hl=en&gl=US&ceid=US:en"))
-        except Exception as e:
-            print(f"  google backup failed ({country}): {e}")
-    return items
+    print("  sources:", got)
+    return [d for d in items if looks_english(d["title"])]
 
 def translate(stories, lang):
     """Translates headlines + summaries with free Gemini, many stories in one call."""
@@ -173,19 +254,13 @@ def translate(stories, lang):
         return None
     counters["tr"] += 1
     payload = [{"i": i, "title": x["title"], "summary": x["summary"]} for i, x in enumerate(stories)]
-    prompt = (f"Translate these news headlines and summaries into {LANGS[lang][1]}. Keep names, numbers and facts exact. "
-              "Reply with ONLY a JSON array of objects with keys i, title, summary.\n" + json.dumps(payload, ensure_ascii=False))
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_KEY}"
-    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
-                       "generationConfig": {"responseMimeType": "application/json"}}).encode()
+    arr = gemini_json(f"Translate these news headlines and summaries into {LANGS[lang][1]}. Keep names, numbers and facts exact. "
+                      "Reply with ONLY a JSON array of objects with keys i, title, summary.\n" + json.dumps(payload, ensure_ascii=False))
+    time.sleep(4)
     try:
-        req = urllib.request.Request(url, body, {"Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=60) as r:
-            arr = json.loads(json.load(r)["candidates"][0]["content"]["parts"][0]["text"])
-        time.sleep(4)
         return {int(x["i"]): x for x in arr}
-    except Exception as e:
-        print(f"  translation to {lang} skipped:", e)
+    except Exception:
+        print(f"  translation to {lang} failed")
         return None
 
 KEYS = {
@@ -209,17 +284,20 @@ def make_story(d, country, code, lang, now, cache, cat=None):
     old = cache.get(d["link"] + "|" + lang)
     breaking = (now - d["date"]).total_seconds() < BREAKING_HOURS * 3600
     if old:
-        old = dict(old); old["breaking"] = breaking; old.setdefault("cat", classify(old["title"]))
-        if old.get("imageType") != "photo" and d["image"]:
-            old["image"], old["imageType"] = up(d["image"]), "photo"
+        old = dict(old); old["breaking"] = breaking; old.setdefault("cat", "general")
+        if old.get("imageType") != "photo":
+            old["image"], old["imageType"] = (up(d["image"]), "photo") if d["image"] else ("", "art")
         return old
     res = ai(d["title"], d["desc"]) if lang == "en" else None
     summary = res[0] if res else (d["desc"][:220] + ("…" if len(d["desc"]) > 220 else ""))
+    if not summary or summary.lower().startswith(d["title"].lower()[:40]):
+        summary = ""
     real = up(d["image"]) if d["image"] else ("" if d.get("og_tried") else og_image(d["link"]))
-    img, kind = (real, "photo") if real else (ai_image(res[1] if res else d["title"]), "ai")
+    english = lang == "en" and looks_english(d["title"])
     return {"country": country, "code": code, "flag": flag(code), "c": colors(code), "emoji": "📰", "lang": lang,
-            "title": d["title"], "summary": summary or d["title"], "image": img, "imageType": kind,
-            "cat": cat or classify(d["title"] + " " + d["desc"]), "published": d["date"].isoformat(), "breaking": breaking,
+            "title": d["title"], "summary": summary, "image": real, "imageType": "photo" if real else "art",
+            "cat": cat or (classify(d["title"] + " " + d["desc"]) if english else "general"),
+            "published": d["date"].isoformat(), "breaking": breaking,
             "url": d["link"], "refs": [[d["source"], d["link"]]]}
 
 TZ_OFFSET = float(os.environ.get("TZ_OFFSET_HOURS", "5.5"))   # 5.5 = Sri Lanka time, used to decide which day a story belongs to
@@ -264,6 +342,7 @@ def main():
     countries = json.load(open("countries.json", encoding="utf-8"))
     extra = json.load(open("feeds.json", encoding="utf-8"))
     now = datetime.now(timezone.utc)
+    print("Gemini key:", "set" if GEMINI_KEY else "NOT SET (translations and AI summaries are off)")
     stories, languages = [], {}
     for country, info in countries.items():
         code, langs = info[0], (info[1:] or ["en"])
@@ -275,6 +354,7 @@ def main():
             if d["title"] and d["link"] and key not in seen and (now - d["date"]).days < 3:
                 seen.add(key); cands.append(d)
             if len(cands) == CAND: break
+        resolve_links(cands)
         fill_images(cands, cache)
         picked = sorted(cands, key=lambda d: (not has_photo(d, cache), -d["date"].timestamp()))[:MAX_PER_COUNTRY]
         base = [make_story(d, country, code, "en", now, cache) for d in picked]
@@ -284,7 +364,10 @@ def main():
             native = []
             for name, url in extra.get(country, {}).get(lang, []):
                 try:
-                    native += parse(fetch(url))
+                    got = parse(fetch(url))
+                    if lang in NONLATIN:
+                        got = [g for g in got if not looks_english(g["title"])]
+                    native += got
                 except Exception as e:
                     print(f"  feed failed ({country} / {name}): {e}")
                 time.sleep(0.4)
@@ -305,7 +388,7 @@ def main():
             if res:
                 for i, x in enumerate(todo):
                     if i in res and res[i].get("title"):
-                        t = dict(x); t.update(lang=lang, title=res[i]["title"], summary=res[i].get("summary") or res[i]["title"], translated=True)
+                        t = dict(x); t.update(lang=lang, title=res[i]["title"], summary=res[i].get("summary") or "", translated=True)
                         stories.append(t)
     have = {x["url"] for x in stories}
     for cat, conf in json.load(open("categories.json", encoding="utf-8")).items():
@@ -347,6 +430,9 @@ def main():
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump({"updated": now.isoformat(), "languages": languages, "codes": {c: i[0] for c, i in countries.items()}, "videos": videos, "stories": stories}, f, ensure_ascii=False, indent=1)
     save_archive(stories)
+    by = {}
+    for x in stories: by[x.get("lang", "en")] = by.get(x.get("lang", "en"), 0) + 1
+    print("stories per language:", by, "| photos:", sum(1 for x in stories if x["imageType"] == "photo"), "of", len(stories), "| translation calls:", counters["tr"])
     print("Saved", len(stories), "stories")
 
 if __name__ == "__main__":
