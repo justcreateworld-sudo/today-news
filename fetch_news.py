@@ -1,6 +1,6 @@
 """Collects news for ~60 countries, finds a picture for every story, writes news.json.
 Only the Python standard library is used, so nothing needs installing."""
-import json, os, re, html, time, base64, urllib.request, urllib.parse, urllib.error
+import json, os, re, html, time, base64, hashlib, urllib.request, urllib.parse, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
@@ -224,6 +224,42 @@ def ai(title, text):
     except Exception:
         return None
 
+COMMONS_UA = {"User-Agent": "TodayNews24hrsBot/1.0 (https://justcreateworld-sudo.github.io/today-news/; news aggregator)"}
+TOPIC_WORDS = {"sport": "sport", "business": "economy market", "health": "hospital health", "technology": "technology",
+               "culture": "culture festival", "travel": "tourism", "earth": "nature landscape", "general": "city street"}
+BAD = re.compile(r"map|flag|logo|coat of arms|locator|seal|emblem|stamp|diagram|chart|poster|banknote|coin|svg|screenshot|portrait|signature|cover|scan|statistic|graph", re.I)
+_stock = {}
+
+def commons_get(url):
+    req = urllib.request.Request(url, headers=COMMONS_UA)
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.load(r)
+
+def stock_photo(country, cat, seed):
+    """A real, matching photo (country + topic) from Wikimedia Commons. Shown as an 'illustrative photo'."""
+    for c in ([cat, "general"] if cat != "general" else ["general"]):
+        key = (country, c)
+        if key not in _stock:
+            place = "" if country == "World" else country
+            q = f"{place} {TOPIC_WORDS.get(c, 'city')} filetype:bitmap".strip()
+            url = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=30"
+                   "&prop=imageinfo&iiprop=url|size|mime&iiurlwidth=800&gsrsearch=" + urllib.parse.quote(q))
+            found = []
+            try:
+                pages = sorted(commons_get(url).get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 0))
+                for p in pages:
+                    ii = (p.get("imageinfo") or [{}])[0]
+                    if ii.get("mime") != "image/jpeg" or ii.get("width", 0) < 900 or ii.get("height", 0) < 500: continue
+                    if ii["width"] < ii["height"] * 1.15 or BAD.search(p.get("title", "")): continue
+                    if ii.get("thumburl"): found.append(ii["thumburl"])
+            except Exception as e:
+                print(f"  stock photo lookup failed ({country}/{c}): {e}")
+            _stock[key] = found
+            time.sleep(0.3)
+        if _stock[key]:
+            return _stock[key][int(hashlib.md5(seed.encode()).hexdigest(), 16) % len(_stock[key])]
+    return ""
+
 def flag(code):
     return "".join(chr(127397 + ord(c)) for c in code)
 
@@ -286,7 +322,11 @@ def make_story(d, country, code, lang, now, cache, cat=None):
     if old:
         old = dict(old); old["breaking"] = breaking; old.setdefault("cat", "general")
         if old.get("imageType") != "photo":
-            old["image"], old["imageType"] = (up(d["image"]), "photo") if d["image"] else ("", "art")
+            if d["image"]:
+                old["image"], old["imageType"] = up(d["image"]), "photo"
+            elif not (old.get("imageType") == "stock" and old.get("image")):
+                st = stock_photo(old["country"], old.get("cat", "general"), d["link"])
+                old["image"], old["imageType"] = (st, "stock") if st else ("", "art")
         return old
     res = ai(d["title"], d["desc"]) if lang == "en" else None
     summary = res[0] if res else (d["desc"][:220] + ("…" if len(d["desc"]) > 220 else ""))
@@ -294,9 +334,14 @@ def make_story(d, country, code, lang, now, cache, cat=None):
         summary = ""
     real = up(d["image"]) if d["image"] else ("" if d.get("og_tried") else og_image(d["link"]))
     english = lang == "en" and looks_english(d["title"])
+    category = cat or (classify(d["title"] + " " + d["desc"]) if english else "general")
+    kind = "photo" if real else "art"
+    if not real:
+        st = stock_photo(country, category, d["link"])
+        if st: real, kind = st, "stock"
     return {"country": country, "code": code, "flag": flag(code), "c": colors(code), "emoji": "📰", "lang": lang,
-            "title": d["title"], "summary": summary, "image": real, "imageType": "photo" if real else "art",
-            "cat": cat or (classify(d["title"] + " " + d["desc"]) if english else "general"),
+            "title": d["title"], "summary": summary, "image": real, "imageType": kind,
+            "cat": category,
             "published": d["date"].isoformat(), "breaking": breaking,
             "url": d["link"], "refs": [[d["source"], d["link"]]]}
 
@@ -432,7 +477,7 @@ def main():
     save_archive(stories)
     by = {}
     for x in stories: by[x.get("lang", "en")] = by.get(x.get("lang", "en"), 0) + 1
-    print("stories per language:", by, "| photos:", sum(1 for x in stories if x["imageType"] == "photo"), "of", len(stories), "| translation calls:", counters["tr"])
+    print("stories per language:", by, "| real photos:", sum(1 for x in stories if x["imageType"] == "photo"), "| matching photos:", sum(1 for x in stories if x["imageType"] == "stock"), "| drawn:", sum(1 for x in stories if x["imageType"] == "art"), "| total:", len(stories), "| translation calls:", counters["tr"])
     print("Saved", len(stories), "stories")
 
 if __name__ == "__main__":

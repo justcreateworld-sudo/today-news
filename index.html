@@ -132,9 +132,9 @@ const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;"
 const CATS=["sport","business","health","technology","culture","travel","earth"];
 const ICON={sport:"⚽",business:"💼",health:"🩺",technology:"💻",culture:"🎭",travel:"✈️",earth:"🌍",general:"📰"};
 const I={
-en:{ph:"Search news",res:"Results for",latest:"Latest news",news:"news",stories:"stories",story:"story",more:"Show more stories",breaking:"BREAKING",source:"Source",photo:"Photo",ai:"AI image",ill:"Illustration",all:"All news",fallback:"No stories in this language yet. Showing English.",tr:"AI translation",empty:"No stories here yet. Try another country.",watch:"Watch video",videos:"Latest videos",countries:"Countries",cats:"Categories",wx:"Show weather at my location",wxload:"Loading weather…",wxfail:"Weather unavailable. Allow location access and tap to retry.",live:"Live",dat:"Date",today:"Today",yest:"Yesterday",pickdate:"Pick a date",nodate:"No saved news for this date yet.",cat:{sport:"Sport",business:"Business",health:"Health",technology:"Technology",culture:"Culture",travel:"Travel",earth:"Earth",general:"General"}},
-si:{ph:"පුවත් සොයන්න",res:"ප්‍රතිඵල",latest:"නවතම පුවත්",news:"පුවත්",stories:"පුවත්",story:"පුවතක්",more:"තවත් පුවත් පෙන්වන්න",breaking:"හදිසි පුවත",source:"මූලාශ්‍රය",photo:"ඡායාරූපය",ai:"AI රූපය",ill:"නිරූපණය",all:"සියලු පුවත්",fallback:"මෙම භාෂාවෙන් තවම පුවත් නැත. ඉංග්‍රීසි පුවත් පෙන්වයි.",tr:"AI පරිවර්තනය",empty:"තවම පුවත් නැත.",watch:"වීඩියෝව බලන්න",videos:"නවතම වීඩියෝ",countries:"රටවල්",cats:"ප්‍රවර්ග",wx:"මගේ ස්ථානයේ කාලගුණය පෙන්වන්න",wxload:"කාලගුණය ලබාගනිමින්…",wxfail:"කාලගුණය ලබාගත නොහැක. ස්ථාන ප්‍රවේශය ඉඩ දී නැවත උත්සාහ කරන්න.",live:"සජීව",dat:"දිනය",today:"අද",yest:"ඊයේ",pickdate:"දිනය තෝරන්න",nodate:"මෙම දිනය සඳහා පුවත් තවම සුරකින ලද්දේ නැත.",cat:{sport:"ක්‍රීඩා",business:"ව්‍යාපාර",health:"සෞඛ්‍ය",technology:"තාක්ෂණය",culture:"සංස්කෘතිය",travel:"සංචාරය",earth:"පෘථිවිය",general:"පොදු"}},
-ta:{ph:"செய்திகளைத் தேடுங்கள்",res:"முடிவுகள்",latest:"சமீபத்திய செய்திகள்",news:"செய்திகள்",stories:"செய்திகள்",story:"செய்தி",more:"மேலும் காட்டு",breaking:"முக்கிய செய்தி",source:"ஆதாரம்",photo:"படம்",ai:"AI படம்",ill:"விளக்கப்படம்",all:"அனைத்துச் செய்திகள்",fallback:"இந்த மொழியில் செய்திகள் இன்னும் இல்லை. ஆங்கிலச் செய்திகள் காட்டப்படுகின்றன.",tr:"AI மொழிபெயர்ப்பு",empty:"இன்னும் செய்திகள் இல்லை.",watch:"வீடியோ பார்க்க",videos:"சமீபத்திய வீடியோக்கள்",countries:"நாடுகள்",cats:"வகைகள்",wx:"என் இடத்தின் வானிலையைக் காட்டு",wxload:"வானிலை ஏற்றப்படுகிறது…",wxfail:"வானிலை கிடைக்கவில்லை. இடத்தை அனுமதித்து மீண்டும் முயலவும்.",live:"நேரலை",dat:"தேதி",today:"இன்று",yest:"நேற்று",pickdate:"தேதியைத் தேர்ந்தெடுக்கவும்",nodate:"இந்த தேதிக்கான செய்திகள் இன்னும் சேமிக்கப்படவில்லை.",cat:{sport:"விளையாட்டு",business:"வணிகம்",health:"ஆரோக்கியம்",technology:"தொழில்நுட்பம்",culture:"கலாச்சாரம்",travel:"பயணம்",earth:"பூமி",general:"பொது"}}};
+en:{ph:"Search news",res:"Results for",latest:"Latest news",news:"news",stories:"stories",story:"story",more:"Show more stories",breaking:"BREAKING",source:"Source",photo:"Photo",ai:"AI image",ill:"Illustration",all:"All news",fallback:"No stories in this language yet. Showing English.",tr:"Auto-translated",stock:"Illustrative photo",trfail:"Translation is unavailable right now. Showing English.",empty:"No stories here yet. Try another country.",watch:"Watch video",videos:"Latest videos",countries:"Countries",cats:"Categories",wx:"Show weather at my location",wxload:"Loading weather…",wxfail:"Weather unavailable. Allow location access and tap to retry.",live:"Live",dat:"Date",today:"Today",yest:"Yesterday",pickdate:"Pick a date",nodate:"No saved news for this date yet.",cat:{sport:"Sport",business:"Business",health:"Health",technology:"Technology",culture:"Culture",travel:"Travel",earth:"Earth",general:"General"}},
+si:{ph:"පුවත් සොයන්න",res:"ප්‍රතිඵල",latest:"නවතම පුවත්",news:"පුවත්",stories:"පුවත්",story:"පුවතක්",more:"තවත් පුවත් පෙන්වන්න",breaking:"හදිසි පුවත",source:"මූලාශ්‍රය",photo:"ඡායාරූපය",ai:"AI රූපය",ill:"නිරූපණය",all:"සියලු පුවත්",fallback:"මෙම භාෂාවෙන් තවම පුවත් නැත. ඉංග්‍රීසි පුවත් පෙන්වයි.",tr:"ස්වයංක්‍රීය පරිවර්තනය",stock:"නිදර්ශන ඡායාරූපය",trfail:"පරිවර්තනය දැනට ලබාගත නොහැක. ඉංග්‍රීසි පුවත් පෙන්වයි.",empty:"තවම පුවත් නැත.",watch:"වීඩියෝව බලන්න",videos:"නවතම වීඩියෝ",countries:"රටවල්",cats:"ප්‍රවර්ග",wx:"මගේ ස්ථානයේ කාලගුණය පෙන්වන්න",wxload:"කාලගුණය ලබාගනිමින්…",wxfail:"කාලගුණය ලබාගත නොහැක. ස්ථාන ප්‍රවේශය ඉඩ දී නැවත උත්සාහ කරන්න.",live:"සජීව",dat:"දිනය",today:"අද",yest:"ඊයේ",pickdate:"දිනය තෝරන්න",nodate:"මෙම දිනය සඳහා පුවත් තවම සුරකින ලද්දේ නැත.",cat:{sport:"ක්‍රීඩා",business:"ව්‍යාපාර",health:"සෞඛ්‍ය",technology:"තාක්ෂණය",culture:"සංස්කෘතිය",travel:"සංචාරය",earth:"පෘථිවිය",general:"පොදු"}},
+ta:{ph:"செய்திகளைத் தேடுங்கள்",res:"முடிவுகள்",latest:"சமீபத்திய செய்திகள்",news:"செய்திகள்",stories:"செய்திகள்",story:"செய்தி",more:"மேலும் காட்டு",breaking:"முக்கிய செய்தி",source:"ஆதாரம்",photo:"படம்",ai:"AI படம்",ill:"விளக்கப்படம்",all:"அனைத்துச் செய்திகள்",fallback:"இந்த மொழியில் செய்திகள் இன்னும் இல்லை. ஆங்கிலச் செய்திகள் காட்டப்படுகின்றன.",tr:"தானியங்கு மொழிபெயர்ப்பு",stock:"எடுத்துக்காட்டுப் படம்",trfail:"மொழிபெயர்ப்பு இப்போது கிடைக்கவில்லை. ஆங்கிலச் செய்திகள் காட்டப்படுகின்றன.",empty:"இன்னும் செய்திகள் இல்லை.",watch:"வீடியோ பார்க்க",videos:"சமீபத்திய வீடியோக்கள்",countries:"நாடுகள்",cats:"வகைகள்",wx:"என் இடத்தின் வானிலையைக் காட்டு",wxload:"வானிலை ஏற்றப்படுகிறது…",wxfail:"வானிலை கிடைக்கவில்லை. இடத்தை அனுமதித்து மீண்டும் முயலவும்.",live:"நேரலை",dat:"தேதி",today:"இன்று",yest:"நேற்று",pickdate:"தேதியைத் தேர்ந்தெடுக்கவும்",nodate:"இந்த தேதிக்கான செய்திகள் இன்னும் சேமிக்கப்படவில்லை.",cat:{sport:"விளையாட்டு",business:"வணிகம்",health:"ஆரோக்கியம்",technology:"தொழில்நுட்பம்",culture:"கலாச்சாரம்",travel:"பயணம்",earth:"பூமி",general:"பொது"}}};
 const svg=p=>`<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
 const IC_CAL=svg('<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>');
 const IC_PIN=svg('<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>');
@@ -149,14 +149,12 @@ const flagImg=c=>c?`<img class="flag" src="https://flagcdn.com/w40/${esc(String(
 function ago(iso){const m=Math.max(1,Math.round((Date.now()-new Date(iso))/6e4));return m<60?m+" min ago":m<1440?Math.round(m/60)+" h ago":Math.round(m/1440)+" d ago"}
 
 /* ---------- pictures: photo, then AI image, then drawn illustration ---------- */
-function aiUrl(t){return "https://image.pollinations.ai/prompt/"+encodeURIComponent("editorial news illustration, "+t.slice(0,150)+", no text")+"?width=800&height=450&nologo=true"}
 function art(t,c){let h=0;for(const ch of t+c)h=(h*31+ch.charCodeAt(0))>>>0;const a=h%360,b=(a+50)%360;let sh="";
  for(let i=0;i<5;i++){const x=(h>>>(i*3))%800,y=(h>>>(i*2+1))%450,r=60+(h>>>(i+2))%120;sh+=`<circle cx="${x}" cy="${y}" r="${r}" fill="hsl(${(a+i*25)%360},70%,70%)" opacity=".18"/>`}
  const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${a},55%,24%)"/><stop offset="1" stop-color="hsl(${b},60%,42%)"/></linearGradient></defs><rect width="800" height="450" fill="url(#g)"/>${sh}<text x="400" y="270" font-size="150" text-anchor="middle">${ICON[c]||"📰"}</text></svg>`;
  return "data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg)}
 function imgErr(el){const st=+(el.dataset.s||0);el.dataset.s=st+1;const em=el.nextElementSibling,u=el.dataset.u;
  if(st===0&&el.dataset.p==="photo"&&u){el.src="https://wsrv.nl/?url="+encodeURIComponent(u)+"&w=800&h=450&fit=cover";return}
- if(st<=1&&el.dataset.p==="photo"){el.dataset.s=2;el.src=aiUrl(el.dataset.t);if(em)em.textContent=T().ai;return}
  el.onerror=null;el.src=art(el.dataset.t,el.dataset.c);if(em)em.textContent=T().ill}
 
 /* ---------- state ---------- */
@@ -186,26 +184,52 @@ function renderSide(){const names=Object.keys(LANGS).sort((a,b)=>a==="Sri Lanka"
  $("clist").innerHTML=`<li><button data-home="1" aria-current="${mode!=="country"}">${IC_GLOBE}<span>${esc(T().all)}</span></button></li>`+names.map(c=>`<li><button data-c="${esc(c)}" aria-current="${mode==="country"&&sel===c}">${flagImg(CODES[c])}<span>${esc(c)}</span><small>${n[c]||0}</small></button></li>`).join("")}
 
 /* ---------- news cards ---------- */
-function card(s,lead){const L=T(),c=s.cat||"general";
- const src=s.image||art(s.title,c);const kind=s.image?(s.imageType==="photo"?L.photo+": "+esc(s.refs[0][0]):L.ai):L.ill;
- return `<article class="card${lead?" lead":""}" dir="${RTL.includes(s.lang)?"rtl":"ltr"}">
- <div class="img"><img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-u="${esc(s.image||"")}" data-t="${esc(s.title)}" data-c="${esc(c)}" data-p="${esc(s.image?s.imageType:"art")}" onerror="imgErr(this)"><em>${kind}</em></div>
+const GL={zh:"zh-CN",tw:"ak",he:"iw"};
+let TC={};try{TC=JSON.parse(localStorage.getItem("trc")||"{}")}catch(e){}
+function saveTC(){try{const k=Object.keys(TC);if(k.length>1500)k.slice(0,600).forEach(x=>delete TC[x]);localStorage.setItem("trc",JSON.stringify(TC))}catch(e){}}
+async function gtr(text,to){const tl=GL[to]||to;
+ try{const r=await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl="+tl+"&dt=t&q="+encodeURIComponent(text));const j=await r.json();const o=j[0].map(x=>x[0]).join("");if(o)return o}catch(e){}
+ try{const r=await fetch("https://api.mymemory.translated.net/get?q="+encodeURIComponent(text.slice(0,450))+"&langpair=en|"+tl);const j=await r.json();if(j.responseData&&j.responseData.translatedText)return j.responseData.translatedText}catch(e){}
+ return null}
+let RID=0;
+async function translateList(items,rid){if(!items.length)return;let ok=0,bad=0,idx=0;const L2=lang;
+ async function work(){while(idx<items.length){const s=items[idx++];
+  const out=await gtr(s.title+(s.summary&&s.summary!==s.title?"\n"+s.summary:""),L2);
+  if(rid!==RID)return;if(!out){bad++;continue}ok++;
+  const p=out.split(/\n+/),t=[p[0].trim(),p.slice(1).join(" ").trim()];TC[s.url+"|"+L2]=t;
+  const el=[...$("grid").children].find(c=>c.dataset.k===s.url);
+  if(el){el.querySelector("h3 a").textContent=t[0];let pe=el.querySelector("p");if(t[1]){if(!pe){pe=document.createElement("p");el.querySelector("h3").after(pe)}pe.textContent=t[1]}
+   const m=el.querySelector(".meta span:last-child");if(m&&!m.textContent.includes(T().tr))m.textContent+=" · "+T().tr}}}
+ await Promise.all([work(),work(),work(),work()]);saveTC();
+ if(rid===RID&&bad&&!ok)$("count").textContent+=" · "+T().trfail}
+function mix(l){const g={};l.forEach(s=>(g[s.country]=g[s.country]||[]).push(s));const q=Object.values(g),o=[];for(let i=0;q.some(a=>a[i]);i++)q.forEach(a=>{if(a[i])o.push(a[i])});return o}
+function card(s,lead){const L=T();
+ if(s._tr){const t=TC[s.url+"|"+lang];if(t)s=Object.assign({},s,{title:t[0],summary:t[1],translated:1,lang:lang})}
+ const c=s.cat||"general";
+ const ph=!!s.image&&(s.imageType==="photo"||s.imageType==="stock");const src=ph?s.image:art(s.title,c);
+ const kind=!ph?L.ill:s.imageType==="stock"?L.stock:L.photo+": "+esc(s.refs[0][0]);
+ return `<article class="card${lead?" lead":""}" data-k="${esc(s.url)}" dir="${RTL.includes(s.lang)?"rtl":"ltr"}">
+ <div class="img"><img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-u="${esc(ph&&s.imageType==="photo"?s.image:"")}" data-t="${esc(s.title)}" data-c="${esc(c)}" data-p="${ph?s.imageType:"art"}" onerror="imgErr(this)"><em>${kind}</em></div>
  <div class="body"><div class="meta">${s.breaking&&!DAY?`<span class="badge">${L.breaking}</span>`:""}<span class="topic">${esc(catName(c))}</span>${s.country!=="World"?`<span class="cty">${flagImg(s.code)}${esc(s.country)}</span>`:""}<span>${esc(DAY?new Date(s.published).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"}):ago(s.published))}${s.translated?" · "+L.tr:""}</span></div>
- <h3><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">${esc(s.title)}</a></h3><p>${esc(s.summary)}</p>
+ <h3><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">${esc(s.title)}</a></h3>${s.summary&&s.summary!==s.title?`<p>${esc(s.summary)}</p>`:""}
  <div class="src"><b>${L.source}:</b>${s.refs.map(r=>`<a href="${esc(r[1])}" target="_blank" rel="noopener noreferrer">${esc(r[0])}</a>`).join("")}<a class="vid" href="https://www.youtube.com/results?search_query=${encodeURIComponent(s.title)}" target="_blank" rel="noopener noreferrer">▶ ${L.watch}</a></div></div></article>`}
-function render(){const L=T();let list,note="";
+function render(){const L=T();let list;RID++;
  const en=s=>(s.lang||"en")==="en";
  if(mode==="cat"){list=cur().filter(s=>s.cat===cat&&en(s))}
- else{const pool=l=>cur().filter(s=>(mode==="home"||s.country===sel)&&(s.lang||"en")===l);
-  list=pool(lang);if(!list.length&&lang!=="en"){list=pool("en");note=L.fallback}}
+ else if(mode==="country"&&lang!=="en"){
+  const nat=cur().filter(s=>s.country===sel&&s.lang===lang),have=new Set(nat.map(s=>s.url));
+  list=[...nat,...cur().filter(s=>s.country===sel&&en(s)&&!have.has(s.url)).map(s=>Object.assign({},s,{_tr:1}))]}
+ else{list=cur().filter(s=>(mode==="home"||s.country===sel)&&en(s))}
  list.sort((a,b)=>new Date(b.published)-new Date(a.published));
  if(Q)list=list.filter(s=>(s.title+" "+s.summary).toLowerCase().includes(Q));
-function mix(l){const g={};l.forEach(s=>(g[s.country]=g[s.country]||[]).push(s));const q=Object.values(g),o=[];for(let i=0;q.some(a=>a[i]);i++)q.forEach(a=>{if(a[i])o.push(a[i])});return o}
- if(mode==="home"&&!Q){list=mix(list);const li=list.findIndex(s=>s.image&&s.imageType==="photo");if(li>0)list.unshift(list.splice(li,1)[0])}
+ if(mode==="home"&&!Q){list=mix(list);const li=list.findIndex(s=>s.image&&s.imageType!=="art"&&s.imageType!=="ai");if(li>0)list.unshift(list.splice(li,1)[0])}
  $("title").textContent=Q?L.res+": “"+QR+"”":mode==="cat"?catName(cat):mode==="country"?sel+" "+L.news:L.latest;
- $("count").textContent=(DAY?DAY+" · ":"")+list.length+" "+(list.length===1?L.story:L.stories)+(note?" · "+note:"");
- $("grid").innerHTML=list.length?list.slice(0,shown).map((s,i)=>card(s,i===0&&mode==="home"&&!Q)).join(""):`<div class="empty">${DAY?L.nodate:L.empty}</div>`;
- $("more").hidden=list.length<=shown}
+ $("count").textContent=(DAY?DAY+" · ":"")+list.length+" "+(list.length===1?L.story:L.stories);
+ const vis=list.slice(0,shown);
+ $("grid").innerHTML=vis.length?vis.map((s,i)=>card(s,i===0&&mode==="home"&&!Q)).join(""):`<div class="empty">${DAY?L.nodate:L.empty}</div>`;
+ $("more").hidden=list.length<=shown;
+ translateList(vis.filter(s=>s._tr&&!TC[s.url+"|"+lang]),RID)}
+
 function renderVideos(){const own=VIDEOS.filter(v=>mode==="country"&&v.country===sel);const v=(own.length?own:VIDEOS.filter(v=>v.country==="World")).slice(0,8);
  $("vids").innerHTML=v.length&&mode!=="cat"&&!DAY?`<h2>${T().videos}</h2><div class="vg">${v.map(x=>`<figure class="vt" data-v="${esc(x.id)}"><img src="https://i.ytimg.com/vi/${esc(x.id)}/hqdefault.jpg" alt="" loading="lazy"><button aria-label="Play">▶</button><figcaption>${esc(x.title)} · ${esc(x.channel)}</figcaption></figure>`).join("")}</div>`:""}
 
